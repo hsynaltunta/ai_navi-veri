@@ -1,0 +1,71 @@
+name: ai_navi verilerini güncelle
+
+on:
+  schedule:
+    - cron: '30 2 * * *'    # her gün 05:30 (İstanbul): şarj istasyonları (EPDK) ve akaryakıt fiyatları (Opet)
+    - cron: '0 1 * * 1'     # her pazartesi 04:00 (İstanbul): akaryakıt istasyonları ve mola yerleri (OpenStreetMap + yapay zekâ)
+  workflow_dispatch:
+    inputs:
+      adim:
+        description: 'sarj, opet, akaryakit, mola ya da hepsi (boşlukla birden çok)'
+        default: hepsi
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: veri-guncelle
+  cancel-in-progress: false
+
+jobs:
+  guncelle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Yapay zekâ kütüphanesi
+        run: pip install --quiet anthropic
+
+      - name: Verileri hazırla
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ADIM: ${{ github.event.schedule == '30 2 * * *' && 'sarj opet' || github.event.schedule == '0 1 * * 1' && 'akaryakit mola' || inputs.adim || 'hepsi' }}
+        run: |
+          echo "Adımlar: $ADIM"
+          python scripts/hazirla.py $ADIM
+
+      - name: Değişiklik var mı
+        id: diff
+        run: |
+          git add -A public data
+          if git diff --cached --quiet; then echo "changed=0" >> "$GITHUB_OUTPUT"; else echo "changed=1" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Veriyi kaydet
+        if: steps.diff.outputs.changed == '1'
+        run: |
+          git config user.name "veri-guncelleme"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -q -m "Veri: $(TZ=Europe/Istanbul date '+%d.%m.%Y %H:%M')"
+          git push
+
+      - uses: actions/configure-pages@v5
+        if: steps.diff.outputs.changed == '1' || github.event_name == 'workflow_dispatch'
+
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.diff.outputs.changed == '1' || github.event_name == 'workflow_dispatch'
+        with:
+          path: public
+
+      - id: deploy
+        if: steps.diff.outputs.changed == '1' || github.event_name == 'workflow_dispatch'
+        uses: actions/deploy-pages@v4
