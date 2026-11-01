@@ -55,12 +55,14 @@ jobs:
           git commit -q -m "Veri: $(TZ=Europe/Istanbul date '+%d.%m.%Y %H:%M')"
           git push
 
-      # Uygulama ayarı (ortak TomTom trafik anahtarı): depo gizli değişkeninden yalnız yayına yazılır, git'e girmez
+      # Uygulama ayarı: ortak TomTom trafik anahtarı (gizli değişkenden, git'e girmez) ve yol bildirimi aracısının
+      # adresi (depo değişkeni OLAY_URL; Google Apps Script, GitHub anahtarını kendisi saklar — bkz. araci/KURULUM.md)
       - name: Uygulama ayarı
         env:
           TOMTOM_KEY: ${{ secrets.TOMTOM_KEY }}
+          OLAY_URL: ${{ vars.OLAY_URL }}
         run: |
-          python -c "import json,os; json.dump({'tomtom': os.environ.get('TOMTOM_KEY','')}, open('public/veri/ayar.json','w'))"
+          python -c "import json,os; json.dump({'tomtom': os.environ.get('TOMTOM_KEY',''), 'olay_url': os.environ.get('OLAY_URL','')}, open('public/veri/ayar.json','w'))"
 
       - uses: actions/configure-pages@v5
 
