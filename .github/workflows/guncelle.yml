@@ -55,14 +55,18 @@ jobs:
           git commit -q -m "Veri: $(TZ=Europe/Istanbul date '+%d.%m.%Y %H:%M')"
           git push
 
+      # Uygulama ayarı (ortak TomTom trafik anahtarı): depo gizli değişkeninden yalnız yayına yazılır, git'e girmez
+      - name: Uygulama ayarı
+        env:
+          TOMTOM_KEY: ${{ secrets.TOMTOM_KEY }}
+        run: |
+          python -c "import json,os; json.dump({'tomtom': os.environ.get('TOMTOM_KEY','')}, open('public/veri/ayar.json','w'))"
+
       - uses: actions/configure-pages@v5
-        if: steps.diff.outputs.changed == '1' || github.event_name == 'workflow_dispatch'
 
       - uses: actions/upload-pages-artifact@v3
-        if: steps.diff.outputs.changed == '1' || github.event_name == 'workflow_dispatch'
         with:
           path: public
 
       - id: deploy
-        if: steps.diff.outputs.changed == '1' || github.event_name == 'workflow_dispatch'
         uses: actions/deploy-pages@v4
