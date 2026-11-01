@@ -1,0 +1,22 @@
+name: Süresi dolan yol bildirimlerini kapat
+
+on:
+  schedule:
+    - cron: '17 * * * *'   # saatte bir
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  temizle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/olay_temizle.py
