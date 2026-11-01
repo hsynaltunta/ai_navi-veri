@@ -47,7 +47,8 @@ jobs:
       - name: Değişiklik var mı
         id: diff
         run: |
-          git add -A public data
+          git add -A public
+          if [ -d data ]; then git add -A data; fi
           if git diff --cached --quiet; then echo "changed=0" >> "$GITHUB_OUTPUT"; else echo "changed=1" >> "$GITHUB_OUTPUT"; fi
 
       - name: Veriyi kaydet
