@@ -174,8 +174,9 @@ def opet(manifest: dict):
                 benzin.append(b)
                 motorin.append(m)
         if benzin:
+            # ai_pilot'taki yöntem (Ownership.parseOpet): ilçe fiyatlarının ortancası, sıralı listenin [n/2] elemanı
             iller[str(kod)] = {"ad": ad, "ilceler": ilceler,
-                               "il": [statistics.median_low(benzin), statistics.median_low(motorin)]}
+                               "il": [sorted(benzin)[len(benzin) // 2], sorted(motorin)[len(motorin) // 2]]}
         time.sleep(0.3)
     if len(iller) < 60:
         raise RuntimeError(f"beklenenden az il ({len(iller)})")
