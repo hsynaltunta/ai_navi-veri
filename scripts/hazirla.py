@@ -227,15 +227,42 @@ ONEMLI_ETIKETLER = ("name", "brand", "operator", "amenity", "highway", "cuisine"
 def mola(manifest: dict):
     log("Mola yerleri (OpenStreetMap)...")
     yerler = {}
-    sorgular = [
-        f'[out:json][timeout:600];{TR_ALAN}nwr["highway"~"^(services|rest_area)$"](area.tr);out center tags;',
-        # Otoyol / ana yol kenarındaki (300 m) restoran, kafe, hızlı yemek
-        f'[out:json][timeout:900];{TR_ALAN}way["highway"~"^(motorway|trunk)$"](area.tr)->.yol;'
-        f'nwr(around.yol:300)["amenity"~"^(restaurant|cafe|fast_food)$"]["name"];out center tags;',
-    ]
-    for i, q in enumerate(sorgular):
+    def tesisler():
+        return overpass(f'[out:json][timeout:600];{TR_ALAN}nwr["highway"~"^(services|rest_area)$"](area.tr);out center tags;')
+
+    def yol_kenari():
+        """Otoyol / ana yol kenarındaki (300 m) adlı restoran, kafe, hızlı yemek. Tek "around" sorgusu Overpass'ta
+        zaman aşımına uğruyor; yollar ve yerler ayrı alınıp yakınlık burada süzülür."""
+        yollar = overpass(f'[out:json][timeout:900];{TR_ALAN}way["highway"~"^(motorway|trunk)$"](area.tr);out geom;')
+        izgara: dict[tuple[int, int], list[tuple[float, float]]] = {}
+        for w in yollar.get("elements", []):
+            g = w.get("geometry") or []
+            for a, b in zip(g, g[1:]):
+                adim = max(1, int(((a["lat"] - b["lat"]) ** 2 + (a["lon"] - b["lon"]) ** 2) ** 0.5 / 0.002))
+                for k in range(adim + 1):  # ~200 m aralıkla yol noktaları
+                    la = a["lat"] + (b["lat"] - a["lat"]) * k / adim
+                    lo = a["lon"] + (b["lon"] - a["lon"]) * k / adim
+                    izgara.setdefault((int(la * 100), int(lo * 100)), []).append((la, lo))
+        log(f"  yol noktası: {sum(len(v) for v in izgara.values())}")
+        yerler_ = overpass(f'[out:json][timeout:900];{TR_ALAN}nwr["amenity"~"^(restaurant|cafe|fast_food)$"]["name"](area.tr);out center tags;')
+
+        def yakin(la, lo):
+            ci, cj = int(la * 100), int(lo * 100)
+            for di in (-1, 0, 1):
+                for dj in (-1, 0, 1):
+                    for (pa, po) in izgara.get((ci + di, cj + dj), ()):
+                        # ~300 m (enlemde 0.0027°, boylamda cos(40°) ile ~0.0035°)
+                        if ((la - pa) / 0.0027) ** 2 + ((lo - po) / 0.0035) ** 2 <= 1:
+                            return True
+            return False
+
+        secilen = [e for e in yerler_.get("elements", []) if (m := merkez(e)) and yakin(*m)]
+        log(f"  yeme-içme: {len(yerler_.get('elements', []))} yerden {len(secilen)} tanesi yol kenarında")
+        return {"elements": secilen}
+
+    for i, sorgu in enumerate((tesisler, yol_kenari)):
         try:
-            for e in overpass(q).get("elements", []):
+            for e in sorgu().get("elements", []):
                 m = merkez(e)
                 if not m:
                     continue
