@@ -1,7 +1,8 @@
 """ai_navi için hazır veriler (GitHub Actions'ta çalışır, sonuçlar GitHub Pages'te yayımlanır).
 
 Telefon bu dosyaları indirir; ağır işler (EPDK'nın 16 MB'lık listesi, OpenStreetMap sorguları, il il fiyatlar,
-mola yerlerinin yapay zekâ değerlendirmesi) telefonda yapılmaz.
+mola yerlerinin puanlanması) telefonda yapılmaz.
+Ücretli servis kullanılmaz: puanlar yalnızca OpenStreetMap bilgisinden çıkarılır.
 
 Kullanım: python scripts/hazirla.py [sarj] [opet] [akaryakit] [mola] [hepsi]
 Her adım bağımsızdır; bir adım başarısız olursa önceki dosya korunur.
@@ -9,11 +10,9 @@ Her adım bağımsızdır; bir adım başarısız olursa önceki dosya korunur.
 from __future__ import annotations
 
 import gzip
-import hashlib
 import http.client
 import json
 import os
-import re
 import statistics
 import sys
 import time
@@ -207,7 +206,7 @@ def akaryakit(manifest: dict):
     yaz("akaryakit.txt", "\n".join(satirlar) + "\n", len(satirlar), manifest)
 
 
-# --- 4) Mola yerleri: tesis / dinlenme alanları + otoyol / ana yol kenarı yeme-içme; yapay zekâ değerlendirmesi ---
+# --- 4) Mola yerleri: tesis / dinlenme alanları + otoyol / ana yol kenarı yeme-içme; ücretsiz kural puanı ---
 
 def mola_turu(t: dict) -> str:
     if t.get("highway") == "services":
@@ -217,182 +216,116 @@ def mola_turu(t: dict) -> str:
     return {"cafe": "kafe", "fast_food": "hizli", "restaurant": "restoran"}.get(t.get("amenity"), "restoran")
 
 
-# Yapay zekâ yoksa ya da değerlendiremediyse türüne göre puan (yemek, kahve, dinlenme; 0-3)
-KURAL = {"tesis": (2, 2, 3), "dinlenme": (0, 0, 2), "restoran": (3, 1, 1), "kafe": (1, 3, 1), "hizli": (2, 1, 1)}
+class Izgara:
+    """Yakınlık araması için ~1 km'lik hücreler (enlem/boylam x100)"""
 
-ONEMLI_ETIKETLER = ("name", "brand", "operator", "amenity", "highway", "cuisine", "opening_hours", "toilets",
-                    "fuel", "shop", "outdoor_seating", "wheelchair", "description", "drive_through", "takeaway",
-                    "playground", "mosque", "charging_station")
+    def __init__(self):
+        self.h: dict[tuple[int, int], list] = {}
+
+    def ekle(self, la: float, lo: float, deger):
+        self.h.setdefault((int(la * 100), int(lo * 100)), []).append((la, lo, deger))
+
+    def yakindakiler(self, la: float, lo: float, metre: float = 300):
+        """[metre] içindeki değerler (enlemde 1° ~111 km, boylamda cos(40°) ile ~85 km)"""
+        dla, dlo = metre / 111_000, metre / 85_000
+        ci, cj = int(la * 100), int(lo * 100)
+        for di in (-1, 0, 1):
+            for dj in (-1, 0, 1):
+                for (pa, po, d) in self.h.get((ci + di, cj + dj), ()):
+                    if ((la - pa) / dla) ** 2 + ((lo - po) / dlo) ** 2 <= 1:
+                        yield d
+
+
+def ozellikler(tur: str, t: dict, cevre: list[str]) -> dict:
+    """Yerin kendi etiketleri + 300 m çevresindeki yerler (restoran, kafe, hızlı yemek, akaryakıt, tuvalet)"""
+    c = set(cevre)
+    kendi = {"restoran": "restaurant", "kafe": "cafe", "hizli": "fast_food"}.get(tur)
+    if kendi:
+        c.add(kendi)
+    if t.get("toilets") == "yes":
+        c.add("toilets")
+    if t.get("fuel") == "yes" or any(k.startswith("fuel:") for k in t):
+        c.add("fuel")
+    return {
+        "restoran": "restaurant" in c, "kafe": "cafe" in c, "hizli": "fast_food" in c,
+        "akaryakit": "fuel" in c, "tuvalet": "toilets" in c,
+        "acik24": (t.get("opening_hours") or "").strip() == "24/7",
+        "mutfak": (t.get("cuisine") or "").split(";")[0].strip(),
+    }
+
+
+MUTFAK = {"kebab": "kebap", "turkish": "Türk mutfağı", "regional": "yöresel", "fish": "balık", "seafood": "deniz ürünleri",
+          "chicken": "tavuk", "burger": "burger", "pizza": "pizza", "coffee_shop": "kahve", "breakfast": "kahvaltı",
+          "pide": "pide", "steak_house": "et", "grill": "ızgara", "meat": "et", "soup": "çorba", "dessert": "tatlı",
+          "sandwich": "sandviç", "doner": "döner", "lahmacun": "lahmacun", "homestyle": "ev yemekleri"}
+
+
+def puanla(tur: str, o: dict) -> tuple[int, int, int, str]:
+    """(yemek, kahve, dinlenme 0-3, kısa açıklama); ücretli servis yok, yalnız OpenStreetMap bilgisi"""
+    yemek = 3 if o["restoran"] else 2 if o["hizli"] else (1 if tur == "tesis" else 0)
+    kahve = 3 if o["kafe"] else 2 if (o["restoran"] or o["hizli"]) else 1 if (o["akaryakit"] or tur == "tesis") else 0
+    dinlenme = {"tesis": 2, "dinlenme": 2}.get(tur, 1)
+    if o["tuvalet"]:
+        dinlenme += 1
+    if tur == "tesis" and (o["restoran"] or o["kafe"]):
+        dinlenme += 1
+    if o["acik24"]:
+        yemek, kahve = (min(3, yemek + 1) if yemek else 0), (min(3, kahve + 1) if kahve else 0)
+    parca = [ad for ad, var in (("restoran", o["restoran"]), ("kafe", o["kafe"]), ("hızlı yemek", o["hizli"]),
+                                ("akaryakıt", o["akaryakit"]), ("tuvalet", o["tuvalet"])) if var]
+    metin = ", ".join(parca).capitalize() + (" var" if parca else "")
+    if o["mutfak"] and o["restoran"]:
+        metin += f" ({MUTFAK.get(o['mutfak'].lower(), o['mutfak'].replace('_', ' '))})"
+    if o["acik24"]:
+        metin += ("; " if metin else "") + "24 saat açık"
+    return min(3, yemek), min(3, kahve), min(3, dinlenme), metin[:80]
 
 
 def mola(manifest: dict):
     log("Mola yerleri (OpenStreetMap)...")
-    yerler = {}
-    def tesisler():
-        return overpass(f'[out:json][timeout:600];{TR_ALAN}nwr["highway"~"^(services|rest_area)$"](area.tr);out center tags;')
-
-    def yol_kenari():
-        """Otoyol / ana yol kenarındaki (300 m) adlı restoran, kafe, hızlı yemek. Tek "around" sorgusu Overpass'ta
-        zaman aşımına uğruyor; yollar ve yerler ayrı alınıp yakınlık burada süzülür."""
-        yollar = overpass(f'[out:json][timeout:900];{TR_ALAN}way["highway"~"^(motorway|trunk)$"](area.tr);out geom;')
-        izgara: dict[tuple[int, int], list[tuple[float, float]]] = {}
-        for w in yollar.get("elements", []):
+    tesisler = overpass(f'[out:json][timeout:600];{TR_ALAN}nwr["highway"~"^(services|rest_area)$"](area.tr);out center tags;')
+    yeme = overpass(f'[out:json][timeout:900];{TR_ALAN}nwr["amenity"~"^(restaurant|cafe|fast_food)$"](area.tr);out center tags;')
+    diger = overpass(f'[out:json][timeout:900];{TR_ALAN}nwr["amenity"~"^(fuel|toilets)$"](area.tr);out center;')
+    # Çevre ızgarası: yeme-içme, akaryakıt, tuvalet
+    cevre = Izgara()
+    for e in yeme.get("elements", []) + diger.get("elements", []):
+        m = merkez(e)
+        if m:
+            cevre.ekle(m[0], m[1], (e.get("tags") or {}).get("amenity", ""))
+    # Otoyol / ana yol kenarı (300 m): yollar ayrı alınır, yakınlık burada süzülür (tek "around" sorgusu zaman aşımına uğruyor)
+    yollar = Izgara()
+    try:
+        for w in overpass(f'[out:json][timeout:900];{TR_ALAN}way["highway"~"^(motorway|trunk)$"](area.tr);out geom;').get("elements", []):
             g = w.get("geometry") or []
             for a, b in zip(g, g[1:]):
                 adim = max(1, int(((a["lat"] - b["lat"]) ** 2 + (a["lon"] - b["lon"]) ** 2) ** 0.5 / 0.002))
                 for k in range(adim + 1):  # ~200 m aralıkla yol noktaları
-                    la = a["lat"] + (b["lat"] - a["lat"]) * k / adim
-                    lo = a["lon"] + (b["lon"] - a["lon"]) * k / adim
-                    izgara.setdefault((int(la * 100), int(lo * 100)), []).append((la, lo))
-        log(f"  yol noktası: {sum(len(v) for v in izgara.values())}")
-        yerler_ = overpass(f'[out:json][timeout:900];{TR_ALAN}nwr["amenity"~"^(restaurant|cafe|fast_food)$"]["name"](area.tr);out center tags;')
-
-        def yakin(la, lo):
-            ci, cj = int(la * 100), int(lo * 100)
-            for di in (-1, 0, 1):
-                for dj in (-1, 0, 1):
-                    for (pa, po) in izgara.get((ci + di, cj + dj), ()):
-                        # ~300 m (enlemde 0.0027°, boylamda cos(40°) ile ~0.0035°)
-                        if ((la - pa) / 0.0027) ** 2 + ((lo - po) / 0.0035) ** 2 <= 1:
-                            return True
-            return False
-
-        secilen = [e for e in yerler_.get("elements", []) if (m := merkez(e)) and yakin(*m)]
-        log(f"  yeme-içme: {len(yerler_.get('elements', []))} yerden {len(secilen)} tanesi yol kenarında")
-        return {"elements": secilen}
-
-    for i, sorgu in enumerate((tesisler, yol_kenari)):
-        try:
-            for e in sorgu().get("elements", []):
-                m = merkez(e)
-                if not m:
-                    continue
-                t = e.get("tags", {})
-                tur = mola_turu(t)
-                ad = temiz(t.get("name:tr") or t.get("name") or t.get("brand"))
-                if not ad:
-                    ad = "Dinlenme tesisi" if tur == "tesis" else "Dinlenme alanı" if tur == "dinlenme" else ""
-                if not ad:
-                    continue
-                kimlik = f"{e['type'][0]}{e['id']}"
-                yerler[kimlik] = {"id": kimlik, "lat": round(m[0], 6), "lon": round(m[1], 6), "tur": tur, "ad": ad,
-                                  "etiket": {k: t[k] for k in ONEMLI_ETIKETLER if k in t}}
-        except Exception as e:
-            if i == 0:
-                raise
-            log(f"  yol kenarı sorgusu başarısız, yalnız tesisler: {e}")
-    if len(yerler) < 200:
-        raise RuntimeError(f"beklenenden az mola yeri ({len(yerler)})")
-    puanlar = degerlendir(list(yerler.values()))
+                    yollar.ekle(a["lat"] + (b["lat"] - a["lat"]) * k / adim, a["lon"] + (b["lon"] - a["lon"]) * k / adim, 1)
+    except Exception as e:
+        log(f"  yollar alınamadı, yalnız tesisler: {e}")
+    adaylar = list(tesisler.get("elements", []))
+    adaylar += [e for e in yeme.get("elements", []) if (e.get("tags") or {}).get("name") and (m := merkez(e))
+                and next(yollar.yakindakiler(m[0], m[1]), None) is not None]
     satirlar = []
-    for y in yerler.values():
-        p = puanlar.get(y["id"])
-        ye, ka, di = (p["yemek"], p["kahve"], p["dinlenme"]) if p else KURAL[y["tur"]]
-        not_ = temiz(p["not"]) if p else ""
-        satirlar.append(f"M;{y['id']};{y['lat']};{y['lon']};{y['tur']};{ye};{ka};{di};{temiz(y['ad'])};{not_}")
+    for e in adaylar:
+        m = merkez(e)
+        if not m:
+            continue
+        t = e.get("tags", {})
+        tur = mola_turu(t)
+        ad = temiz(t.get("name:tr") or t.get("name") or t.get("brand"))
+        if not ad:
+            ad = "Dinlenme tesisi" if tur == "tesis" else "Dinlenme alanı" if tur == "dinlenme" else ""
+        if not ad:
+            continue
+        cevredekiler = list(cevre.yakindakiler(m[0], m[1]))
+        ye, ka, di, not_ = puanla(tur, ozellikler(tur, t, cevredekiler))
+        satirlar.append(f"M;{e['type'][0]}{e['id']};{round(m[0], 6)};{round(m[1], 6)};{tur};{ye};{ka};{di};{ad};{temiz(not_)}")
+    satirlar = list(dict.fromkeys(satirlar))
+    if len(satirlar) < 200:
+        raise RuntimeError(f"beklenenden az mola yeri ({len(satirlar)})")
+    log(f"  {len(tesisler.get('elements', []))} tesis / dinlenme alanı, {len(satirlar)} mola yeri")
     yaz("mola.txt", "\n".join(satirlar) + "\n", len(satirlar), manifest)
-
-
-AI_SISTEM = """Türkiye'deki yol kenarı mola yerlerini (dinlenme tesisi, dinlenme alanı, restoran, kafe, hızlı yemek) OpenStreetMap etiketlerine göre değerlendiriyorsun. Uzun yolda giden bir sürücü için her yere 0-3 arası üç puan ver:
-- yemek: düzgün bir yemek molası için uygunluk (restoran / lokanta / tesiste yemek)
-- kahve: kısa kahve / çay / atıştırma molası için uygunluk
-- dinlenme: tuvalet, oturma, araç park, esneme molası için uygunluk
-0 uygun değil, 1 zayıf, 2 iyi, 3 çok iyi. Bilgi azsa türünden makul bir tahmin yap (dinlenme tesisi genelde yemek/kahve/dinlenme için iyidir; dinlenme alanında çoğu zaman yeme-içme yoktur).
-not: sürücüye gösterilecek en çok 60 karakterlik kısa Türkçe açıklama (ör. "Restoran, kafe ve tuvalet var", "Büyük tesis, 24 saat açık"). Etiketlerde olmayan bir şeyi kesinmiş gibi yazma.
-Her yer için id'yi aynen geri ver."""
-
-AI_SEMA = {
-    "type": "object",
-    "properties": {
-        "degerlendirmeler": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "id": {"type": "string"},
-                    "yemek": {"type": "integer"},
-                    "kahve": {"type": "integer"},
-                    "dinlenme": {"type": "integer"},
-                    "not": {"type": "string"},
-                },
-                "required": ["id", "yemek", "kahve", "dinlenme", "not"],
-                "additionalProperties": False,
-            },
-        }
-    },
-    "required": ["degerlendirmeler"],
-    "additionalProperties": False,
-}
-
-
-def degerlendir(yerler: list[dict]) -> dict:
-    """Yapay zekâ puanları; önbellekte olanlar (aynı etiketler) yeniden sorulmaz. Her çalışmada en çok AI_SINIR yeni yer."""
-    ONBELLEK.mkdir(exist_ok=True)
-    yol = ONBELLEK / "ai_puan.json"
-    onbellek = json.loads(yol.read_text(encoding="utf-8")) if yol.exists() else {}
-
-    def anahtar(y):
-        return hashlib.sha1(json.dumps([y["tur"], y["ad"], y["etiket"]], sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:12]
-
-    yeni = [y for y in yerler if onbellek.get(y["id"], {}).get("h") != anahtar(y)]
-    # Tesisler önce (yol kenarı yemek-içmeden daha önemli)
-    yeni.sort(key=lambda y: {"tesis": 0, "dinlenme": 1}.get(y["tur"], 2))
-    sinir = int(os.environ.get("AI_SINIR", "600"))
-    if not os.environ.get("ANTHROPIC_API_KEY"):
-        log("  ANTHROPIC_API_KEY yok: yapay zekâ değerlendirmesi atlandı (türüne göre puan)")
-        yeni = []
-    else:
-        log(f"  yapay zekâ: {min(len(yeni), sinir)} / {len(yeni)} yeni yer değerlendirilecek")
-        yeni = yeni[:sinir]
-    if yeni:
-        import anthropic
-        client = anthropic.Anthropic()
-        for i in range(0, len(yeni), 40):
-            parca = yeni[i:i + 40]
-            girdi = json.dumps([{"id": y["id"], "tur": y["tur"], "ad": y["ad"], "etiket": y["etiket"]} for y in parca],
-                               ensure_ascii=False)
-            try:
-                r = client.beta.messages.create(
-                    model="claude-opus-5-5",
-                    max_tokens=16000,
-                    system=AI_SISTEM,
-                    messages=[{"role": "user", "content": girdi}],
-                    output_config={"effort": "low", "format": {"type": "json_schema", "schema": AI_SEMA}},
-                    # Güvenlik sınıflandırıcısı reddederse sunucu uygun modele geçer
-                    betas=["server-side-fallback-2026-07-01"],
-                    fallbacks="default",
-                )
-            except anthropic.RateLimitError:
-                log("  yapay zekâ hız sınırı: kalanlar sonraki çalışmaya")
-                break
-            except anthropic.APIStatusError as e:
-                log(f"  yapay zekâ hatası {e.status_code}: {e.message}")
-                break
-            except anthropic.APIConnectionError as e:
-                log(f"  yapay zekâya bağlanılamadı: {e}")
-                break
-            if r.stop_reason == "refusal":
-                log("  yapay zekâ bu parçayı yanıtlamadı; türüne göre puan")
-                continue
-            metin = next((b.text for b in r.content if b.type == "text"), "")
-            try:
-                sonuc = json.loads(metin)["degerlendirmeler"]
-            except (ValueError, KeyError):
-                log("  yapay zekâ yanıtı okunamadı")
-                continue
-            harita = {y["id"]: y for y in parca}
-            for s in sonuc:
-                y = harita.get(s.get("id"))
-                if not y:
-                    continue
-                onbellek[y["id"]] = {"h": anahtar(y), "yemek": max(0, min(3, int(s["yemek"]))),
-                                     "kahve": max(0, min(3, int(s["kahve"]))),
-                                     "dinlenme": max(0, min(3, int(s["dinlenme"]))), "not": str(s["not"])[:80]}
-            log(f"  {i + len(parca)} / {len(yeni)}")
-        yol.write_text(json.dumps(onbellek, ensure_ascii=False, separators=(",", ":"), sort_keys=True), encoding="utf-8")
-    # Yalnızca etiketleri değişmemiş yerlerin puanı geçerli
-    guncel = {y["id"]: anahtar(y) for y in yerler}
-    return {k: v for k, v in onbellek.items() if guncel.get(k) == v.get("h")}
 
 
 # --- Ana ---
