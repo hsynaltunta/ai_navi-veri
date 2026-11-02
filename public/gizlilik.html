@@ -10,7 +10,7 @@ table{border-collapse:collapse;width:100%;font-size:.95rem}td,th{border-top:1px 
 </style></head>
 <body>
 <h1>ai_navi gizlilik politikası</h1>
-<p class="mut">Son güncelleme: 3 Kasım 2026 (öneriler GitHub)</p>
+<p class="mut">Son güncelleme: 3 Kasım 2026</p>
 
 <p>Bu metin, ai_navi navigasyon uygulamasının hangi kişisel verileri hangi amaçla işlediğini, kimlerle paylaştığını
 ve haklarınızı 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında açıklar.</p>
@@ -42,34 +42,41 @@ teknik olarak IP adresinizi görür.</p>
 <tr><td>Nominatim (OpenStreetMap)</td><td>Aradığınız adres metni; gerekirse bulunduğunuz yer</td><td>Adres arama, il / ilçe bulma</td></tr>
 <tr><td>Google (telefonun konum servisi)</td><td>Bulunduğunuz yer</td><td>Akaryakıt fiyatı için il / ilçe bulma</td></tr>
 <tr><td>OpenFreeMap</td><td>Görüntülenen harita bölgesi</td><td>Harita görüntüsü</td></tr>
+<tr><td>Firebase (Google)</td><td>İsimsiz oturum; yalnız gönderdiğiniz bildirim, oy ve öneri</td><td>Yol bildirimleri, öneriler</td></tr>
 <tr><td>GitHub Pages</td><td>—</td><td>Hazır istasyon, fiyat ve mola verilerinin indirilmesi</td></tr>
 </table>
 
 <h2>Yol bildirimleri (kaza, trafik denetimi vb.)</h2>
-<p>Bir yol bildirimi gönderdiğinizde yalnızca <b>bildirimin türü, bulunduğunuz yerin konumu ve zaman</b>,
-ai_navi'nin GitHub'daki herkese açık veri deposuna (hsynaltunta/ai_navi-veri) bir Google Apps Script aracısı
-üzerinden kaydedilir. Kim olduğunuza dair hiçbir bilgi gönderilmez. Bildirim, diğer kullanıcıların haritasında
-türüne göre 1 ile 24 saat arasında görünür; süresi dolan bildirimin <b>konumu silinir</b>, kayıtta yalnızca türü
-kalır. "Hâlâ orada" / "Yok artık" oylarınız da kimliksizdir. Bildirim göndermek isteğe bağlıdır ve ilk bildirimden
-önce açık onayınız alınır.</p>
+<p>Bir yol bildirimi gönderdiğinizde yalnızca <b>bildirimin türü, bulunduğunuz yerin konumu ve zaman</b>, ai_navi'nin
+Google Firebase (Cloud Firestore, Avrupa sunucuları) veri tabanına kaydedilir. Adınız, telefon numaranız ya da
+hesabınız gönderilmez. Kötüye kullanımı sınırlamak için (çok sık bildirim, aynı bildirime birden çok oy) telefonunuza
+Firebase tarafından <b>isimsiz bir numara</b> verilir; bu numara bildirimin kendisine yazılmaz, yalnızca son gönderme
+zamanınızla ve verdiğiniz oylarla birlikte tutulur. Bildirim diğer kullanıcıların haritasında türüne göre 1 ile 24 saat
+arasında görünür; süresi dolan bildirim ve oylar <b>tamamen silinir</b>. Bildirim göndermek isteğe bağlıdır ve ilk
+bildirimden önce açık onayınız alınır.</p>
 
 <h2>Geliştiriciye öneri</h2>
-<p>"Geliştiriciye öneri gönder" ile yazdığınız metin, aynı aracı üzerinden ai_navi'nin GitHub'daki <b>herkese açık</b>
-veri deposuna "öneri" kaydı olarak eklenir. Metne uygulama sürümü, telefon modeli, Android sürümü, araç adı ve OBD
-durumu eklenir; konumunuz ve kimliğiniz eklenmez. Bu yüzden önerinize ad, telefon, e-posta gibi kişisel bilgi
-yazmayın. Yazdığınız bir önerinin silinmesini e-postayla isteyebilirsiniz.</p>
+<p>"Geliştiriciye öneri gönder" ile yazdığınız metin aynı Firebase veri tabanında, <b>yalnızca geliştiricinin
+görebileceği</b> bir bölüme kaydedilir; diğer kullanıcılar göremez. Metne uygulama sürümü, telefon modeli, Android
+sürümü, araç adı ve OBD durumu eklenir; konumunuz eklenmez. Yanıt almak için kendiniz e-posta adresi yazarsanız yalnızca
+size dönüş yapmak için kullanılır.</p>
+
+<h2>Yurt dışına aktarım</h2>
+<p>Firebase (Google Ireland / Google LLC), TomTom, OpenStreetMap servisleri ve GitHub Türkiye dışındaki sunucularda
+çalışır. Bu servislere giden bilgiler yukarıda sayılanlarla sınırlıdır; yol bildirimi ve öneri için ayrıca açık
+onayınız alınır.</p>
 
 <h2>İzinler</h2>
 <ul>
 <li><b>Konum:</b> navigasyon ve en yakın istasyon için.</li>
 <li><b>Yakındaki cihazlar / Bluetooth:</b> OBD cihazına bağlanmak için.</li>
 <li><b>İnternet:</b> harita, yol tarifi ve veriler için.</li>
-<li><b>Bildirim / ön plan hizmeti:</b> Android Auto ile sürerken navigasyonun sürmesi için.</li>
+<li><b>Bildirim / ön plan hizmeti:</b> yol tarifi sırasında ekran kapalıyken de navigasyonun sürmesi için.</li>
 </ul>
 
 <h2>Saklama süresi</h2>
-<p>Telefondaki veriler uygulamayı kaldırdığınızda silinir. Yol bildirimlerinin konumu süresi dolunca (en geç 3 gün)
-silinir. Öneri kayıtları, ele alındıktan sonra en fazla 1 yıl açık kalır; istenirse daha önce silinir.</p>
+<p>Telefondaki veriler uygulamayı kaldırdığınızda silinir. Yol bildirimleri ve oylar süresi dolduktan sonra
+en geç 1 gün içinde silinir. Öneriler ele alındıktan sonra en fazla 1 yıl saklanır; istenirse daha önce silinir.</p>
 
 <h2>Haklarınız (KVKK madde 11)</h2>
 <p>Kişisel verilerinizin işlenip işlenmediğini öğrenme, bilgi talep etme, düzeltilmesini ya da silinmesini isteme
