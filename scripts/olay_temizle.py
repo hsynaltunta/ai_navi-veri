@@ -1,6 +1,9 @@
 """Süresi dolan yol bildirimlerini (başlığı "olay: " ile başlayan açık kayıtlar) kapatır. GitHub Actions'ta saatte bir.
 
-Süreler uygulamadaki ReportType ile aynı (dakika). Gövdesi okunamayan ya da 24 saati geçen kayıt da kapatılır.
+Süreler uygulamadaki ReportType ile aynı (dakika); "hâlâ orada" onayı gövdedeki zamanı yenilediği için süre
+max(oluşturma, gövdedeki zaman)'dan sayılır. Gövdesi okunamayan ya da 24 saati geçen kayıt da kapatılır.
+Gizlilik: kapatılan kaydın gövdesindeki konum silinir (yalnız tür kalır); önceden kapatılmış ama konumu duran
+kayıtlar da temizlenir.
 Yetki: iş akışının kendi geçici GITHUB_TOKEN'ı (yalnız bu depo, yalnız kayıtlar).
 """
 import json
@@ -21,28 +24,47 @@ def istek(yontem, url, govde=None):
         return json.loads(r.read() or b"null")
 
 
+def kayitlar(durum, en_cok_sayfa=10):
+    for sayfa in range(1, en_cok_sayfa + 1):
+        liste = istek("GET", f"https://api.github.com/repos/{REPO}/issues?state={durum}&per_page=100&page={sayfa}")
+        if not liste:
+            return
+        for k in liste:
+            if "pull_request" not in k and k["title"].startswith("olay: "):
+                yield k
+
+
+def govde(k) -> dict:
+    try:
+        return json.loads(k.get("body") or "{}")
+    except ValueError:
+        return {}
+
+
+def konumsuz(g: dict) -> dict:
+    return {"tur": g.get("tur"), "silindi": True}
+
+
 def main():
     simdi = time.time()
-    kapatilan = 0
-    sayfa = 1
-    while True:
-        kayitlar = istek("GET", f"https://api.github.com/repos/{REPO}/issues?state=open&per_page=100&page={sayfa}")
-        if not kayitlar:
-            break
-        for k in kayitlar:
-            if "pull_request" in k or not k["title"].startswith("olay: "):
-                continue
-            yas_dk = (simdi - datetime.fromisoformat(k["created_at"].replace("Z", "+00:00")).timestamp()) / 60
-            try:
-                sure = SURE.get(json.loads(k.get("body") or "{}").get("tur"), 0)
-            except ValueError:
-                sure = 0
-            if yas_dk > sure or yas_dk > 24 * 60:
-                istek("PATCH", f"https://api.github.com/repos/{REPO}/issues/{k['number']}",
-                      {"state": "closed", "state_reason": "completed"})
-                kapatilan += 1
-        sayfa += 1
-    print(f"Süresi dolan {kapatilan} bildirim kapatıldı")
+    kapatilan = temizlenen = 0
+    for k in list(kayitlar("open")):
+        g = govde(k)
+        olusma = datetime.fromisoformat(k["created_at"].replace("Z", "+00:00")).timestamp()
+        zaman = g.get("zaman") / 1000 if isinstance(g.get("zaman"), (int, float)) else olusma
+        son = max(olusma, min(zaman, simdi))  # onayla yenilenen zaman
+        sure = SURE.get(g.get("tur"), 0)
+        if (simdi - son) / 60 > sure or (simdi - olusma) / 60 > 3 * 24 * 60:
+            istek("PATCH", f"https://api.github.com/repos/{REPO}/issues/{k['number']}",
+                  {"state": "closed", "state_reason": "completed", "body": json.dumps(konumsuz(g))})
+            kapatilan += 1
+    # Önceden kapatılmış ama konumu hâlâ gövdede duran kayıtlar
+    for k in kayitlar("closed", 3):
+        g = govde(k)
+        if "lat" in g or "lon" in g:
+            istek("PATCH", f"https://api.github.com/repos/{REPO}/issues/{k['number']}", {"body": json.dumps(konumsuz(g))})
+            temizlenen += 1
+    print(f"Süresi dolan {kapatilan} bildirim kapatıldı, {temizlenen} kapalı kaydın konumu silindi")
 
 
 if __name__ == "__main__":

@@ -6,18 +6,22 @@
  * Komut dosyası özelliklerinde (GITHUB_TOKEN) durur; uygulamada ve herkese açık dosyalarda yoktur.
  *
  * Denetimler: tür listede mi, konum Türkiye'de mi, aynı türde 200 m içinde son 10 dakikada bildirim var mı
- * (varsa yeni kayıt açılmaz), dakikada en çok 20 bildirim (kötüye kullanıma karşı).
+ * (varsa yeni kayıt açılmaz), dakikada en çok 20 istek (kötüye kullanıma karşı).
+ *
+ * Oylar ({"islem":"evet"|"yok","no":kayıt}): "hâlâ orada" süreyi yeniler, iki "yok artık" kaydı kapatır.
  */
 
 var DEPO = 'hsynaltunta/ai_navi-veri';
 var TURLER = {
-  kaza: 'Kaza', polis: 'Polis çevirmesi', trafik: 'Trafik sıkışıklığı',
+  kaza: 'Kaza', polis: 'Trafik denetimi', trafik: 'Trafik sıkışıklığı',
   calisma: 'Yol çalışması', tehlike: 'Yolda tehlike', arac: 'Yolda duran araç'
 };
 var DAKIKADA_EN_COK = 20;
+/** Bu kadar "yok artık" oyu alan bildirim kapanır */
+var YOK_ESIGI = 2;
 
 function doGet() {
-  return yanit({ ok: true, mesaj: 'ai_navi olay aracı çalışıyor' });
+  return yanit({ ok: true, mesaj: 'ai_navi olay aracı çalışıyor', surum: 2 });
 }
 
 function doPost(e) {
@@ -27,6 +31,7 @@ function doPost(e) {
   } catch (err) {
     return yanit({ ok: false, hata: 'geçersiz istek' });
   }
+  if (v.islem === 'evet' || v.islem === 'yok') return oy(v.islem, Number(v.no));
   var tur = String(v.tur || '');
   var lat = Number(v.lat), lon = Number(v.lon);
   if (!TURLER[tur]) return yanit({ ok: false, hata: 'bilinmeyen tür' });
@@ -64,6 +69,57 @@ function doPost(e) {
 
     son.push({ t: tur, a: lat, o: lon, z: Date.now() });
     onbellek.put('son', JSON.stringify(son.slice(-200)), 900);
+    return yanit({ ok: true });
+  } finally {
+    kilit.releaseLock();
+  }
+}
+
+/**
+ * "Hâlâ orada" (evet): bildirimin gövdesindeki zaman yenilenir, süresi baştan başlar.
+ * "Yok artık" (yok): oy sayısı artar; YOK_ESIGI'ne ulaşınca kayıt kapanır ve konumu silinir.
+ * Yalnız açık "olay: " kayıtlarına oy verilir; dakikalık sınır bildirimlerle ortaktır.
+ */
+function oy(islem, no) {
+  if (!(no > 0)) return yanit({ ok: false, hata: 'geçersiz kayıt' });
+  var anahtar = PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN');
+  if (!anahtar) return yanit({ ok: false, hata: 'aracı ayarlanmamış' });
+  var kilit = LockService.getScriptLock();
+  kilit.waitLock(10000);
+  try {
+    var onbellek = CacheService.getScriptCache();
+    var dakika = 'dk_' + Math.floor(Date.now() / 60000);
+    var sayi = Number(onbellek.get(dakika) || 0);
+    if (sayi >= DAKIKADA_EN_COK) return yanit({ ok: false, hata: 'çok fazla istek, biraz sonra deneyin' });
+    onbellek.put(dakika, String(sayi + 1), 120);
+
+    var url = 'https://api.github.com/repos/' + DEPO + '/issues/' + no;
+    var basliklar = { Authorization: 'Bearer ' + anahtar, Accept: 'application/vnd.github+json' };
+    var c = UrlFetchApp.fetch(url, { headers: basliklar, muteHttpExceptions: true });
+    if (c.getResponseCode() !== 200) return yanit({ ok: false, hata: 'kayıt bulunamadı' });
+    var kayit = JSON.parse(c.getContentText());
+    if (kayit.state !== 'open' || String(kayit.title).indexOf('olay: ') !== 0) return yanit({ ok: false, hata: 'kayıt açık değil' });
+    var g;
+    try { g = JSON.parse(kayit.body || '{}'); } catch (err) { return yanit({ ok: false, hata: 'kayıt okunamadı' }); }
+
+    var guncel;
+    if (islem === 'evet') {
+      g.zaman = Date.now();
+      g.onay = Number(g.onay || 0) + 1;
+      guncel = { body: JSON.stringify(g) };
+    } else {
+      g.yok = Number(g.yok || 0) + 1;
+      if (g.yok >= YOK_ESIGI) {
+        guncel = { state: 'closed', state_reason: 'not_planned', body: JSON.stringify({ tur: g.tur, silindi: true, yok: g.yok }) };
+      } else {
+        guncel = { body: JSON.stringify(g) };
+      }
+    }
+    var p = UrlFetchApp.fetch(url, {
+      method: 'patch', contentType: 'application/json', headers: basliklar,
+      payload: JSON.stringify(guncel), muteHttpExceptions: true
+    });
+    if (p.getResponseCode() >= 300) return yanit({ ok: false, hata: 'GitHub ' + p.getResponseCode() });
     return yanit({ ok: true });
   } finally {
     kilit.releaseLock();

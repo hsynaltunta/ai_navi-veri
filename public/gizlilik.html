@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ai_navi gizlilik politikası</title>
+<style>
+:root{--fg:#1b1f24;--bg:#fff;--mut:#5b6570;--acc:#0b6bcb}
+@media (prefers-color-scheme:dark){:root{--fg:#d0d6dd;--bg:#15191e;--mut:#8a939d;--acc:#3da5ff}}
+body{font-family:system-ui,sans-serif;max-width:760px;margin:2rem auto;padding:0 16px;line-height:1.6;color:var(--fg);background:var(--bg)}
+h1{font-size:1.6rem}h2{font-size:1.15rem;margin-top:1.8rem}a{color:var(--acc)}small,.mut{color:var(--mut)}
+table{border-collapse:collapse;width:100%;font-size:.95rem}td,th{border-top:1px solid #8884;padding:.45rem .3rem;text-align:left;vertical-align:top}
+</style></head>
+<body>
+<h1>ai_navi gizlilik politikası</h1>
+<p class="mut">Son güncelleme: 3 Kasım 2026</p>
+
+<p>Bu metin, ai_navi navigasyon uygulamasının hangi kişisel verileri hangi amaçla işlediğini, kimlerle paylaştığını
+ve haklarınızı 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında açıklar.</p>
+
+<h2>Veri sorumlusu ve iletişim</h2>
+<p>ai_navi geliştiricisi. Sorularınız, başvurularınız ve silme talepleriniz için:
+<a href="mailto:hsynaltunta@gmail.com">hsynaltunta@gmail.com</a></p>
+
+<h2>Hesap ve kimlik</h2>
+<p>ai_navi hesap açmanızı istemez; adınızı, telefon numaranızı ya da e-posta adresinizi toplamaz. Reklam ve
+kullanım istatistiği (analitik) aracı kullanılmaz.</p>
+
+<h2>Telefonunuzda kalan veriler</h2>
+<ul>
+<li><b>Konum:</b> haritada yerinizi göstermek, en yakın istasyonu bulmak ve yol tarifi vermek için kullanılır.
+Konum geçmişiniz kaydedilmez ve sunucuya gönderilmez (aşağıdaki servis istekleri dışında).</li>
+<li><b>Araç bilgileri:</b> ilk kurulumda girdiğiniz araç türü, kapasite, tüketim; OBD cihazından okunan batarya /
+yakıt seviyesi, hız ve araç kimliği (VIN). Yalnızca telefonda saklanır, hiçbir yere gönderilmez.</li>
+<li><b>Ayarlar ve son hedefler:</b> yalnızca telefonda saklanır.</li>
+</ul>
+
+<h2>Üçüncü taraf servislere giden istekler</h2>
+<p>Uygulama çalışabilmek için aşağıdaki servislere istek gönderir. Bu isteklerde kimliğiniz yoktur; servisler
+teknik olarak IP adresinizi görür.</p>
+<table>
+<tr><th>Servis</th><th>Gönderilen</th><th>Amaç</th></tr>
+<tr><td>Valhalla (FOSSGIS) / OSRM</td><td>Başlangıç, varsa ara durak ve varış konumu</td><td>Yol tarifi</td></tr>
+<tr><td>TomTom</td><td>Rota başlangıç ve varış konumu; harita karoları</td><td>Trafik ve trafikli varış süresi</td></tr>
+<tr><td>Nominatim (OpenStreetMap)</td><td>Aradığınız adres metni; gerekirse bulunduğunuz yer</td><td>Adres arama, il / ilçe bulma</td></tr>
+<tr><td>Google (telefonun konum servisi)</td><td>Bulunduğunuz yer</td><td>Akaryakıt fiyatı için il / ilçe bulma</td></tr>
+<tr><td>OpenFreeMap</td><td>Görüntülenen harita bölgesi</td><td>Harita görüntüsü</td></tr>
+<tr><td>GitHub Pages</td><td>—</td><td>Hazır istasyon, fiyat ve mola verilerinin indirilmesi</td></tr>
+</table>
+
+<h2>Yol bildirimleri (kaza, trafik denetimi vb.)</h2>
+<p>Bir yol bildirimi gönderdiğinizde yalnızca <b>bildirimin türü, bulunduğunuz yerin konumu ve zaman</b>,
+ai_navi'nin GitHub'daki herkese açık veri deposuna (hsynaltunta/ai_navi-veri) bir Google Apps Script aracısı
+üzerinden kaydedilir. Kim olduğunuza dair hiçbir bilgi gönderilmez. Bildirim, diğer kullanıcıların haritasında
+türüne göre 1 ile 24 saat arasında görünür; süresi dolan bildirimin <b>konumu silinir</b>, kayıtta yalnızca türü
+kalır. "Hâlâ orada" / "Yok artık" oylarınız da kimliksizdir. Bildirim göndermek isteğe bağlıdır ve ilk bildirimden
+önce açık onayınız alınır.</p>
+
+<h2>Geliştiriciye öneri</h2>
+<p>"Geliştiriciye öneri gönder" düğmesi, kendi e-posta uygulamanızda hazır bir ileti açar; iletiye uygulama sürümü,
+telefon modeli, Android sürümü, araç adı ve OBD durumu eklenir (konum eklenmez). İleti siz gönderirseniz e-posta
+adresinizle birlikte geliştiriciye ulaşır ve yalnızca önerinizi yanıtlamak için kullanılır.</p>
+
+<h2>İzinler</h2>
+<ul>
+<li><b>Konum:</b> navigasyon ve en yakın istasyon için.</li>
+<li><b>Yakındaki cihazlar / Bluetooth:</b> OBD cihazına bağlanmak için.</li>
+<li><b>İnternet:</b> harita, yol tarifi ve veriler için.</li>
+<li><b>Bildirim / ön plan hizmeti:</b> Android Auto ile sürerken navigasyonun sürmesi için.</li>
+</ul>
+
+<h2>Saklama süresi</h2>
+<p>Telefondaki veriler uygulamayı kaldırdığınızda silinir. Yol bildirimlerinin konumu süresi dolunca (en geç 3 gün)
+silinir. Öneri e-postaları yanıtlandıktan sonra en fazla 1 yıl saklanır.</p>
+
+<h2>Haklarınız (KVKK madde 11)</h2>
+<p>Kişisel verilerinizin işlenip işlenmediğini öğrenme, bilgi talep etme, düzeltilmesini ya da silinmesini isteme
+ve itiraz etme haklarına sahipsiniz. Başvurular için yukarıdaki e-posta adresine yazabilirsiniz.</p>
+
+<h2>Çocuklar</h2>
+<p>ai_navi sürücülere yöneliktir; 18 yaşından küçüklerden bilerek veri toplanmaz.</p>
+
+<h2>Değişiklikler</h2>
+<p>Bu politika değişirse güncel hali bu sayfada yayımlanır ve tarih güncellenir.</p>
+<p><small>Harita verisi © OpenStreetMap katkıcıları (ODbL).</small></p>
+</body></html>
