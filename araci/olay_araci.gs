@@ -9,6 +9,7 @@
  * (varsa yeni kayıt açılmaz), dakikada en çok 20 istek (kötüye kullanıma karşı).
  *
  * Oylar ({"islem":"evet"|"yok","no":kayıt}): "hâlâ orada" süreyi yeniler, iki "yok artık" kaydı kapatır.
+ * Öneri ({"islem":"oneri","metin","bilgi"}): "öneri: ..." kaydı açar (saatte en çok 30).
  */
 
 var DEPO = 'hsynaltunta/ai_navi-veri';
@@ -21,7 +22,7 @@ var DAKIKADA_EN_COK = 20;
 var YOK_ESIGI = 2;
 
 function doGet() {
-  return yanit({ ok: true, mesaj: 'ai_navi olay aracı çalışıyor', surum: 2 });
+  return yanit({ ok: true, mesaj: 'ai_navi olay aracı çalışıyor', surum: 3 });
 }
 
 function doPost(e) {
@@ -32,6 +33,7 @@ function doPost(e) {
     return yanit({ ok: false, hata: 'geçersiz istek' });
   }
   if (v.islem === 'evet' || v.islem === 'yok') return oy(v.islem, Number(v.no));
+  if (v.islem === 'oneri') return oneri(String(v.metin || ''), String(v.bilgi || ''));
   var tur = String(v.tur || '');
   var lat = Number(v.lat), lon = Number(v.lon);
   if (!TURLER[tur]) return yanit({ ok: false, hata: 'bilinmeyen tür' });
@@ -121,6 +123,41 @@ function oy(islem, no) {
     });
     if (p.getResponseCode() >= 300) return yanit({ ok: false, hata: 'GitHub ' + p.getResponseCode() });
     return yanit({ ok: true });
+  } finally {
+    kilit.releaseLock();
+  }
+}
+
+/** Geliştiriciye öneri: herkese açık depoda "öneri: ..." kaydı (konum / kimlik yok) */
+function oneri(metin, bilgi) {
+  metin = metin.trim();
+  if (metin.length < 3) return yanit({ ok: false, hata: 'öneri boş' });
+  if (metin.length > 4000) metin = metin.substring(0, 4000);
+  bilgi = bilgi.substring(0, 600);
+  var anahtar = PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN');
+  if (!anahtar) return yanit({ ok: false, hata: 'aracı ayarlanmamış' });
+  var kilit = LockService.getScriptLock();
+  kilit.waitLock(10000);
+  try {
+    var onbellek = CacheService.getScriptCache();
+    var saat = 'oneri_' + Math.floor(Date.now() / 3600000);
+    var sayi = Number(onbellek.get(saat) || 0);
+    if (sayi >= 30) return yanit({ ok: false, hata: 'çok fazla öneri, biraz sonra deneyin' });
+    onbellek.put(saat, String(sayi + 1), 4000);
+    // @ ile kişi anma (GitHub bildirimi) engellenir
+    var temiz = function (t) { return t.replace(/@/g, '@​'); };
+    var baslik = metin.replace(/\s+/g, ' ');
+    if (baslik.length > 60) baslik = baslik.substring(0, 57) + '…';
+    var govde = temiz(metin) + '\n\n---\n<pre>' + temiz(bilgi).replace(/</g, '&lt;') + '</pre>';
+    var c = UrlFetchApp.fetch('https://api.github.com/repos/' + DEPO + '/issues', {
+      method: 'post',
+      contentType: 'application/json',
+      headers: { Authorization: 'Bearer ' + anahtar, Accept: 'application/vnd.github+json' },
+      payload: JSON.stringify({ title: 'öneri: ' + temiz(baslik), body: govde }),
+      muteHttpExceptions: true
+    });
+    if (c.getResponseCode() >= 300) return yanit({ ok: false, hata: 'GitHub ' + c.getResponseCode() });
+    return yanit({ ok: true, no: JSON.parse(c.getContentText()).number });
   } finally {
     kilit.releaseLock();
   }
