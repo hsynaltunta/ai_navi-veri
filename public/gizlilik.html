@@ -29,7 +29,7 @@ kullanım istatistiği (analitik) aracı kullanılmaz.</p>
 Konum geçmişiniz kaydedilmez ve sunucuya gönderilmez (aşağıdaki servis istekleri dışında).</li>
 <li><b>Araç bilgileri:</b> ilk kurulumda girdiğiniz araç türü, kapasite, tüketim; OBD cihazından okunan batarya /
 yakıt seviyesi, hız ve araç kimliği (VIN). Yalnızca telefonda saklanır, hiçbir yere gönderilmez.</li>
-<li><b>Ayarlar ve son hedefler:</b> yalnızca telefonda saklanır.</li>
+<li><b>Ayarlar, son hedefler, ev / iş / favori yerler ve son bilinen konum:</b> yalnızca telefonda saklanır.</li>
 </ul>
 
 <h2>Üçüncü taraf servislere giden istekler</h2>
@@ -38,7 +38,7 @@ teknik olarak IP adresinizi görür.</p>
 <table>
 <tr><th>Servis</th><th>Gönderilen</th><th>Amaç</th></tr>
 <tr><td>Valhalla (FOSSGIS) / OSRM</td><td>Başlangıç, varsa ara durak ve varış konumu</td><td>Yol tarifi</td></tr>
-<tr><td>TomTom</td><td>Rota başlangıç ve varış konumu; harita karoları</td><td>Trafik ve trafikli varış süresi</td></tr>
+<tr><td>TomTom</td><td>Rota başlangıç ve varış konumu; harita karoları; eve dönüş bildirimi açıksa son konum (ya da iş yeri) ve ev konumu</td><td>Trafik, trafikli varış süresi, eve dönüş bildirimi</td></tr>
 <tr><td>Nominatim (OpenStreetMap)</td><td>Aradığınız adres metni; gerekirse bulunduğunuz yer</td><td>Adres arama, il / ilçe bulma</td></tr>
 <tr><td>Google (telefonun konum servisi)</td><td>Bulunduğunuz yer</td><td>Akaryakıt fiyatı için il / ilçe bulma</td></tr>
 <tr><td>OpenFreeMap</td><td>Görüntülenen harita bölgesi</td><td>Harita görüntüsü</td></tr>
