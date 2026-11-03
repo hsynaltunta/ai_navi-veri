@@ -30,15 +30,34 @@ TUR = {
              "car": "Oto galeri", "car_parts": "Oto yedek parça", "tyres": "Lastikçi", "clothes": "Giyim", "hairdresser": "Kuaför",
              "butcher": "Kasap", "hardware": "Hırdavat", "furniture": "Mobilya", "electronics": "Elektronik",
              "mobile_phone": "Telefoncu", "optician": "Optik", "jewelry": "Kuyumcu", "florist": "Çiçekçi", "mall": "AVM"},
-    "office": {}, "craft": {}, "tourism": {"hotel": "Otel", "museum": "Müze", "attraction": "Gezi yeri", "guest_house": "Pansiyon"},
-    "leisure": {"park": "Park", "sports_centre": "Spor merkezi", "stadium": "Stadyum", "fitness_centre": "Spor salonu"},
-    "healthcare": {}, "historic": {}, "aeroway": {"aerodrome": "Havalimanı"}, "railway": {"station": "İstasyon"},
-    "public_transport": {"station": "İstasyon"}, "industrial": {}, "landuse": {"industrial": "Sanayi", "commercial": "Ticari alan"},
+    "office": {"company": "Şirket", "government": "Resmi kurum", "estate_agent": "Emlakçı", "lawyer": "Avukat",
+               "insurance": "Sigorta", "accountant": "Mali müşavir", "architect": "Mimarlık", "it": "Bilişim",
+               "educational_institution": "Eğitim kurumu", "notary": "Noter", "logistics": "Lojistik"},
+    "craft": {"carpenter": "Marangoz", "electrician": "Elektrikçi", "plumber": "Tesisatçı", "tailor": "Terzi",
+              "shoemaker": "Ayakkabıcı", "key_cutter": "Anahtarcı"},
+    "tourism": {"hotel": "Otel", "museum": "Müze", "attraction": "Gezi yeri", "guest_house": "Pansiyon",
+                "viewpoint": "Seyir noktası", "information": "Bilgi"},
+    "leisure": {"park": "Park", "sports_centre": "Spor merkezi", "stadium": "Stadyum", "fitness_centre": "Spor salonu",
+                "playground": "Oyun alanı", "pitch": "Saha", "garden": "Bahçe", "swimming_pool": "Havuz"},
+    "healthcare": {"pharmacy": "Eczane", "hospital": "Hastane", "clinic": "Klinik", "doctor": "Doktor", "dentist": "Diş hekimi",
+                   "laboratory": "Laboratuvar"},
+    "historic": {"monument": "Anıt", "memorial": "Anıt", "ruins": "Kalıntı", "castle": "Kale"},
+    "aeroway": {"aerodrome": "Havalimanı", "terminal": "Terminal"},
+    "railway": {"station": "İstasyon", "halt": "İstasyon", "tram_stop": "Tramvay durağı"},
+    "public_transport": {"station": "İstasyon", "platform": "Durak", "stop_position": "Durak"},
+    "industrial": {}, "landuse": {"industrial": "Sanayi", "commercial": "Ticari alan", "residential": "Konut alanı",
+                                  "retail": "Çarşı", "cemetery": "Mezarlık"},
     "place": {"neighbourhood": "Mahalle", "suburb": "Semt", "quarter": "Mahalle", "village": "Köy", "town": "İlçe",
               "city": "Şehir", "hamlet": "Mezra"},
-    "building": {},
+    "building": {"apartments": "Apartman", "residential": "Konut", "house": "Ev", "detached": "Müstakil ev",
+                 "commercial": "İş yeri", "office": "Ofis binası", "retail": "Mağaza", "industrial": "Sanayi binası",
+                 "school": "Okul", "university": "Üniversite", "hospital": "Hastane", "mosque": "Cami", "church": "Kilise",
+                 "hotel": "Otel", "public": "Kamu binası", "warehouse": "Depo", "construction": "İnşaat", "dormitory": "Yurt",
+                 "kindergarten": "Anaokulu", "garage": "Garaj", "train_station": "İstasyon"},
 }
 SKIP_PLACE = {"locality", "isolated_dwelling", "farm", "plot", "square"}
+# Aynı durağın iki kaydı olmasın: durak noktası (stop_position) yalnız platform yoksa sayılır — basitçe atlanır
+SKIP_VALUES = {("public_transport", "stop_position")}
 
 
 def tur(tags):
@@ -47,6 +66,8 @@ def tur(tags):
         if not v or v == "no":
             continue
         if k == "place" and v in SKIP_PLACE:
+            continue
+        if (k, v) in SKIP_VALUES:
             continue
         if k == "building" and v in ("yes",):
             return "Bina"
