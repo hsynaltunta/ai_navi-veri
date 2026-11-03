@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ai_navi privacy policy</title>
+<style>
+:root{--fg:#1b1f24;--bg:#fff;--mut:#5b6570;--acc:#0b6bcb}
+@media (prefers-color-scheme:dark){:root{--fg:#d0d6dd;--bg:#15191e;--mut:#8a939d;--acc:#3da5ff}}
+body{font-family:system-ui,sans-serif;max-width:760px;margin:2rem auto;padding:0 16px;line-height:1.6;color:var(--fg);background:var(--bg)}
+h1{font-size:1.6rem}h2{font-size:1.15rem;margin-top:1.8rem}a{color:var(--acc)}small,.mut{color:var(--mut)}
+table{border-collapse:collapse;width:100%;font-size:.95rem}td,th{border-top:1px solid #8884;padding:.45rem .3rem;text-align:left;vertical-align:top}
+</style></head>
+<body>
+<h1>ai_navi privacy policy</h1>
+<p class="mut">Last updated: 3 November 2026 · <a href="gizlilik.html">Türkçe</a></p>
+
+<p>This policy explains which personal data the ai_navi navigation app processes, why, who receives it and what your
+rights are under the EU General Data Protection Regulation (GDPR), the UK GDPR and Turkish data protection law (KVKK).</p>
+
+<h2>Controller and contact</h2>
+<p>The developer of ai_navi. For questions, requests and deletion:
+<a href="mailto:hsynaltunta@gmail.com">hsynaltunta@gmail.com</a></p>
+
+<h2>No account, no tracking</h2>
+<p>ai_navi does not ask you to create an account and does not collect your name, phone number or e-mail address.
+No advertising or analytics tools are used.</p>
+
+<h2>Data that stays on your phone</h2>
+<ul>
+<li><b>Location:</b> used to show your position, find the nearest station and give directions. Your location history
+is not recorded and not sent to a server (other than the service requests listed below).</li>
+<li><b>Vehicle data:</b> vehicle type, capacity and consumption you enter; battery / fuel level, speed and vehicle
+identification number (VIN) read from an OBD adapter. Stored only on the phone and never sent anywhere.</li>
+<li><b>Settings, recent destinations, home / work / favourite places, parking spot and last known location:</b>
+stored only on the phone.</li>
+</ul>
+
+<h2>Requests to third-party services</h2>
+<p>To work, the app sends requests to the services below. These requests do not identify you; the services can
+technically see your IP address. Legal basis: performance of the service you request (GDPR Art. 6(1)(b)).</p>
+<table>
+<tr><th>Service</th><th>Data sent</th><th>Purpose</th></tr>
+<tr><td>Valhalla (FOSSGIS, Germany) / OSRM</td><td>Start, optional stop and destination</td><td>Directions</td></tr>
+<tr><td>TomTom (Netherlands)</td><td>Your search text and current area; route start and destination; map tiles; if the commute
+notification is on, your parking spot / last location and home</td><td>Address and business search, traffic, arrival time,
+commute notification</td></tr>
+<tr><td>Nominatim (OpenStreetMap Foundation, UK)</td><td>Search text; your position when needed</td><td>Address search,
+finding the country you are in</td></tr>
+<tr><td>Google (the phone's location service)</td><td>Your position</td><td>Finding the country / region</td></tr>
+<tr><td>Overpass (OpenStreetMap)</td><td>The area around you</td><td>Stations near you where no ready-made list covers the area</td></tr>
+<tr><td>OpenFreeMap</td><td>The map area shown</td><td>Map display</td></tr>
+<tr><td>Firebase (Google)</td><td>Anonymous session; only reports, votes and suggestions you send</td><td>Road reports, suggestions</td></tr>
+<tr><td>GitHub</td><td>—</td><td>Downloading ready-made station, price and break-place data for your country</td></tr>
+</table>
+
+<h2>Road reports (accidents, roadworks, etc.)</h2>
+<p>When you send a road report, only <b>the report type, your current location and the time</b> are stored in
+ai_navi's Google Firebase (Cloud Firestore, EU servers) database. Your name, phone number or account are not sent. To
+limit abuse (too many reports, several votes on the same report) Firebase gives your phone an <b>anonymous number</b>;
+it is not written into the report and is kept only with your last sending time and your votes. Depending on its type, a
+report is shown on other users' maps for 1 to 24 hours; expired reports and votes are <b>deleted completely</b>.
+Sending reports is optional and we ask for your explicit consent before the first one (GDPR Art. 6(1)(a)); abuse
+limiting is based on our legitimate interest (Art. 6(1)(f)). Police-check reports are not available in countries
+where they are not allowed (for example Germany, Switzerland, Austria and France).</p>
+
+<h2>Suggestions to the developer</h2>
+<p>Text you send with "Send a suggestion to the developer" is stored in the same Firebase database in a section
+<b>only the developer can read</b>. App version, phone model, Android version, vehicle name and OBD status are attached;
+your location is not. If you add your e-mail address it is used only to reply to you (Art. 6(1)(a)).</p>
+
+<h2>International transfers</h2>
+<p>Firebase (Google Ireland / Google LLC) and GitHub (GitHub Inc.) may process data outside the European Economic
+Area, including in the United States, under the EU–US Data Privacy Framework and/or the European Commission's Standard
+Contractual Clauses. Data sent to these services is limited to what is listed above.</p>
+
+<h2>Permissions</h2>
+<ul>
+<li><b>Location:</b> navigation and nearest station.</li>
+<li><b>Nearby devices / Bluetooth:</b> connecting to an OBD adapter.</li>
+<li><b>Internet:</b> maps, directions and data.</li>
+<li><b>Notifications / foreground service:</b> keeping navigation running with the screen off; commute notification.</li>
+</ul>
+
+<h2>Retention</h2>
+<p>Data on the phone is deleted when you uninstall the app. Road reports and votes are deleted at the latest 1 day after
+they expire. Suggestions are kept for at most 1 year after they have been handled, or deleted earlier on request.</p>
+
+<h2>Your rights</h2>
+<p>You have the right to access, rectify and erase your data, to restrict or object to processing, to data
+portability and to withdraw consent at any time (without affecting earlier processing). Write to the e-mail address
+above. You also have the right to lodge a complaint with your data protection supervisory authority. ai_navi does not
+make automated decisions that have legal or similarly significant effects on you.</p>
+
+<h2>Children</h2>
+<p>ai_navi is intended for drivers; we do not knowingly collect data from anyone under 18.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the new version is published on this page with a new date.</p>
+<p><small>Map data © OpenStreetMap contributors (ODbL).</small></p>
+</body></html>
