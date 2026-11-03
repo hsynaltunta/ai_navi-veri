@@ -1,0 +1,45 @@
+name: Yer deposu (adres / işletme arama)
+
+# Haftada bir: OpenStreetMap Türkiye verisinden adı olan yerler, kapı numaralı adresler ve bina adları çıkarılır,
+# 0,5° hücrelere bölünüp "yerler" sürümüne (GitHub Releases) yüklenir. Telefon yalnız bulunduğu bölgeyi indirir.
+on:
+  schedule:
+    - cron: '0 2 * * 2'     # her salı 05:00 (İstanbul)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: yerler
+  cancel-in-progress: false
+
+jobs:
+  yerler:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: OpenStreetMap Türkiye verisini indir
+        run: |
+          curl -sSfL -o turkey.osm.pbf https://download.geofabrik.de/europe/turkey-latest.osm.pbf
+          ls -la turkey.osm.pbf
+
+      - name: Yerleri çıkar
+        run: |
+          pip install -q osmium
+          python scripts/yerler.py turkey.osm.pbf out
+          du -sh out
+
+      - name: Sürüme yükle
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view yerler >/dev/null 2>&1 || gh release create yerler --title "Yer deposu" \
+            --notes "Adres / işletme arama verisi (OpenStreetMap, ODbL). Haftada bir yenilenir; uygulama kendisi indirir."
+          gh release upload yerler out/* --clobber
