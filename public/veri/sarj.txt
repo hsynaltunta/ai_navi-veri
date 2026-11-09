@@ -833,17 +833,6 @@ S;C;37.592056;36.854076;0;1;10.0;0;ŞS ŞARJSTOP Güvenli Şarj Noktası;ŞS ŞA
 S;C;38.941351;34.559236;0;1;22.0;0;ŞS ŞARJSTOP Güvenli Şarj Noktası;ŞS ŞARJSTOP Güvenli Şarj Noktası • DERGAH TAKSİ
 S;C;38.94155;34.559098;0;1;22.0;0;ŞS ŞARJSTOP Güvenli Şarj Noktası;ŞS ŞARJSTOP Güvenli Şarj Noktası • BEKTAŞ EFENDİ
 S;C;40.089794;29.495478;1;0;180.0;0;ŞS ŞARJSTOP Güvenli Şarj Noktası;ŞS ŞARJSTOP Güvenli Şarj Noktası • İNEGÖL ARİTMİ HASTANESİ DC
-S;C;37.906244;41.119927;0;1;22.0;0;turuncu mühendislik;turuncu mühendislik • Buket Lahmacun - 1
-S;C;37.900772;41.131752;0;1;22.0;0;turuncu mühendislik;turuncu mühendislik • Safir Plaza Batman - 1
-S;C;37.945622;41.14138;0;1;22.0;0;turuncu mühendislik;turuncu mühendislik • Ramada Erzinia-1
-S;C;37.906475;41.104025;0;1;22.0;0;turuncu mühendislik;turuncu mühendislik • Auto Store-1
-S;C;37.906463;41.104086;0;1;22.0;0;turuncu mühendislik;turuncu mühendislik • Auto Store-2
-S;C;37.906437;41.104111;0;1;22.0;0;turuncu mühendislik;turuncu mühendislik • Auto Store-3
-S;C;37.90642;41.104157;0;1;22.0;0;turuncu mühendislik;turuncu mühendislik • Auto Store-4
-S;C;37.94015;40.129975;0;1;22.0;0;turuncu mühendislik;turuncu mühendislik • DİYARBAKIR YENİ STADYUM BURGERKİNG
-S;C;37.911978;41.151477;0;1;22.0;0;turuncu mühendislik;turuncu mühendislik • Batman Nujen Sitesi
-S;C;37.9463;41.1413;1;1;50.0;0;turuncu mühendislik;Turuncu Mühendislik Batman Ramada Otel
-S;C;37.8357;40.6355;1;0;90.0;0;turuncu mühendislik;turuncu mühendislik • Bismil Başakşehirkonutları DC
 S;C;37.836179;40.635851;0;1;22.0;0;turuncu mühendislik;turuncu mühendislik • Başakşehir 1
 S;C;37.850005;41.099138;0;1;22.0;0;turuncu mühendislik;turuncu mühendislik • Hibrit 1
 S;C;37.836115;40.636042;0;1;22.0;0;turuncu mühendislik;turuncu mühendislik • Başakşehir 2
@@ -857,6 +846,17 @@ S;C;37.909119;41.136519;0;1;22.0;0;turuncu mühendislik;turuncu mühendislik •
 S;C;37.895541;41.14793;0;1;22.0;0;turuncu mühendislik;turuncu mühendislik • SOİL PETROL-1
 S;C;37.895577;41.147919;1;1;50.0;0;turuncu mühendislik;turuncu mühendislik • SOİL PETROL-2
 S;C;37.945622;41.141425;0;1;22.0;0;turuncu mühendislik;turuncu mühendislik • Ramada Erzinia-2
+S;C;37.906244;41.119927;0;1;22.0;0;turuncu mühendislik;turuncu mühendislik • Buket Lahmacun - 1
+S;C;37.900772;41.131752;0;1;22.0;0;turuncu mühendislik;turuncu mühendislik • Safir Plaza Batman - 1
+S;C;37.945622;41.14138;0;1;22.0;0;turuncu mühendislik;turuncu mühendislik • Ramada Erzinia-1
+S;C;37.906475;41.104025;0;1;22.0;0;turuncu mühendislik;turuncu mühendislik • Auto Store-1
+S;C;37.906463;41.104086;0;1;22.0;0;turuncu mühendislik;turuncu mühendislik • Auto Store-2
+S;C;37.906437;41.104111;0;1;22.0;0;turuncu mühendislik;turuncu mühendislik • Auto Store-3
+S;C;37.90642;41.104157;0;1;22.0;0;turuncu mühendislik;turuncu mühendislik • Auto Store-4
+S;C;37.94015;40.129975;0;1;22.0;0;turuncu mühendislik;turuncu mühendislik • DİYARBAKIR YENİ STADYUM BURGERKİNG
+S;C;37.911978;41.151477;0;1;22.0;0;turuncu mühendislik;turuncu mühendislik • Batman Nujen Sitesi
+S;C;37.9463;41.1413;1;1;50.0;0;turuncu mühendislik;Turuncu Mühendislik Batman Ramada Otel
+S;C;37.8357;40.6355;1;0;90.0;0;turuncu mühendislik;turuncu mühendislik • Bismil Başakşehirkonutları DC
 S;C;37.898199;32.4716;0;1;7.4;0;ŞarjMatik;ŞarjMatik • EMAR İNŞAAT_YENİSİLLE_ŞARJMATİK
 S;C;37.898199;32.4716;0;1;22.0;0;ŞarjMatik;ŞarjMatik • EMAR PETROL YENİSİLLE
 S;C;37.734819;27.2555;0;1;3.7;0;ŞarjMatik;ŞarjMatik • AYŞEGÜL ASAROĞLU SAZALAN_ŞARJMATİK
@@ -1118,6 +1118,13 @@ S;C;41.00434;28.810907;0;1;22.0;0;CLIXOLAR;CLIXOLAR • İSTANBUL VİZYON PARK
 S;C;41.05637;29.07182;1;1;60.0;0;CLIXOLAR;CLIXOLAR • Çet Çınar
 S;C;40.427722;29.730599;0;1;22.0;0;CLIXOLAR;CLIXOLAR • Bupet Burak Petrol
 S;C;39.784732;32.812685;1;1;60.0;0;CLIXOLAR;CLIXOLAR • Ankara Üniversitesi Teknokent
+S;C;41.015911;28.681108;0;1;22.0;0;MITHRA POD;MITHRA POD • SEMBOL RESİDENCE
+S;C;40.99331;28.703766;0;1;22.0;0;MITHRA POD;MITHRA POD • PANOCAM
+S;C;41.005523;28.663112;0;1;22.0;0;MITHRA POD;MITHRA POD • MİTHRA POD MERKEZ
+S;C;41.041573;28.678642;0;1;22.0;0;MITHRA POD;MITHRA POD • NMERKEZ
+S;C;41.041349;28.764338;1;1;40.0;0;MITHRA POD;MITHRA POD • İSTANBUL LOUNGE 1
+S;C;41.069209;28.664179;0;1;22.0;0;MITHRA POD;MITHRA POD • DUMANKAYA MODERN
+S;C;41.013901;28.636225;0;1;22.0;0;MITHRA POD;MITHRA POD • DEMİR ROMANCE
 S;C;41.105729;28.596866;0;1;22.0;0;MITHRA POD;MITHRA POD • EROLUN YERİ
 S;C;41.003254;28.6899;0;1;22.0;0;MITHRA POD;MITHRA POD • ALİ KUL MESLEKİ VE TEKNİK ANADOLU LİSESİ
 S;C;41.0236;28.6582;0;1;22.0;0;MITHRA POD;MITHRA POD • EMPOD
@@ -1137,13 +1144,6 @@ S;C;41.015706;28.678182;1;1;120.0;0;MITHRA POD;MITHRA POD • SOLARKENT
 S;C;41.084738;28.655366;1;1;120.0;0;MITHRA POD;MITHRA POD • AVRUPARK 651
 S;C;39.928965;33.007619;1;0;40.0;0;MITHRA POD;MITHRA POD • ŞARJ COFFEE
 S;C;41.071841;28.621614;1;1;180.0;0;MITHRA POD;MITHRA POD • WEST BLOCKS
-S;C;41.015911;28.681108;0;1;22.0;0;MITHRA POD;MITHRA POD • SEMBOL RESİDENCE
-S;C;40.99331;28.703766;0;1;22.0;0;MITHRA POD;MITHRA POD • PANOCAM
-S;C;41.005523;28.663112;0;1;22.0;0;MITHRA POD;MITHRA POD • MİTHRA POD MERKEZ
-S;C;41.041573;28.678642;0;1;22.0;0;MITHRA POD;MITHRA POD • NMERKEZ
-S;C;41.041349;28.764338;1;1;40.0;0;MITHRA POD;MITHRA POD • İSTANBUL LOUNGE 1
-S;C;41.069209;28.664179;0;1;22.0;0;MITHRA POD;MITHRA POD • DUMANKAYA MODERN
-S;C;41.013901;28.636225;0;1;22.0;0;MITHRA POD;MITHRA POD • DEMİR ROMANCE
 S;C;41.024094;29.041203;0;1;22.0;0;PİLSTOP;PİLSTOP • Ayışığı Honda Servisi Arka Otoparkı
 S;C;41.023642;29.040508;1;0;120.0;0;PİLSTOP;PİLSTOP • Ayışığı Honda Servisi Ön Otoparkı
 S;C;41.00645;28.629275;1;1;120.0;0;PİLSTOP;PİLSTOP • Kolan Hastanesi Beylikdüzü
@@ -4369,6 +4369,46 @@ S;C;37.176683;28.372204;1;0;40.0;0;otoWATT;otoWATT • Yücelen Otel
 S;C;37.796144;29.027817;0;1;22.0;0;otoWATT;otoWATT • Golden Life
 S;C;36.985732;35.124904;1;0;160.0;0;otoWATT;otoWATT • Aksu Piliç DC
 S;C;37.842782;27.858814;0;1;22.0;0;otoWATT;otoWATT • Meşhur Altındağ Aspava
+S;C;41.124663;28.770422;1;0;180.0;0;beefull;beefull • PARK MAVERA DC-1, DC-2, DC-3
+S;C;36.54969;32.042183;1;0;60.0;0;beefull;beefull • ALİ KAMBUROĞLU DC-1
+S;C;39.752568;37.012833;1;1;60.0;0;beefull;beefull • SİVAS 27 HAZİRAN MİLLET BAHÇESİ AC-1, AC-2, DC-1
+S;C;39.912777;32.805151;1;1;80.0;0;beefull;beefull • NEORAMA İŞ MERKEZİ AC-1, AC-2, DC-1
+S;C;41.066288;28.83171;1;1;160.0;0;beefull;beefull • ÖKSÜZOĞLU PLAZA DC-1, AC-1
+S;C;37.038467;35.27378;1;0;80.0;0;beefull;beefull • REFAH APARTMANI DC-1
+S;C;36.686084;33.408757;1;0;160.0;0;beefull;beefull • MERSİN AYDIN PETROL DC-1
+S;C;36.721037;28.785023;1;0;180.0;0;beefull;beefull • DALAMAN HAVALİMANI DC-1, DC-2
+S;C;41.071719;28.963462;1;0;160.0;0;beefull;beefull • KAĞITHANE BELEDİYESİ DC-1, DC-2
+S;C;41.096636;28.979629;1;0;160.0;0;beefull;beefull • KAĞITHANE BELEDİYESİ OTOPARKI DC-1, DC-2
+S;C;41.110269;29.031003;1;1;160.0;0;beefull;beefull • İSTİNYE PARK İSTANBUL DC-1, DC-2, DC-3, DC-4, DC-5, AC-1, AC-2
+S;C;40.723731;31.464701;1;0;160.0;0;beefull;beefull • HIGHWAY OUTLET DC-1, DC-2
+S;C;38.5784;38.2098;1;0;180.0;0;beefull;beefull • TP PETROL ONUR GÜL BETON DC-1
+S;C;39.966237;32.622285;0;1;11.0;0;beefull;beefull • MEVAŞEHİR A-4 AC-1, AC-2
+S;C;39.966249;32.623229;0;1;11.0;0;beefull;beefull • MEVAŞEHİR A-2 AC-1, AC-2
+S;C;39.966033;32.624041;0;1;11.0;0;beefull;beefull • MEVAŞEHİR A-3 AC-1, AC-2
+S;C;38.399246;27.068296;1;1;160.0;0;beefull;beefull • İSTİNYE PARK İZMİR DC-1, DC-2, DC-3, AC-1, AC-2, AC-3, AC-4, AC-5, AC-6, AC-7
+S;C;41.002112;28.809695;1;0;160.0;0;beefull;beefull • KELEŞ CENTER DC-1
+S;C;40.91232;29.217453;1;0;180.0;0;beefull;beefull • KARTAL RAMADA DC-1, AC-1
+S;C;41.077551;28.708967;1;0;160.0;0;beefull;beefull • ISPARTAKULE EVLERİ DC-1
+S;C;39.751651;37.015457;1;1;50.0;0;beefull;beefull • 15 TEMMUZ KAPALI OTOPARKI DC-1, AC-1, AC-2
+S;C;39.752366;37.011863;1;0;80.0;0;beefull;beefull • SİVAS MEHMETPAŞA MÜHİM DC-1, DC-2
+S;C;41.240122;29.041051;1;0;40.0;0;beefull;beefull • Y.M.R.T FARM DC-1
+S;C;38.677138;27.015718;1;0;180.0;0;beefull;beefull • KASABA AVM DC-1
+S;C;41.018632;28.632033;1;0;160.0;0;beefull;beefull • İSTANBUL PARK OUTLET DC-1, AC-1, AC-2
+S;C;41.037112;29.152377;1;0;120.0;0;beefull;beefull • LENS ÇEKMEKÖY ÖN OTOPARK DC-1, DC-2
+S;C;41.131737;28.230032;1;0;200.0;0;beefull;beefull • KMO FENERKÖY GÜNEY OHT DC-1
+S;C;41.13369;28.232321;1;0;200.0;0;beefull;beefull • KMO FENERKÖY KUZEY OHT DC-1
+S;C;41.193603;28.571211;1;0;200.0;0;beefull;beefull • KMO NAKKAŞ GÜNEY OHT DC-1
+S;C;41.194963;28.569242;1;0;200.0;0;beefull;beefull • KMO NAKKAŞ KUZEY OHT DC-1
+S;C;41.037441;29.153601;1;0;120.0;0;beefull;beefull • LENS ÇEKMEKÖY ARKA OTOPARK  DC-1
+S;C;39.975;32.6465;1;1;160.0;0;beefull;beefull • ERYAMAN KONUTLARI DC-1, DC-2, AC-1, AC-2
+S;C;39.7452;37.0093;1;1;60.0;0;beefull;beefull • FİDAN YAZICIOĞLU KÜLTÜR MERKEZİ DC-1, DC-2, AC-1, AC-2
+S;C;39.7407;37.0015;1;0;80.0;0;beefull;beefull • MİLLET BAHÇESİ DC-1
+S;C;41.020326;28.956162;1;0;50.0;0;beefull;beefull • CİTY OTOPARK DC-1
+S;C;39.885881;37.734309;1;0;180.0;0;beefull;beefull • GARDEN ZARA DC-1
+S;C;36.55;32.0224;1;0;240.0;0;beefull;beefull • YILMAZ PETROL DC-1, DC-2, DC-3
+S;C;41.000361;28.689131;1;0;160.0;0;beefull;beefull • OTOGATE A BLOK DC-1
+S;C;41.000361;28.689131;0;1;22.0;0;beefull;beefull • OTOGATE B BLOK AC 1-6
+S;C;39.877221;32.877638;1;0;80.0;0;beefull;beefull • OTEL NO 19 DC-1
 S;C;40.972721;28.785634;0;1;22.0;0;beefull;beefull • ULUDAĞ ET LOKANTASI
 S;C;36.55174;32.007032;0;1;22.0;0;beefull;beefull • AKDENİZ ALANYA
 S;C;36.901677;30.764125;0;1;22.0;0;beefull;beefull • AKDENİZ 1, AKDENİZ 2
@@ -4452,46 +4492,6 @@ S;C;36.489023;32.098754;1;0;180.0;0;beefull;beefull • AKDENİZ PARK AVM DC-1
 S;C;41.245156;28.703067;1;0;60.0;0;beefull;beefull • KMO İSTANBUL HAVALİMANI OHT DC-1
 S;C;41.065553;28.670118;1;0;180.0;0;beefull;beefull • ÖZYURTLAR NTEPE DC-1
 S;C;41.110159;29.019215;0;1;22.0;0;beefull;beefull • SUN PLAZA AC-1
-S;C;41.124663;28.770422;1;0;180.0;0;beefull;beefull • PARK MAVERA DC-1, DC-2, DC-3
-S;C;36.54969;32.042183;1;0;60.0;0;beefull;beefull • ALİ KAMBUROĞLU DC-1
-S;C;39.752568;37.012833;1;1;60.0;0;beefull;beefull • SİVAS 27 HAZİRAN MİLLET BAHÇESİ AC-1, AC-2, DC-1
-S;C;39.912777;32.805151;1;1;80.0;0;beefull;beefull • NEORAMA İŞ MERKEZİ AC-1, AC-2, DC-1
-S;C;41.066288;28.83171;1;1;160.0;0;beefull;beefull • ÖKSÜZOĞLU PLAZA DC-1, AC-1
-S;C;37.038467;35.27378;1;0;80.0;0;beefull;beefull • REFAH APARTMANI DC-1
-S;C;36.686084;33.408757;1;0;160.0;0;beefull;beefull • MERSİN AYDIN PETROL DC-1
-S;C;36.721037;28.785023;1;0;180.0;0;beefull;beefull • DALAMAN HAVALİMANI DC-1, DC-2
-S;C;41.071719;28.963462;1;0;160.0;0;beefull;beefull • KAĞITHANE BELEDİYESİ DC-1, DC-2
-S;C;41.096636;28.979629;1;0;160.0;0;beefull;beefull • KAĞITHANE BELEDİYESİ OTOPARKI DC-1, DC-2
-S;C;41.110269;29.031003;1;1;160.0;0;beefull;beefull • İSTİNYE PARK İSTANBUL DC-1, DC-2, DC-3, DC-4, DC-5, AC-1, AC-2
-S;C;40.723731;31.464701;1;0;160.0;0;beefull;beefull • HIGHWAY OUTLET DC-1, DC-2
-S;C;38.5784;38.2098;1;0;180.0;0;beefull;beefull • TP PETROL ONUR GÜL BETON DC-1
-S;C;39.966237;32.622285;0;1;11.0;0;beefull;beefull • MEVAŞEHİR A-4 AC-1, AC-2
-S;C;39.966249;32.623229;0;1;11.0;0;beefull;beefull • MEVAŞEHİR A-2 AC-1, AC-2
-S;C;39.966033;32.624041;0;1;11.0;0;beefull;beefull • MEVAŞEHİR A-3 AC-1, AC-2
-S;C;38.399246;27.068296;1;1;160.0;0;beefull;beefull • İSTİNYE PARK İZMİR DC-1, DC-2, DC-3, AC-1, AC-2, AC-3, AC-4, AC-5, AC-6, AC-7
-S;C;41.002112;28.809695;1;0;160.0;0;beefull;beefull • KELEŞ CENTER DC-1
-S;C;40.91232;29.217453;1;0;180.0;0;beefull;beefull • KARTAL RAMADA DC-1, AC-1
-S;C;41.077551;28.708967;1;0;160.0;0;beefull;beefull • ISPARTAKULE EVLERİ DC-1
-S;C;39.751651;37.015457;1;1;50.0;0;beefull;beefull • 15 TEMMUZ KAPALI OTOPARKI DC-1, AC-1, AC-2
-S;C;39.752366;37.011863;1;0;80.0;0;beefull;beefull • SİVAS MEHMETPAŞA MÜHİM DC-1, DC-2
-S;C;41.240122;29.041051;1;0;40.0;0;beefull;beefull • Y.M.R.T FARM DC-1
-S;C;38.677138;27.015718;1;0;180.0;0;beefull;beefull • KASABA AVM DC-1
-S;C;41.018632;28.632033;1;0;160.0;0;beefull;beefull • İSTANBUL PARK OUTLET DC-1, AC-1, AC-2
-S;C;41.037112;29.152377;1;0;120.0;0;beefull;beefull • LENS ÇEKMEKÖY ÖN OTOPARK DC-1, DC-2
-S;C;41.131737;28.230032;1;0;200.0;0;beefull;beefull • KMO FENERKÖY GÜNEY OHT DC-1
-S;C;41.13369;28.232321;1;0;200.0;0;beefull;beefull • KMO FENERKÖY KUZEY OHT DC-1
-S;C;41.193603;28.571211;1;0;200.0;0;beefull;beefull • KMO NAKKAŞ GÜNEY OHT DC-1
-S;C;41.194963;28.569242;1;0;200.0;0;beefull;beefull • KMO NAKKAŞ KUZEY OHT DC-1
-S;C;41.037441;29.153601;1;0;120.0;0;beefull;beefull • LENS ÇEKMEKÖY ARKA OTOPARK  DC-1
-S;C;39.975;32.6465;1;1;160.0;0;beefull;beefull • ERYAMAN KONUTLARI DC-1, DC-2, AC-1, AC-2
-S;C;39.7452;37.0093;1;1;60.0;0;beefull;beefull • FİDAN YAZICIOĞLU KÜLTÜR MERKEZİ DC-1, DC-2, AC-1, AC-2
-S;C;39.7407;37.0015;1;0;80.0;0;beefull;beefull • MİLLET BAHÇESİ DC-1
-S;C;41.020326;28.956162;1;0;50.0;0;beefull;beefull • CİTY OTOPARK DC-1
-S;C;39.885881;37.734309;1;0;180.0;0;beefull;beefull • GARDEN ZARA DC-1
-S;C;36.55;32.0224;1;0;240.0;0;beefull;beefull • YILMAZ PETROL DC-1, DC-2, DC-3
-S;C;41.000361;28.689131;1;0;160.0;0;beefull;beefull • OTOGATE A BLOK DC-1
-S;C;41.000361;28.689131;0;1;22.0;0;beefull;beefull • OTOGATE B BLOK AC 1-6
-S;C;39.877221;32.877638;1;0;80.0;0;beefull;beefull • OTEL NO 19 DC-1
 S;C;41.078844;29.022656;0;1;22.0;0;AARCONA;AARCONA • Arcona / Etiler Natüler Park Kafe
 S;C;38.7033;35.4806;0;1;22.0;0;AARCONA;AARCONA • Arcona / Hisar Pastanesi
 S;C;38.631216;34.808141;0;1;15.0;0;AARCONA;AARCONA • Arcona / Milstone Otel
@@ -4529,9 +4529,6 @@ S;C;38.620407;34.864774;0;1;22.0;0;AARCONA;AARCONA • Arcona / Espresso Lab
 S;C;38.724039;35.47745;0;1;22.0;0;AARCONA;AARCONA • Arcona / City One Hotel
 S;C;38.726278;35.45354;0;1;22.0;0;AARCONA;AARCONA • Arcona / Serace Hotel
 S;C;41.008693;29.153601;0;1;22.0;0;AARCONA;AARCONA • EDUCITY OTEL
-S;C;39.956517;32.62841;1;1;160.0;0;U-ŞARJ;U-ŞARJ • TCDD ERYAMAN YHT GAR
-S;C;39.778956;30.507184;1;1;200.0;0;U-ŞARJ;U-ŞARJ • TCDD ESKİŞEHİR YHT OTOPARK
-S;C;38.441529;27.146317;1;1;200.0;0;U-ŞARJ;U-ŞARJ • TCDD İZMİR ALSANCAK LİMANI
 S;C;37.8992;32.4977;1;1;200.0;0;U-ŞARJ;U-ŞARJ • TCDD KONYA SELÇUKLU YHT
 S;C;41.2855;36.343;1;1;200.0;0;U-ŞARJ;U-ŞARJ • TCDD SAMSUN GAR
 S;C;37.8652;32.476;0;1;22.0;0;U-ŞARJ;U-ŞARJ • TCDD KONYA MERAM GAR
@@ -4549,6 +4546,9 @@ S;C;40.979776;28.720605;0;1;22.0;0;U-ŞARJ;U-ŞARJ • İSTANBUL AVCILAR MERKEZ 
 S;C;39.639531;32.809027;0;1;22.0;0;U-ŞARJ;U-ŞARJ • TÜRKSAT GÖLBAŞI
 S;C;38.43616;27.150233;1;1;200.0;0;U-ŞARJ;U-ŞARJ • TCDD ALSANCAK VAGON BAKIM
 S;C;41.001566;29.028655;1;1;200.0;0;U-ŞARJ;U-ŞARJ • TCDD MARMARAY AYRILIKÇEŞME
+S;C;39.956517;32.62841;1;1;160.0;0;U-ŞARJ;U-ŞARJ • TCDD ERYAMAN YHT GAR
+S;C;39.778956;30.507184;1;1;200.0;0;U-ŞARJ;U-ŞARJ • TCDD ESKİŞEHİR YHT OTOPARK
+S;C;38.441529;27.146317;1;1;200.0;0;U-ŞARJ;U-ŞARJ • TCDD İZMİR ALSANCAK LİMANI
 S;C;37.789286;29.099236;0;1;22.0;0;TORA;TORA • ANGELS PARK
 S;C;40.996796;28.88656;1;1;180.0;0;TORA;TORA • Marmara Forum Açık Otopark
 S;C;40.992039;28.834175;0;1;22.0;0;TORA;TORA • ATAKÖY TOWERS 1
@@ -4675,13 +4675,14 @@ S;C;41.336166;36.265184;0;1;22.0;0;ŞARJON;ŞARJON ATAKUM BELEDİYE BAŞKANLIĞI
 S;C;41.336911;36.266731;0;1;11.0;0;ŞARJON;ŞARJON ATAKUM BELEDİYESİ BANDA ACEH HALI SAHA
 S;C;40.705586;30.155376;0;1;22.0;0;ŞARJON;ŞARJON CANSU TATİL KÖYÜ
 S;C;41.331941;36.278669;0;1;22.0;0;ŞARJON;ŞARJON ATAKUM BELEDİYESİ NİKAH SALONU
-S;C;41.000388;28.919124;1;1;50.0;0;ŞARJON;ŞARJON ZEYTİNBURNU BELEDİYESİ BELGRADKAPI-1 ŞARJ İSTASYONU
 S;C;38.676673;27.018193;1;0;120.0;0;ŞARJON;ŞARJON SAKIPAĞA OUTLET AVM
 S;C;38.38255;26.93418;0;1;22.0;0;ŞARJON;ŞARJON • Narlıdere Limanreis Muhtarlığı
 S;C;40.799679;31.243367;0;1;22.0;0;ŞARJON;ŞARJON VİSİON OTOMOTİV
 S;C;40.184816;29.070692;0;1;22.0;0;ŞARJON;ŞARJON BURULAŞ KAYIHAN OTOPARKI
 S;C;40.180266;29.067474;0;1;22.0;0;ŞARJON;ŞARJON BURULAŞ HOCAALİZADE AÇIK OTOPARKI
 S;C;40.35561;28.928066;0;1;22.0;0;ŞARJON;ŞARJON BURULAŞ GÜZELYALI İDO İSKELE AÇIK OTOPARK
+S;C;41.000388;28.919124;1;1;50.0;0;ŞARJON;ŞARJON ZEYTİNBURNU BELEDİYESİ BELGRADKAPI-1 ŞARJ İSTASYONU
+S;C;40.993974;28.905698;0;1;22.0;0;ŞARJON;ŞARJON • Zeytinburnu Spor Merkezi
 S;C;41.231635;28.599758;1;0;180.0;0;ŞARJON;ŞARJON • Karabeyoğlu PO
 S;C;41.022256;28.901374;0;1;22.0;0;ŞARJON;ŞARJON MALTEPE BİLGİ EVİ ZEYTİNBURNU BELEDİYESİ ŞARJ İSTASYONU
 S;C;38.389513;27.028126;0;1;22.0;0;ŞARJON;ŞARJON • Ilıca Mahallesi
@@ -4710,7 +4711,6 @@ S;C;38.628558;27.390033;1;1;50.0;0;ŞARJON;ŞARJON • Millet Çarşısı
 S;C;40.975331;29.23007;1;1;150.0;0;ŞARJON;ŞARJON • Transkonak Plaza
 S;C;40.996724;28.903805;0;1;22.0;0;ŞARJON;ŞARJON • Platform Zeytinburnu
 S;C;37.85168;27.82201;1;1;120.0;0;ŞARJON;ŞARJON • Pehlivanoğlu Alinda
-S;C;40.993974;28.905698;0;1;22.0;0;ŞARJON;ŞARJON • Zeytinburnu Spor Merkezi
 S;C;40.694745;30.128804;0;1;22.0;0;ŞARJON;ŞARJON MAŞUKİYE YAZICI KÖY EVİ RESTAURANT ŞARJ İSTASYONU
 S;C;40.907506;29.194525;0;1;22.0;0;ŞARJON;ŞARJON OTO 98 ŞARJ İSTASYONU
 S;C;41.328623;36.285298;0;1;22.0;0;ŞARJON;ŞARJON ATAKUM BELEDİYESİ ANA HİZMET BİNASI
@@ -4729,24 +4729,6 @@ S;C;38.23471;27.98037;0;1;22.0;0;ŞARJON;ŞARJON • SALI PAZARI KAFETERYA ÖDEM
 S;C;38.22739;27.97758;0;1;22.0;0;ŞARJON;ŞARJON • Eski Otogar Ödemiş Belediyesi
 S;C;40.814762;29.41725;0;1;11.0;0;ŞARJON;ŞARJON • Gökçe Vizyon Şarj İstasyonu
 S;C;40.990648;29.074345;0;1;22.0;0;ŞARJON;ŞARJON • Nidakule Göztepe
-S;C;38.436017;27.258823;1;1;120.0;0;VOLTRUN;VOLTRUN • CEREN KARDEŞLER
-S;C;36.891144;30.719351;0;1;22.0;0;VOLTRUN;VOLTRUN • BLOOMTALYA HOTEL
-S;C;39.912672;32.777936;1;0;120.0;0;VOLTRUN;VOLTRUN • CEPA AVM OFİS KULE
-S;C;39.910246;32.778416;1;0;120.0;0;VOLTRUN;VOLTRUN • CEPA ALIŞVERİŞ MERKEZİ
-S;C;37.866865;30.639705;0;1;22.0;0;VOLTRUN;VOLTRUN • GO - İPRAGAZ ISPARTA
-S;C;40.99554;29.052153;0;1;22.0;0;VOLTRUN;VOLTRUN • OPTİMİST RESİDENCE FİKİRTEPE 1
-S;C;41.0669;39.2144;1;0;80.0;0;VOLTRUN;VOLTRUN • DİLLİOĞLU DİNLENME TESİSLERİ
-S;C;37.055627;27.386444;0;1;11.0;0;VOLTRUN;VOLTRUN • ÇAKIROĞLU OTOMOTİV
-S;C;41.026574;37.563993;1;0;120.0;0;VOLTRUN;VOLTRUN • MAVİAY RESTAURANT VE AKARYAKIT
-S;C;36.208136;29.596877;0;1;22.0;0;VOLTRUN;VOLTRUN • KAŞ SUNGLARE OTEL
-S;C;36.878796;34.41111;0;1;22.0;0;VOLTRUN;VOLTRUN • HUKÖY DOĞA OTELİ
-S;C;36.244105;30.01641;0;1;22.0;0;VOLTRUN;VOLTRUN • MOS EXPORT
-S;C;37.953096;29.102433;0;1;22.0;0;VOLTRUN;VOLTRUN • RAMADA RESORT BY WYNDHAM PAMUKALE THERMAL HOTEL
-S;C;36.937746;30.677701;0;1;22.0;0;VOLTRUN;VOLTRUN • GÖKÇENOĞLU MOBİLYA DOĞTAŞ
-S;C;40.956471;39.938888;1;0;90.0;0;VOLTRUN;VOLTRUN • DENİZ YILDIZI RESTORAN
-S;C;36.931275;30.647102;0;1;22.0;0;VOLTRUN;VOLTRUN • GÜVEN AL CAM
-S;C;37.127949;31.204372;0;1;22.0;0;VOLTRUN;VOLTRUN • MAISON GREEN HILL BUTIK OTEL
-S;C;40.264335;28.937562;0;1;22.0;0;VOLTRUN;VOLTRUN • BALAT PARK AVM
 S;C;41.044093;28.91324;0;1;22.0;0;VOLTRUN;VOLTRUN • GOLDEN TULİP OTEL
 S;C;41.27093;36.34023;0;1;22.0;0;VOLTRUN;VOLTRUN • İNDİRİM MARKET
 S;C;37.80532;29.09546;0;1;22.0;0;VOLTRUN;VOLTRUN • DENİZLİ CANER OTOMOTİV
@@ -4766,6 +4748,24 @@ S;C;40.732201;31.563282;1;0;120.0;0;VOLTRUN;VOLTRUN • 14 BURDA AVM
 S;C;40.12356;26.41034;1;0;120.0;0;VOLTRUN;VOLTRUN • 17 BURDA AVM
 S;C;41.114991;29.02385;1;0;120.0;0;VOLTRUN;VOLTRUN • NUROL PLAZA - DC
 S;C;40.756828;29.946521;1;0;120.0;0;VOLTRUN;VOLTRUN • 41 BURDA AVM
+S;C;38.436017;27.258823;1;1;120.0;0;VOLTRUN;VOLTRUN • CEREN KARDEŞLER
+S;C;36.891144;30.719351;0;1;22.0;0;VOLTRUN;VOLTRUN • BLOOMTALYA HOTEL
+S;C;39.912672;32.777936;1;0;120.0;0;VOLTRUN;VOLTRUN • CEPA AVM OFİS KULE
+S;C;39.910246;32.778416;1;0;120.0;0;VOLTRUN;VOLTRUN • CEPA ALIŞVERİŞ MERKEZİ
+S;C;37.866865;30.639705;0;1;22.0;0;VOLTRUN;VOLTRUN • GO - İPRAGAZ ISPARTA
+S;C;40.99554;29.052153;0;1;22.0;0;VOLTRUN;VOLTRUN • OPTİMİST RESİDENCE FİKİRTEPE 1
+S;C;41.0669;39.2144;1;0;80.0;0;VOLTRUN;VOLTRUN • DİLLİOĞLU DİNLENME TESİSLERİ
+S;C;37.055627;27.386444;0;1;11.0;0;VOLTRUN;VOLTRUN • ÇAKIROĞLU OTOMOTİV
+S;C;41.026574;37.563993;1;0;120.0;0;VOLTRUN;VOLTRUN • MAVİAY RESTAURANT VE AKARYAKIT
+S;C;36.208136;29.596877;0;1;22.0;0;VOLTRUN;VOLTRUN • KAŞ SUNGLARE OTEL
+S;C;36.878796;34.41111;0;1;22.0;0;VOLTRUN;VOLTRUN • HUKÖY DOĞA OTELİ
+S;C;36.244105;30.01641;0;1;22.0;0;VOLTRUN;VOLTRUN • MOS EXPORT
+S;C;37.953096;29.102433;0;1;22.0;0;VOLTRUN;VOLTRUN • RAMADA RESORT BY WYNDHAM PAMUKALE THERMAL HOTEL
+S;C;36.937746;30.677701;0;1;22.0;0;VOLTRUN;VOLTRUN • GÖKÇENOĞLU MOBİLYA DOĞTAŞ
+S;C;40.956471;39.938888;1;0;90.0;0;VOLTRUN;VOLTRUN • DENİZ YILDIZI RESTORAN
+S;C;36.931275;30.647102;0;1;22.0;0;VOLTRUN;VOLTRUN • GÜVEN AL CAM
+S;C;37.127949;31.204372;0;1;22.0;0;VOLTRUN;VOLTRUN • MAISON GREEN HILL BUTIK OTEL
+S;C;40.264335;28.937562;0;1;22.0;0;VOLTRUN;VOLTRUN • BALAT PARK AVM
 S;C;36.215689;33.6222;1;0;300.0;0;ASTOR;ASTORŞARJ MERSİN BUMER DİNLENME TESİSİ
 S;C;39.910529;32.649218;1;0;60.0;0;ASTOR;ASTORŞARJ BAĞLICA MEYDAN
 S;C;37.51804;29.30308;1;0;300.0;0;ASTOR;ASTORŞARJ ACIPAYAM SUIT PARK
@@ -4821,265 +4821,6 @@ S;C;40.593888;31.805277;1;0;120.0;0;PLECO advertise.charge.;PLECO advertise.char
 S;C;41.0554;28.4032;0;1;11.0;0;PLECO advertise.charge.;PLECO advertise.charge. • Asmalı Bahçe AC (2,3)
 S;C;41.0554;28.4032;0;1;11.0;0;PLECO advertise.charge.;PLECO advertise.charge. • Asmalı Bahçe AC (4,5,7,8,10)
 S;C;41.0554;28.4032;0;1;11.0;0;PLECO advertise.charge.;PLECO advertise.charge. • Asmalı Bahçe AC (8)
-S;C;40.723937;31.463176;1;0;300.0;0;Trugo;Trugo • Bolu Highway Outlet
-S;C;40.801423;30.85025;1;0;180.0;0;Trugo;Trugo • Berceste Düzce Güney
-S;C;40.807201;30.858401;1;0;180.0;0;Trugo;Trugo • Berceste Düzce Kuzey
-S;C;37.917101;28.934251;1;0;180.0;0;Trugo;Trugo • Sarayköy Shell
-S;C;37.837611;29.424101;1;0;180.0;0;Trugo;Trugo • Kaklık Shell
-S;C;41.114936;37.272478;1;0;180.0;0;Trugo;Trugo • Shell Ünye Karşıyaka
-S;C;41.291751;36.271821;1;0;180.0;0;Trugo;Trugo • Shell Derecik
-S;C;41.20395;36.717461;1;0;180.0;0;Trugo;Trugo • Shell Sungurlu-Çarşamba
-S;C;41.614658;35.629453;1;0;180.0;0;Trugo;Trugo • Shell Alaçam
-S;C;41.556681;35.905267;1;0;180.0;0;Trugo;Trugo • Shell Bafra
-S;C;38.4828;43.3908;1;0;180.0;0;Trugo;Trugo • Shell Cumhuriyet
-S;C;38.5558;43.3173;1;0;180.0;0;Trugo;Trugo • Shell Üniversite
-S;C;41.358885;36.235163;1;0;180.0;0;Trugo;Trugo • Shell Atakum Samsun
-S;C;40.692243;30.283412;1;0;180.0;0;Trugo;Trugo • Berceste 5 Tesisi
-S;C;38.208711;32.375211;1;0;180.0;0;Trugo;Trugo • Ladik Shell İstasyonu
-S;C;37.40476;31.87081;1;0;180.0;0;Trugo;Trugo • Seydişehir Shell İstasyonu
-S;C;40.733888;30.413055;1;0;180.0;0;Trugo;Trugo • Sakarya Ticaret ve Sanayi Odası
-S;C;36.35941;30.28349;1;0;180.0;0;Trugo;Trugo • Kumluca Ticaret ve Sanayi Odası
-S;C;38.141982;44.060379;1;0;180.0;0;Trugo;Trugo • Başkale Sunpet İstasyonu
-S;C;38.321001;43.18345;1;0;180.0;0;Trugo;Trugo • Gevaş Turkish Oil
-S;C;38.7576;42.5201;1;0;180.0;0;Trugo;Trugo • Bitlis Tatlısu Total Energies
-S;C;38.9259;35.074;1;0;180.0;0;Trugo;Trugo • Shell Çiftliktarla
-S;C;37.27947;38.79405;1;0;180.0;0;Trugo;Trugo • Hasanoğlu Petrol
-S;C;37.14816;39.10383;1;0;180.0;0;Trugo;Trugo • Demirol Dinlenme Tesisleri
-S;C;37.15983;38.78683;1;0;180.0;0;Trugo;Trugo • Dedeman Otel
-S;C;38.294188;38.348634;1;0;180.0;0;Trugo;Trugo • Malatya Büyükşehir Belediyesi
-S;C;37.50596;42.48229;1;0;180.0;0;Trugo;Trugo • Şırnak İl Özel İdare
-S;C;39.869519;36.624297;1;0;180.0;0;Trugo;Trugo • Yıldızeli Dinlenme Tesisleri
-S;C;40.48108;39.46226;1;0;180.0;0;Trugo;Trugo • Gümüşhane Canca
-S;C;41.03489;40.561591;1;0;180.0;0;Trugo;Trugo • Rize Ticaret Borsası
-S;C;39.789509;35.23217;1;0;180.0;0;Trugo;Trugo • Şahbazlar Akaryakıt
-S;C;37.5642;43.74788;1;0;180.0;0;Trugo;Trugo • Hakkari Valilik
-S;C;40.845996;29.307737;1;0;180.0;0;Trugo;Trugo • Shell Tuzla E-5
-S;C;41.109989;30.672061;1;0;180.0;0;Trugo;Trugo • Shell Karasu
-S;C;40.780201;29.9729;1;0;180.0;0;Trugo;Trugo • Bekirpaşa Shell
-S;C;37.083774;37.425674;1;0;180.0;0;Trugo;Trugo • Shell Küsget Sanayi Sitesi
-S;C;38.6952;41.6807;1;0;180.0;0;Trugo;Trugo • Hasürünler Petrol
-S;C;38.50689;42.2266;1;0;180.0;0;Trugo;Trugo • Shell Tatvan
-S;C;37.50358;42.41888;1;0;180.0;0;Trugo;Trugo • Şırnak Doğusan Opet
-S;C;37.2545;42.1101;1;0;180.0;0;Trugo;Trugo • Cizre Özemin Petrol
-S;C;40.221683;40.266579;1;0;180.0;0;Trugo;Trugo • Bayburt Sekmenli Tesisleri
-S;C;37.044136;38.382067;1;0;180.0;0;Trugo;Trugo • Şanlıurfa Merkür Petrol
-S;C;37.321275;42.218631;1;0;180.0;0;Trugo;Trugo • Cizre Dedeman Otel
-S;C;38.450141;27.490501;1;0;180.0;0;Trugo;Trugo • Shell Ambarkavak
-S;C;39.765297;37.055489;1;0;180.0;0;Trugo;Trugo • Sidaş Opet
-S;C;40.279644;41.557347;1;0;180.0;0;Trugo;Trugo • Tortum Bizim Petrol
-S;C;39.137971;43.909072;1;0;180.0;0;Trugo;Trugo • Güzel Merkez Petrol
-S;C;36.08351;32.85448;1;0;180.0;0;Trugo;Trugo • Shell Anamur
-S;C;37.122832;30.227229;1;0;180.0;0;Trugo;Trugo • Korkuteli PO
-S;C;37.777426;30.570155;1;0;180.0;0;Trugo;Trugo • Shell Isparta Çevreyolu
-S;C;36.632438;31.755113;1;0;180.0;0;Trugo;Trugo • Anna Bella Hotel
-S;C;37.9378;41.923;1;0;180.0;0;Trugo;Trugo • Siirt Kurtalan Yolu
-S;C;39.748889;39.469048;1;0;180.0;0;Trugo;Trugo • Erzincan Neon Hastanesi
-S;C;39.7476;39.4685;1;0;180.0;0;Trugo;Trugo • Shell Erzincan Girişi
-S;C;39.38797;38.10994;1;0;180.0;0;Trugo;Trugo • Divriği Sunpet
-S;C;39.7239;42.9819;1;0;180.0;0;Trugo;Trugo • Ağrı Girişi Shell
-S;C;39.5523;44.0607;1;0;180.0;0;Trugo;Trugo • Doğubayazıt Ertur Otel
-S;C;39.713457;43.019943;1;0;180.0;0;Trugo;Trugo • Ağrı Grand Cenas Otel
-S;C;37.87941;32.43121;1;0;180.0;0;Trugo;Trugo • Shell Yaka
-S;C;39.04799;43.34715;1;0;180.0;0;Trugo;Trugo • Erciş Total Energies
-S;C;40.57425;33.6162;1;0;180.0;0;Trugo;Trugo • Çankırı Koç Otel
-S;C;40.905634;33.646237;1;0;180.0;0;Trugo;Trugo • Gökçe TP
-S;C;38.4296;43.3041;1;0;180.0;0;Trugo;Trugo • İpekyolu Shell
-S;C;41.0827;31.1768;1;0;180.0;0;Trugo;Trugo • Shell Akçakoca
-S;C;40.702883;30.312846;1;0;180.0;0;Trugo;Trugo • Berceste Sapanca Ankara Yönü
-S;C;41.454716;31.765058;1;0;180.0;0;Trugo;Trugo • Demirpark AVM
-S;C;38.7317;35.4451;1;0;180.0;0;Trugo;Trugo • Süha Turizm Genel Müdürlük Binası
-S;C;39.917578;33.432582;1;0;180.0;0;Trugo;Trugo • Kırıkkale Çitlekçi  Ankara Yönü
-S;C;36.783298;38.9446;1;0;180.0;0;Trugo;Trugo • Şanlıurfa Ural Petrol
-S;C;37.8452;40.7027;1;0;180.0;0;Trugo;Trugo • Shell Bismil
-S;C;37.8933;41.214;1;0;180.0;0;Trugo;Trugo • Batman BMC Servis
-S;C;38.4651;42.3166;1;0;180.0;0;Trugo;Trugo • Tatvan Piroğlu Petrol
-S;C;38.7349;41.5556;1;0;180.0;0;Trugo;Trugo • Shell Muş Havalimanı
-S;C;40.0311;42.1353;1;0;180.0;0;Trugo;Trugo • Horasan Mevlana Petrol
-S;C;38.6697;39.1966;1;0;180.0;0;Trugo;Trugo • Shell Elazığ Stadyum
-S;C;36.9196;34.92809;1;0;180.0;0;Trugo;Trugo • Tarsus Ticaret Borsası
-S;C;39.721416;32.337003;1;0;180.0;0;Trugo;Trugo • Shell Temelli
-S;C;40.241482;32.50434;1;0;180.0;0;Trugo;Trugo • Kocalar Çeltikçi Dinlenme Tesisi İstanbul Yönü
-S;C;41.223268;36.442915;1;0;180.0;0;Trugo;Trugo • Togg Store Samsun
-S;C;38.44821;27.51701;1;0;180.0;0;Trugo;Trugo • Shell Çambel
-S;C;37.6843;29.2222;1;0;180.0;0;Trugo;Trugo • Shell Cankurtaran
-S;C;37.6822;29.2228;1;0;180.0;0;Trugo;Trugo • Shell Çukurköy
-S;C;37.912581;30.3079;1;0;180.0;0;Trugo;Trugo • Shell Lavanta
-S;C;40.058417;32.622525;1;0;180.0;0;Trugo;Trugo • Kocalar Saray Total Energies
-S;C;39.9123;29.9957;1;0;180.0;0;Trugo;Trugo • Shell Bozüyük Giriş
-S;C;37.463823;35.80911;1;0;180.0;0;Trugo;Trugo • Shell Kozan Çevreyolu
-S;C;37.73732;38.22175;1;0;180.0;0;Trugo;Trugo • Adıyaman Ticaret ve Sanayi Odası
-S;C;40.98791;39.74865;1;0;180.0;0;Trugo;Trugo • Trabzon Yeni Otogar
-S;C;40.257861;40.215221;1;0;180.0;0;Trugo;Trugo • Shell Bayburt
-S;C;38.559179;27.044125;1;0;180.0;0;Trugo;Trugo • Shell Ulukent Çıkışı
-S;C;39.879;37.7018;1;0;180.0;0;Trugo;Trugo • Shell Sivas Zara
-S;C;39.180569;36.083286;1;0;180.0;0;Trugo;Trugo • Shell Gemerek
-S;C;39.670171;37.007221;1;0;180.0;0;Trugo;Trugo • Shell Osman Paşa
-S;C;39.722401;36.953141;1;0;180.0;0;Trugo;Trugo • Shell Sivas-Ankara Yolu
-S;C;37.75126;37.77234;1;0;90.0;0;Trugo;Trugo • Adıyaman Bayındır Lukoil Petrol
-S;C;39.919;40.68778;1;0;180.0;0;Trugo;Trugo • Shell Aşkale
-S;C;40.86294;35.4855;1;0;180.0;0;Trugo;Trugo • Shell Merzifon
-S;C;40.607921;35.811791;1;0;180.0;0;Trugo;Trugo • Shell Amasya Merkez
-S;C;40.845971;35.629829;1;0;180.0;0;Trugo;Trugo • Shell Suluova
-S;C;41.250278;36.390079;1;0;180.0;0;Trugo;Trugo • Shell Kayadibi
-S;C;40.564365;34.946232;1;0;180.0;0;Trugo;Trugo • Shell Çorum Merkez Çevreyolu
-S;C;39.6602;34.5571;1;0;180.0;0;Trugo;Trugo • Yerköy Esatbeyoğlu Petrol
-S;C;38.28061;29.718091;1;0;180.0;0;Trugo;Trugo • Denizli Işık Pen
-S;C;37.55032;29.04674;1;0;180.0;0;Trugo;Trugo • Nutova Tesisleri
-S;C;37.77784;37.62634;1;0;180.0;0;Trugo;Trugo • Shell Adıyaman Gölbaşı Çıkışı
-S;C;40.09253;29.49863;1;0;180.0;0;Trugo;Trugo • İnegöl Ticaret ve Sanayi Odası
-S;C;40.2591;34.6218;1;0;180.0;0;Trugo;Trugo • Shell Handeresi
-S;C;40.47185;34.87647;1;0;180.0;0;Trugo;Trugo • Shell Çorum Ankara Çıkışı
-S;C;40.77607;30.651389;1;0;180.0;0;Trugo;Trugo • Shell Akova
-S;C;41.021535;28.583987;1;0;180.0;0;Trugo;Trugo • Atirus AVM
-S;C;39.932824;33.334912;1;0;180.0;0;Trugo;Trugo • Shell Elmadağ
-S;C;41.195706;32.623878;1;0;180.0;0;Trugo;Trugo • Shell Karabük
-S;C;39.63442;32.829836;1;0;180.0;0;Trugo;Trugo • Shell Gölbaşı Yağlıpınar
-S;C;41.637602;32.333811;1;0;180.0;0;Trugo;Trugo • Shell Bartın Gecen
-S;C;40.466518;32.361891;1;0;180.0;0;Trugo;Trugo • Kocalar Çeltikçi Dinlenme Tesisi Ankara Yönü
-S;C;37.5632;27.3543;1;0;180.0;0;Trugo;Trugo • Shell Sarıkemer Doğu
-S;C;37.691;27.3811;1;0;180.0;0;Trugo;Trugo • Shell Akçakonak
-S;C;37.8919;27.2733;1;0;180.0;0;Trugo;Trugo • Shell Kuştur
-S;C;40.786;30.3676;1;0;180.0;0;Trugo;Trugo • Shell Serdivan Yazlık
-S;C;37.900256;32.489618;1;0;180.0;0;Trugo;Trugo • Shell Bedir Konya
-S;C;37.713606;33.424913;1;0;180.0;0;Trugo;Trugo • Shell Karapınar
-S;C;38.638847;32.925723;1;0;180.0;0;Trugo;Trugo • Shell Cihanbeyli
-S;C;38.339929;32.780153;1;0;180.0;0;Trugo;Trugo • Poçan Petrol Aytemiz
-S;C;37.699059;31.729048;1;0;180.0;0;Trugo;Trugo • Shell Beyşehir
-S;C;41.0222;38.8945;1;0;180.0;0;Trugo;Trugo • Altun Gıda Satış Mağazası
-S;C;38.379895;31.420871;1;0;180.0;0;Trugo;Trugo • Shell Kozağaç
-S;C;36.7638;27.7239;1;0;180.0;0;Trugo;Trugo • Shell Datça
-S;C;36.6841;29.1125;1;0;180.0;0;Trugo;Trugo • Shell Fethiye Çevreyolu
-S;C;37.0412;28.3802;1;0;180.0;0;Trugo;Trugo • Shell Gökova
-S;C;37.2588;28.2217;1;0;180.0;0;Trugo;Trugo • Shell Bayır
-S;C;40.172741;31.932153;1;0;180.0;0;Trugo;Trugo • Shell Beypazarı
-S;C;41.361;41.675;1;0;180.0;0;Trugo;Trugo • Shell Artvin Borçka
-S;C;40.9401;38.1833;1;0;180.0;0;Trugo;Trugo • Shell Giresun Bulancak Sahil
-S;C;39.18449;27.54897;1;0;180.0;0;Trugo;Trugo • Ramada by Wyndham Soma Hotel
-S;C;40.196559;29.063155;1;0;180.0;0;Trugo;Trugo • Bursa Holiday INN City Centre
-S;C;40.149442;26.435506;1;0;180.0;0;Trugo;Trugo • Çanakkale Ticaret Borsası
-S;C;39.193571;27.854281;1;0;180.0;0;Trugo;Trugo • Shell Gelenbe Doğu
-S;C;38.180185;33.308751;1;0;180.0;0;Trugo;Trugo • Talaşlıoğlu Petrol
-S;C;37.4579;30.5659;1;0;180.0;0;Trugo;Trugo • Shell Bucak
-S;C;37.5276;30.5002;1;0;180.0;0;Trugo;Trugo • Shell Çeltikçi
-S;C;41.6615;26.5822;1;0;180.0;0;Trugo;Trugo • Edirne Margi AVM
-S;C;41.151;27.8396;1;0;180.0;0;Trugo;Trugo • Çorlu Hilton Garden INN
-S;C;38.2841;35.1054;1;0;180.0;0;Trugo;Trugo • Shell Niğde Yolu
-S;C;41.7136;26.3693;1;0;180.0;0;Trugo;Trugo • Londra Inn Hotel
-S;C;37.1564;29.6823;1;0;180.0;0;Trugo;Trugo • Shell Çavdır
-S;C;39.863424;33.469512;1;0;180.0;0;Trugo;Trugo • Shell Kırıkkale Yahşihan
-S;C;37.4617;41.2068;1;0;180.0;0;Trugo;Trugo • Midyat Euroil
-S;C;37.086;41.2884;1;0;180.0;0;Trugo;Trugo • Nusaybin PO
-S;C;37.5933;38.9719;1;0;180.0;0;Trugo;Trugo • Shell Hilvan
-S;C;40.5829;36.9183;1;0;180.0;0;Trugo;Trugo • Niksar Şen Orman Ürünleri
-S;C;36.801553;34.595603;1;0;180.0;0;Trugo;Trugo • Mersin Palm City AVM
-S;C;37.056238;36.176691;1;0;180.0;0;Trugo;Trugo • Osmaniye Binboğa Fıstık Satış Mağazası
-S;C;38.644945;34.731907;1;0;180.0;0;Trugo;Trugo • Shell Nevşehir
-S;C;41.1894;40.9649;1;0;180.0;0;Trugo;Trugo • Ekol Petrol
-S;C;40.875175;29.254342;1;0;180.0;0;Trugo;Trugo • Shell Kaynarca
-S;C;40.7063;29.8789;1;0;180.0;0;Trugo;Trugo • Shell Ilıcadere
-S;C;41.11112;42.6983;1;0;180.0;0;Trugo;Trugo • Ardahan Kahramanlar Caddesi
-S;C;40.722222;31.468055;1;0;300.0;0;Trugo;Trugo • BOLU HİGHWAY-1
-S;C;38.299181;26.383411;1;0;180.0;0;Trugo;Trugo • Shell  Çeşme Şifne
-S;C;41.018736;34.081011;1;0;180.0;0;Trugo;Trugo • Shell Tosya | Kastamonu
-S;C;39.6848;35.4253;1;0;180.0;0;Trugo;Trugo • Ardıçlar Dinlenme Tesisleri
-S;C;40.459186;40.964192;1;0;180.0;0;Trugo;Trugo • Çakır Palace Otel
-S;C;38.9079;40.5555;1;0;180.0;0;Trugo;Trugo • Bingöl Ticaret Ve Sanayi Odası
-S;C;36.975347;35.417171;1;0;180.0;0;Trugo;Trugo • Adana Ticaret Borsası
-S;C;40.9704;34.8418;1;0;180.0;0;Trugo;Trugo • Shell Kalelibağ
-S;C;37.030182;35.254223;1;0;180.0;0;Trugo;Trugo • Shell Kireçocağı
-S;C;39.7725;40.4035;1;0;180.0;0;Trugo;Trugo • Tercan Di-Kubik Tesisleri
-S;C;37.7006;38.121181;1;0;180.0;0;Trugo;Trugo • Adıyaman Gümüş Petrol
-S;C;37.039858;28.385353;1;0;180.0;0;Trugo;Trugo • Shell Gökova Ataköy
-S;C;41.103345;42.683631;1;0;180.0;0;Trugo;Trugo • Aydemirler Petrol PO
-S;C;37.02931;35.202723;1;0;180.0;0;Trugo;Trugo • İpekyolu Tesisleri Adana Yönü
-S;C;40.665659;42.190318;1;0;180.0;0;Trugo;Trugo • Oltu Şimşekler Petrol
-S;C;36.9663;28.7116;1;0;180.0;0;Trugo;Trugo • Shell Köyceğiz
-S;C;40.241482;32.50434;1;0;180.0;0;Trugo;Trugo • Tatlak Kocalar Dinlenme Tesisleri İstanbul Yönü
-S;C;40.241444;32.501756;1;0;180.0;0;Trugo;Trugo • Tatlak Kocalar Dinlenme Tesisleri Ankara Yönü
-S;C;37.030616;35.203188;1;0;180.0;0;Trugo;Trugo • İpekyolu Tesisleri Mersin Yönü
-S;C;40.21291;28.93013;1;0;180.0;0;Trugo;Trugo • Shell Ertuğrul
-S;C;37.1374;28.3703;1;0;120.0;0;Trugo;Trugo • Shell Gülağzı Akyaka
-S;C;39.075148;39.533722;1;0;180.0;0;Trugo;Trugo • Tunceli 15 Temmuz Şehitler Bulvarı
-S;C;39.059441;27.104896;1;0;180.0;0;Trugo;Trugo • Shell Bergama Çıkışı
-S;C;39.9103;38.7703;1;0;180.0;0;Trugo;Trugo • Shell Esadaş Dinlenme Tesisleri
-S;C;37.5145;30.534;1;0;180.0;0;Trugo;Trugo • Shell Dağarcık
-S;C;39.443526;31.567689;1;0;300.0;0;Trugo;Trugo • Başkent Mola Tesisleri
-S;C;37.73784;32.549142;1;0;180.0;0;Trugo;Trugo • Shell Çomaklı
-S;C;38.8451;35.6596;1;0;180.0;0;Trugo;Trugo • Shell Gömeç
-S;C;40.7493;32.0832;1;0;180.0;0;Trugo;Trugo • Shell Mepet OHT Bolu Ankara Yönü
-S;C;41.102624;29.291329;1;0;180.0;0;Trugo;Trugo • Bİ MOLA ÖMERLİ
-S;C;41.08956;29.286578;1;0;180.0;0;Trugo;Trugo • Bİ MOLA REŞADİYE
-S;C;41.237323;28.908161;1;0;180.0;0;Trugo;Trugo • Bİ MOLA ÇİFTALAN
-S;C;40.890078;29.714025;1;0;180.0;0;Trugo;Trugo • Sevindikli OHT İstanbul Yönü
-S;C;40.889187;29.709263;1;0;180.0;0;Trugo;Trugo • Sevindikli OHT Ankara Yönü
-S;C;40.298955;38.433346;1;0;120.0;0;Trugo;Trugo • Şebinkarahisar Hare Petrol
-S;C;38.444888;34.432696;1;0;180.0;0;Trugo;Trugo • Ankara-Niğde Otoyolu (230.Km) | Ankara Yönü
-S;C;38.443628;34.432719;1;0;180.0;0;Trugo;Trugo • Ankara-Niğde Otoyolu (230.Km) | Niğde Yönü
-S;C;39.182395;33.338261;1;0;180.0;0;Trugo;Trugo • Ankara-Niğde Otoyolu (95.Km) | Niğde Yönü
-S;C;39.182708;33.339788;1;0;180.0;0;Trugo;Trugo • Ankara-Niğde Otoyolu (95.Km) | Ankara Yönü
-S;C;40.986464;28.817841;1;0;180.0;0;Trugo;Trugo • Atatürk Havalimanı
-S;C;37.873924;40.069809;1;0;180.0;0;Trugo;Trugo • Diyarbakır Nay Petrol
-S;C;38.450141;27.490501;1;0;180.0;0;Trugo;Trugo • Shell Ambarkavak-1
-S;C;39.945378;32.754032;1;0;180.0;0;Trugo;Trugo • Shell Toytepe
-S;C;41.0583;41.0058;1;1;180.0;0;Trugo;Trugo • Shell Çamlıhemşin
-S;C;38.335759;26.770517;1;0;90.0;0;Trugo;Trugo • Urla Bamboo AVM
-S;C;36.1049;32.950476;1;0;180.0;0;Trugo;Trugo • Aslangil Dinlenme Tesisleri
-S;C;41.19787;28.825068;1;0;180.0;0;Trugo;Trugo • Bi Mola Işıklar
-S;C;37.056366;37.541653;1;0;180.0;0;Trugo;Trugo • Askoç Dinlenme Tesisleri Adana Yönü
-S;C;37.05439;37.54213;1;0;180.0;0;Trugo;Trugo • Askoç Dinlenme Tesisleri Şanlıurfa Yönü
-S;C;41.6197;26.6326;1;1;180.0;0;Trugo;Trugo • Edirne Ramada Otel
-S;C;41.234811;28.888464;1;0;180.0;0;Trugo;Trugo • Bi Mola Odayeri
-S;C;37.36112;42.232179;1;0;180.0;0;Trugo;Trugo • Mecitoğulları Total Energies
-S;C;39.6011;27.525;1;0;180.0;0;Trugo;Trugo • Shell İvrindi
-S;C;40.260764;26.586741;1;0;180.0;0;Trugo;Trugo • Shell Umurbey
-S;C;39.828611;26.325221;1;0;180.0;0;Trugo;Trugo • Shell Ezine
-S;C;41.265302;36.379423;1;0;180.0;0;Trugo;Trugo • Lovelet AVM
-S;C;36.812257;34.63445;1;0;180.0;0;Trugo;Trugo • Shell Eski Otogar
-S;C;39.677827;32.744399;1;0;180.0;0;Trugo;Trugo • ERG-Gökçehöyük (10.Km) | Ankara Yönü
-S;C;39.869858;33.448363;1;0;120.0;0;Trugo;Trugo • Eypark Dinlenme Tesisi
-S;C;41.018736;34.081011;1;0;180.0;0;Trugo;Trugo • Shell Tosya-2
-S;C;39.676847;32.742442;1;0;180.0;0;Trugo;Trugo • ERG-Gökçehöyük (10.Km) | Ankara | Aksaray Yönü
-S;C;36.917692;31.066824;1;0;180.0;0;Trugo;Trugo • Shell Serik Çıkışı
-S;C;37.964534;27.373909;1;0;180.0;0;Trugo;Trugo • Shell İzmir Çıkışı
-S;C;36.987523;35.348688;1;0;180.0;0;Trugo;Trugo • Shell Yüreğir
-S;C;37.527132;34.048648;1;0;180.0;0;Trugo;Trugo • Shell Orhangazi-Ereğli
-S;C;38.482437;27.242814;1;0;180.0;0;Trugo;Trugo • Shell Erzene
-S;C;36.917692;31.066824;1;0;180.0;0;Trugo;Trugo • Shell Serik Çıkışı-2
-S;C;41.10145;29.290371;1;0;180.0;0;Trugo;Trugo • Reşadiye OHT Hendek Yönü (İCA)
-S;C;37.693328;37.861185;0;1;22.0;0;Trugo;Trugo • Besni Belediyesi
-S;C;39.7477;39.4685;1;0;180.0;0;Trugo;Trugo • Ergan AVM
-S;C;39.955684;33.075344;1;0;180.0;0;Trugo;Trugo • Netiz Gross
-S;C;40.845;31.1656;1;0;180.0;0;Trugo;Trugo • Shell Şerefiye
-S;C;40.8492;31.0871;1;0;180.0;0;Trugo;Trugo • Shell Kapıcı
-S;C;39.933363;32.859741;1;0;180.0;0;Trugo;Trugo • Shell Şereflikoçhisar Çıkışı
-S;C;37.96833;32.42625;1;0;180.0;0;Trugo;Trugo • Akyokuş Kasrı
-S;C;41.236014;28.909135;1;0;180.0;0;Trugo;Trugo • Bi Mola Çiftalan-1
-S;C;40.7348;31.6304;1;0;180.0;0;Trugo;Trugo • Shell Kuruçay
-S;C;41.197459;29.147287;1;0;180.0;0;Trugo;Trugo • Bi Mola Poyrazköy Güney-2
-S;C;41.199102;29.14707;1;0;180.0;0;Trugo;Trugo • Bi Mola Poyrazköy Kuzey-2
-S;C;40.86053;39.679;1;0;120.0;0;Trugo;Trugo • Macar Taşı Hotel
-S;C;37.987828;40.371973;1;0;180.0;0;Trugo;Trugo • Kaplaner Akaryakıt İstasyonu
-S;C;39.300987;41.020679;1;0;180.0;0;Trugo;Trugo • Serhad Akaryakıt İstasyonu
-S;C;39.1007;39.5469;1;0;180.0;0;Trugo;Trugo • Shell Tunceli
-S;C;37.807481;29.069591;1;0;180.0;0;Trugo;Trugo • Shell Gümüşler
-S;C;39.975413;32.589134;1;0;180.0;0;Trugo;Trugo • Shell Plevne
-S;C;39.574225;27.040735;1;0;180.0;0;Trugo;Trugo • Edremit Akkaş Plaza
-S;C;38.1682;41.481;1;0;180.0;0;Trugo;Trugo • Shell Batman Kozluk
-S;C;41.055603;29.187502;1;0;180.0;0;Trugo;Trugo • Bi Mola Çekmeköy-2
-S;C;37.07135;37.379581;1;0;180.0;0;Trugo;Trugo • Gaziantep Ticaret Odası
-S;C;37.1631;37.2597;1;0;180.0;0;Trugo;Trugo • Shell Başpınar
-S;C;40.986097;29.284099;1;1;180.0;0;Trugo;Trugo • Sultanbeyli Devlet Hastanesi
-S;C;41.076472;28.505827;1;1;180.0;0;Trugo;Trugo • Gümrük ve Turizm İşletmeleri
-S;C;41.7128;27.2119;1;0;180.0;0;Trugo;Trugo • Shell Kırklareli Girişi
-S;C;41.197214;29.147725;1;0;180.0;0;Trugo;Trugo • Bi Mola Poyrazköy Kuzey-1
-S;C;41.198951;29.148364;1;0;180.0;0;Trugo;Trugo • Bi Mola Poyrazköy Güney-1
-S;C;41.055375;29.188882;1;0;180.0;0;Trugo;Trugo • Bi Mola Çekmeköy-1
-S;C;38.43841;27.251147;1;0;180.0;0;Trugo;Trugo • Shell Pınarbaşı
-S;C;38.228635;27.370824;1;0;180.0;0;Trugo;Trugo • Shell Ortaköy
-S;C;40.753953;32.075646;1;0;180.0;0;Trugo;Trugo • Shell Mepet OHT Bolu İstanbul Yönü
-S;C;41.19746;28.823267;1;0;180.0;0;Trugo;Trugo • Bi Mola Fenertepe-2
-S;C;40.378026;29.076204;1;0;180.0;0;Trugo;Trugo • Shell Kurşunlu
-S;C;37.7957;29.10376;1;0;180.0;0;Trugo;Trugo • Shell Dokuz Kavaklar
 S;C;36.772786;34.558289;1;0;180.0;0;Trugo;Trugo • Mersin Akkent
 S;C;40.978398;37.899443;1;0;180.0;0;Trugo;Trugo • Ordu 3M Migros
 S;C;36.902503;30.759444;1;0;180.0;0;Trugo;Trugo • Antalya Ticaret ve Sanayi Odası
@@ -6232,6 +5973,265 @@ S;C;38.93698;37.20414;1;0;120.0;0;Trugo;Trugo • Göbeklitepe Ören Yeri
 S;C;41.08683;28.980618;1;0;120.0;0;Trugo;Trugo • Kağıthane Cendere Otoparkı
 S;C;40.899532;29.202268;1;1;160.0;0;Trugo;Trugo • Siemens Kartal Kampüs
 S;C;40.736928;31.568032;1;0;180.0;0;Trugo;Trugo • Via14 AVM
+S;C;40.723937;31.463176;1;0;300.0;0;Trugo;Trugo • Bolu Highway Outlet
+S;C;40.801423;30.85025;1;0;180.0;0;Trugo;Trugo • Berceste Düzce Güney
+S;C;40.807201;30.858401;1;0;180.0;0;Trugo;Trugo • Berceste Düzce Kuzey
+S;C;37.917101;28.934251;1;0;180.0;0;Trugo;Trugo • Sarayköy Shell
+S;C;37.837611;29.424101;1;0;180.0;0;Trugo;Trugo • Kaklık Shell
+S;C;41.114936;37.272478;1;0;180.0;0;Trugo;Trugo • Shell Ünye Karşıyaka
+S;C;41.291751;36.271821;1;0;180.0;0;Trugo;Trugo • Shell Derecik
+S;C;41.20395;36.717461;1;0;180.0;0;Trugo;Trugo • Shell Sungurlu-Çarşamba
+S;C;41.614658;35.629453;1;0;180.0;0;Trugo;Trugo • Shell Alaçam
+S;C;41.556681;35.905267;1;0;180.0;0;Trugo;Trugo • Shell Bafra
+S;C;38.4828;43.3908;1;0;180.0;0;Trugo;Trugo • Shell Cumhuriyet
+S;C;38.5558;43.3173;1;0;180.0;0;Trugo;Trugo • Shell Üniversite
+S;C;41.358885;36.235163;1;0;180.0;0;Trugo;Trugo • Shell Atakum Samsun
+S;C;40.692243;30.283412;1;0;180.0;0;Trugo;Trugo • Berceste 5 Tesisi
+S;C;38.208711;32.375211;1;0;180.0;0;Trugo;Trugo • Ladik Shell İstasyonu
+S;C;37.40476;31.87081;1;0;180.0;0;Trugo;Trugo • Seydişehir Shell İstasyonu
+S;C;40.733888;30.413055;1;0;180.0;0;Trugo;Trugo • Sakarya Ticaret ve Sanayi Odası
+S;C;36.35941;30.28349;1;0;180.0;0;Trugo;Trugo • Kumluca Ticaret ve Sanayi Odası
+S;C;38.141982;44.060379;1;0;180.0;0;Trugo;Trugo • Başkale Sunpet İstasyonu
+S;C;38.321001;43.18345;1;0;180.0;0;Trugo;Trugo • Gevaş Turkish Oil
+S;C;38.7576;42.5201;1;0;180.0;0;Trugo;Trugo • Bitlis Tatlısu Total Energies
+S;C;38.9259;35.074;1;0;180.0;0;Trugo;Trugo • Shell Çiftliktarla
+S;C;37.27947;38.79405;1;0;180.0;0;Trugo;Trugo • Hasanoğlu Petrol
+S;C;37.14816;39.10383;1;0;180.0;0;Trugo;Trugo • Demirol Dinlenme Tesisleri
+S;C;37.15983;38.78683;1;0;180.0;0;Trugo;Trugo • Dedeman Otel
+S;C;38.294188;38.348634;1;0;180.0;0;Trugo;Trugo • Malatya Büyükşehir Belediyesi
+S;C;37.50596;42.48229;1;0;180.0;0;Trugo;Trugo • Şırnak İl Özel İdare
+S;C;39.869519;36.624297;1;0;180.0;0;Trugo;Trugo • Yıldızeli Dinlenme Tesisleri
+S;C;40.48108;39.46226;1;0;180.0;0;Trugo;Trugo • Gümüşhane Canca
+S;C;41.03489;40.561591;1;0;180.0;0;Trugo;Trugo • Rize Ticaret Borsası
+S;C;39.789509;35.23217;1;0;180.0;0;Trugo;Trugo • Şahbazlar Akaryakıt
+S;C;37.5642;43.74788;1;0;180.0;0;Trugo;Trugo • Hakkari Valilik
+S;C;40.845996;29.307737;1;0;180.0;0;Trugo;Trugo • Shell Tuzla E-5
+S;C;41.109989;30.672061;1;0;180.0;0;Trugo;Trugo • Shell Karasu
+S;C;40.780201;29.9729;1;0;180.0;0;Trugo;Trugo • Bekirpaşa Shell
+S;C;37.083774;37.425674;1;0;180.0;0;Trugo;Trugo • Shell Küsget Sanayi Sitesi
+S;C;38.6952;41.6807;1;0;180.0;0;Trugo;Trugo • Hasürünler Petrol
+S;C;38.50689;42.2266;1;0;180.0;0;Trugo;Trugo • Shell Tatvan
+S;C;37.50358;42.41888;1;0;180.0;0;Trugo;Trugo • Şırnak Doğusan Opet
+S;C;37.2545;42.1101;1;0;180.0;0;Trugo;Trugo • Cizre Özemin Petrol
+S;C;40.221683;40.266579;1;0;180.0;0;Trugo;Trugo • Bayburt Sekmenli Tesisleri
+S;C;37.044136;38.382067;1;0;180.0;0;Trugo;Trugo • Şanlıurfa Merkür Petrol
+S;C;37.321275;42.218631;1;0;180.0;0;Trugo;Trugo • Cizre Dedeman Otel
+S;C;38.450141;27.490501;1;0;180.0;0;Trugo;Trugo • Shell Ambarkavak
+S;C;39.765297;37.055489;1;0;180.0;0;Trugo;Trugo • Sidaş Opet
+S;C;40.279644;41.557347;1;0;180.0;0;Trugo;Trugo • Tortum Bizim Petrol
+S;C;39.137971;43.909072;1;0;180.0;0;Trugo;Trugo • Güzel Merkez Petrol
+S;C;36.08351;32.85448;1;0;180.0;0;Trugo;Trugo • Shell Anamur
+S;C;37.122832;30.227229;1;0;180.0;0;Trugo;Trugo • Korkuteli PO
+S;C;37.777426;30.570155;1;0;180.0;0;Trugo;Trugo • Shell Isparta Çevreyolu
+S;C;36.632438;31.755113;1;0;180.0;0;Trugo;Trugo • Anna Bella Hotel
+S;C;37.9378;41.923;1;0;180.0;0;Trugo;Trugo • Siirt Kurtalan Yolu
+S;C;39.748889;39.469048;1;0;180.0;0;Trugo;Trugo • Erzincan Neon Hastanesi
+S;C;39.7476;39.4685;1;0;180.0;0;Trugo;Trugo • Shell Erzincan Girişi
+S;C;39.38797;38.10994;1;0;180.0;0;Trugo;Trugo • Divriği Sunpet
+S;C;39.7239;42.9819;1;0;180.0;0;Trugo;Trugo • Ağrı Girişi Shell
+S;C;39.5523;44.0607;1;0;180.0;0;Trugo;Trugo • Doğubayazıt Ertur Otel
+S;C;39.713457;43.019943;1;0;180.0;0;Trugo;Trugo • Ağrı Grand Cenas Otel
+S;C;37.87941;32.43121;1;0;180.0;0;Trugo;Trugo • Shell Yaka
+S;C;39.04799;43.34715;1;0;180.0;0;Trugo;Trugo • Erciş Total Energies
+S;C;40.57425;33.6162;1;0;180.0;0;Trugo;Trugo • Çankırı Koç Otel
+S;C;40.905634;33.646237;1;0;180.0;0;Trugo;Trugo • Gökçe TP
+S;C;38.4296;43.3041;1;0;180.0;0;Trugo;Trugo • İpekyolu Shell
+S;C;41.0827;31.1768;1;0;180.0;0;Trugo;Trugo • Shell Akçakoca
+S;C;40.702883;30.312846;1;0;180.0;0;Trugo;Trugo • Berceste Sapanca Ankara Yönü
+S;C;41.454716;31.765058;1;0;180.0;0;Trugo;Trugo • Demirpark AVM
+S;C;38.7317;35.4451;1;0;180.0;0;Trugo;Trugo • Süha Turizm Genel Müdürlük Binası
+S;C;39.917578;33.432582;1;0;180.0;0;Trugo;Trugo • Kırıkkale Çitlekçi  Ankara Yönü
+S;C;36.783298;38.9446;1;0;180.0;0;Trugo;Trugo • Şanlıurfa Ural Petrol
+S;C;37.8452;40.7027;1;0;180.0;0;Trugo;Trugo • Shell Bismil
+S;C;37.8933;41.214;1;0;180.0;0;Trugo;Trugo • Batman BMC Servis
+S;C;38.4651;42.3166;1;0;180.0;0;Trugo;Trugo • Tatvan Piroğlu Petrol
+S;C;38.7349;41.5556;1;0;180.0;0;Trugo;Trugo • Shell Muş Havalimanı
+S;C;40.0311;42.1353;1;0;180.0;0;Trugo;Trugo • Horasan Mevlana Petrol
+S;C;38.6697;39.1966;1;0;180.0;0;Trugo;Trugo • Shell Elazığ Stadyum
+S;C;36.9196;34.92809;1;0;180.0;0;Trugo;Trugo • Tarsus Ticaret Borsası
+S;C;39.721416;32.337003;1;0;180.0;0;Trugo;Trugo • Shell Temelli
+S;C;40.241482;32.50434;1;0;180.0;0;Trugo;Trugo • Kocalar Çeltikçi Dinlenme Tesisi İstanbul Yönü
+S;C;41.223268;36.442915;1;0;180.0;0;Trugo;Trugo • Togg Store Samsun
+S;C;38.44821;27.51701;1;0;180.0;0;Trugo;Trugo • Shell Çambel
+S;C;37.6843;29.2222;1;0;180.0;0;Trugo;Trugo • Shell Cankurtaran
+S;C;37.6822;29.2228;1;0;180.0;0;Trugo;Trugo • Shell Çukurköy
+S;C;37.912581;30.3079;1;0;180.0;0;Trugo;Trugo • Shell Lavanta
+S;C;40.058417;32.622525;1;0;180.0;0;Trugo;Trugo • Kocalar Saray Total Energies
+S;C;39.9123;29.9957;1;0;180.0;0;Trugo;Trugo • Shell Bozüyük Giriş
+S;C;37.463823;35.80911;1;0;180.0;0;Trugo;Trugo • Shell Kozan Çevreyolu
+S;C;37.73732;38.22175;1;0;180.0;0;Trugo;Trugo • Adıyaman Ticaret ve Sanayi Odası
+S;C;40.98791;39.74865;1;0;180.0;0;Trugo;Trugo • Trabzon Yeni Otogar
+S;C;40.257861;40.215221;1;0;180.0;0;Trugo;Trugo • Shell Bayburt
+S;C;38.559179;27.044125;1;0;180.0;0;Trugo;Trugo • Shell Ulukent Çıkışı
+S;C;39.879;37.7018;1;0;180.0;0;Trugo;Trugo • Shell Sivas Zara
+S;C;39.180569;36.083286;1;0;180.0;0;Trugo;Trugo • Shell Gemerek
+S;C;39.670171;37.007221;1;0;180.0;0;Trugo;Trugo • Shell Osman Paşa
+S;C;39.722401;36.953141;1;0;180.0;0;Trugo;Trugo • Shell Sivas-Ankara Yolu
+S;C;37.75126;37.77234;1;0;90.0;0;Trugo;Trugo • Adıyaman Bayındır Lukoil Petrol
+S;C;39.919;40.68778;1;0;180.0;0;Trugo;Trugo • Shell Aşkale
+S;C;40.86294;35.4855;1;0;180.0;0;Trugo;Trugo • Shell Merzifon
+S;C;40.607921;35.811791;1;0;180.0;0;Trugo;Trugo • Shell Amasya Merkez
+S;C;40.845971;35.629829;1;0;180.0;0;Trugo;Trugo • Shell Suluova
+S;C;41.250278;36.390079;1;0;180.0;0;Trugo;Trugo • Shell Kayadibi
+S;C;40.564365;34.946232;1;0;180.0;0;Trugo;Trugo • Shell Çorum Merkez Çevreyolu
+S;C;39.6602;34.5571;1;0;180.0;0;Trugo;Trugo • Yerköy Esatbeyoğlu Petrol
+S;C;38.28061;29.718091;1;0;180.0;0;Trugo;Trugo • Denizli Işık Pen
+S;C;37.55032;29.04674;1;0;180.0;0;Trugo;Trugo • Nutova Tesisleri
+S;C;37.77784;37.62634;1;0;180.0;0;Trugo;Trugo • Shell Adıyaman Gölbaşı Çıkışı
+S;C;40.09253;29.49863;1;0;180.0;0;Trugo;Trugo • İnegöl Ticaret ve Sanayi Odası
+S;C;40.2591;34.6218;1;0;180.0;0;Trugo;Trugo • Shell Handeresi
+S;C;40.47185;34.87647;1;0;180.0;0;Trugo;Trugo • Shell Çorum Ankara Çıkışı
+S;C;40.77607;30.651389;1;0;180.0;0;Trugo;Trugo • Shell Akova
+S;C;41.021535;28.583987;1;0;180.0;0;Trugo;Trugo • Atirus AVM
+S;C;39.932824;33.334912;1;0;180.0;0;Trugo;Trugo • Shell Elmadağ
+S;C;41.195706;32.623878;1;0;180.0;0;Trugo;Trugo • Shell Karabük
+S;C;39.63442;32.829836;1;0;180.0;0;Trugo;Trugo • Shell Gölbaşı Yağlıpınar
+S;C;41.637602;32.333811;1;0;180.0;0;Trugo;Trugo • Shell Bartın Gecen
+S;C;40.466518;32.361891;1;0;180.0;0;Trugo;Trugo • Kocalar Çeltikçi Dinlenme Tesisi Ankara Yönü
+S;C;37.5632;27.3543;1;0;180.0;0;Trugo;Trugo • Shell Sarıkemer Doğu
+S;C;37.691;27.3811;1;0;180.0;0;Trugo;Trugo • Shell Akçakonak
+S;C;37.8919;27.2733;1;0;180.0;0;Trugo;Trugo • Shell Kuştur
+S;C;40.786;30.3676;1;0;180.0;0;Trugo;Trugo • Shell Serdivan Yazlık
+S;C;37.900256;32.489618;1;0;180.0;0;Trugo;Trugo • Shell Bedir Konya
+S;C;37.713606;33.424913;1;0;180.0;0;Trugo;Trugo • Shell Karapınar
+S;C;38.638847;32.925723;1;0;180.0;0;Trugo;Trugo • Shell Cihanbeyli
+S;C;38.339929;32.780153;1;0;180.0;0;Trugo;Trugo • Poçan Petrol Aytemiz
+S;C;37.699059;31.729048;1;0;180.0;0;Trugo;Trugo • Shell Beyşehir
+S;C;41.0222;38.8945;1;0;180.0;0;Trugo;Trugo • Altun Gıda Satış Mağazası
+S;C;38.379895;31.420871;1;0;180.0;0;Trugo;Trugo • Shell Kozağaç
+S;C;36.7638;27.7239;1;0;180.0;0;Trugo;Trugo • Shell Datça
+S;C;36.6841;29.1125;1;0;180.0;0;Trugo;Trugo • Shell Fethiye Çevreyolu
+S;C;37.0412;28.3802;1;0;180.0;0;Trugo;Trugo • Shell Gökova
+S;C;37.2588;28.2217;1;0;180.0;0;Trugo;Trugo • Shell Bayır
+S;C;40.172741;31.932153;1;0;180.0;0;Trugo;Trugo • Shell Beypazarı
+S;C;41.361;41.675;1;0;180.0;0;Trugo;Trugo • Shell Artvin Borçka
+S;C;40.9401;38.1833;1;0;180.0;0;Trugo;Trugo • Shell Giresun Bulancak Sahil
+S;C;39.18449;27.54897;1;0;180.0;0;Trugo;Trugo • Ramada by Wyndham Soma Hotel
+S;C;40.196559;29.063155;1;0;180.0;0;Trugo;Trugo • Bursa Holiday INN City Centre
+S;C;40.149442;26.435506;1;0;180.0;0;Trugo;Trugo • Çanakkale Ticaret Borsası
+S;C;39.193571;27.854281;1;0;180.0;0;Trugo;Trugo • Shell Gelenbe Doğu
+S;C;38.180185;33.308751;1;0;180.0;0;Trugo;Trugo • Talaşlıoğlu Petrol
+S;C;37.4579;30.5659;1;0;180.0;0;Trugo;Trugo • Shell Bucak
+S;C;37.5276;30.5002;1;0;180.0;0;Trugo;Trugo • Shell Çeltikçi
+S;C;41.6615;26.5822;1;0;180.0;0;Trugo;Trugo • Edirne Margi AVM
+S;C;41.151;27.8396;1;0;180.0;0;Trugo;Trugo • Çorlu Hilton Garden INN
+S;C;38.2841;35.1054;1;0;180.0;0;Trugo;Trugo • Shell Niğde Yolu
+S;C;41.7136;26.3693;1;0;180.0;0;Trugo;Trugo • Londra Inn Hotel
+S;C;37.1564;29.6823;1;0;180.0;0;Trugo;Trugo • Shell Çavdır
+S;C;39.863424;33.469512;1;0;180.0;0;Trugo;Trugo • Shell Kırıkkale Yahşihan
+S;C;37.4617;41.2068;1;0;180.0;0;Trugo;Trugo • Midyat Euroil
+S;C;37.086;41.2884;1;0;180.0;0;Trugo;Trugo • Nusaybin PO
+S;C;37.5933;38.9719;1;0;180.0;0;Trugo;Trugo • Shell Hilvan
+S;C;40.5829;36.9183;1;0;180.0;0;Trugo;Trugo • Niksar Şen Orman Ürünleri
+S;C;36.801553;34.595603;1;0;180.0;0;Trugo;Trugo • Mersin Palm City AVM
+S;C;37.056238;36.176691;1;0;180.0;0;Trugo;Trugo • Osmaniye Binboğa Fıstık Satış Mağazası
+S;C;38.644945;34.731907;1;0;180.0;0;Trugo;Trugo • Shell Nevşehir
+S;C;41.1894;40.9649;1;0;180.0;0;Trugo;Trugo • Ekol Petrol
+S;C;40.875175;29.254342;1;0;180.0;0;Trugo;Trugo • Shell Kaynarca
+S;C;40.7063;29.8789;1;0;180.0;0;Trugo;Trugo • Shell Ilıcadere
+S;C;41.11112;42.6983;1;0;180.0;0;Trugo;Trugo • Ardahan Kahramanlar Caddesi
+S;C;40.722222;31.468055;1;0;300.0;0;Trugo;Trugo • BOLU HİGHWAY-1
+S;C;38.299181;26.383411;1;0;180.0;0;Trugo;Trugo • Shell  Çeşme Şifne
+S;C;41.018736;34.081011;1;0;180.0;0;Trugo;Trugo • Shell Tosya | Kastamonu
+S;C;39.6848;35.4253;1;0;180.0;0;Trugo;Trugo • Ardıçlar Dinlenme Tesisleri
+S;C;40.459186;40.964192;1;0;180.0;0;Trugo;Trugo • Çakır Palace Otel
+S;C;38.9079;40.5555;1;0;180.0;0;Trugo;Trugo • Bingöl Ticaret Ve Sanayi Odası
+S;C;36.975347;35.417171;1;0;180.0;0;Trugo;Trugo • Adana Ticaret Borsası
+S;C;40.9704;34.8418;1;0;180.0;0;Trugo;Trugo • Shell Kalelibağ
+S;C;37.030182;35.254223;1;0;180.0;0;Trugo;Trugo • Shell Kireçocağı
+S;C;39.7725;40.4035;1;0;180.0;0;Trugo;Trugo • Tercan Di-Kubik Tesisleri
+S;C;37.7006;38.121181;1;0;180.0;0;Trugo;Trugo • Adıyaman Gümüş Petrol
+S;C;37.039858;28.385353;1;0;180.0;0;Trugo;Trugo • Shell Gökova Ataköy
+S;C;41.103345;42.683631;1;0;180.0;0;Trugo;Trugo • Aydemirler Petrol PO
+S;C;37.02931;35.202723;1;0;180.0;0;Trugo;Trugo • İpekyolu Tesisleri Adana Yönü
+S;C;40.665659;42.190318;1;0;180.0;0;Trugo;Trugo • Oltu Şimşekler Petrol
+S;C;36.9663;28.7116;1;0;180.0;0;Trugo;Trugo • Shell Köyceğiz
+S;C;40.241482;32.50434;1;0;180.0;0;Trugo;Trugo • Tatlak Kocalar Dinlenme Tesisleri İstanbul Yönü
+S;C;40.241444;32.501756;1;0;180.0;0;Trugo;Trugo • Tatlak Kocalar Dinlenme Tesisleri Ankara Yönü
+S;C;37.030616;35.203188;1;0;180.0;0;Trugo;Trugo • İpekyolu Tesisleri Mersin Yönü
+S;C;40.21291;28.93013;1;0;180.0;0;Trugo;Trugo • Shell Ertuğrul
+S;C;37.1374;28.3703;1;0;120.0;0;Trugo;Trugo • Shell Gülağzı Akyaka
+S;C;39.075148;39.533722;1;0;180.0;0;Trugo;Trugo • Tunceli 15 Temmuz Şehitler Bulvarı
+S;C;39.059441;27.104896;1;0;180.0;0;Trugo;Trugo • Shell Bergama Çıkışı
+S;C;39.9103;38.7703;1;0;180.0;0;Trugo;Trugo • Shell Esadaş Dinlenme Tesisleri
+S;C;37.5145;30.534;1;0;180.0;0;Trugo;Trugo • Shell Dağarcık
+S;C;39.443526;31.567689;1;0;300.0;0;Trugo;Trugo • Başkent Mola Tesisleri
+S;C;37.73784;32.549142;1;0;180.0;0;Trugo;Trugo • Shell Çomaklı
+S;C;38.8451;35.6596;1;0;180.0;0;Trugo;Trugo • Shell Gömeç
+S;C;40.7493;32.0832;1;0;180.0;0;Trugo;Trugo • Shell Mepet OHT Bolu Ankara Yönü
+S;C;41.102624;29.291329;1;0;180.0;0;Trugo;Trugo • Bİ MOLA ÖMERLİ
+S;C;41.08956;29.286578;1;0;180.0;0;Trugo;Trugo • Bİ MOLA REŞADİYE
+S;C;41.237323;28.908161;1;0;180.0;0;Trugo;Trugo • Bİ MOLA ÇİFTALAN
+S;C;40.890078;29.714025;1;0;180.0;0;Trugo;Trugo • Sevindikli OHT İstanbul Yönü
+S;C;40.889187;29.709263;1;0;180.0;0;Trugo;Trugo • Sevindikli OHT Ankara Yönü
+S;C;40.298955;38.433346;1;0;120.0;0;Trugo;Trugo • Şebinkarahisar Hare Petrol
+S;C;38.444888;34.432696;1;0;180.0;0;Trugo;Trugo • Ankara-Niğde Otoyolu (230.Km) | Ankara Yönü
+S;C;38.443628;34.432719;1;0;180.0;0;Trugo;Trugo • Ankara-Niğde Otoyolu (230.Km) | Niğde Yönü
+S;C;39.182395;33.338261;1;0;180.0;0;Trugo;Trugo • Ankara-Niğde Otoyolu (95.Km) | Niğde Yönü
+S;C;39.182708;33.339788;1;0;180.0;0;Trugo;Trugo • Ankara-Niğde Otoyolu (95.Km) | Ankara Yönü
+S;C;40.986464;28.817841;1;0;180.0;0;Trugo;Trugo • Atatürk Havalimanı
+S;C;37.873924;40.069809;1;0;180.0;0;Trugo;Trugo • Diyarbakır Nay Petrol
+S;C;38.450141;27.490501;1;0;180.0;0;Trugo;Trugo • Shell Ambarkavak-1
+S;C;39.945378;32.754032;1;0;180.0;0;Trugo;Trugo • Shell Toytepe
+S;C;41.0583;41.0058;1;1;180.0;0;Trugo;Trugo • Shell Çamlıhemşin
+S;C;38.335759;26.770517;1;0;90.0;0;Trugo;Trugo • Urla Bamboo AVM
+S;C;36.1049;32.950476;1;0;180.0;0;Trugo;Trugo • Aslangil Dinlenme Tesisleri
+S;C;41.19787;28.825068;1;0;180.0;0;Trugo;Trugo • Bi Mola Işıklar
+S;C;37.056366;37.541653;1;0;180.0;0;Trugo;Trugo • Askoç Dinlenme Tesisleri Adana Yönü
+S;C;37.05439;37.54213;1;0;180.0;0;Trugo;Trugo • Askoç Dinlenme Tesisleri Şanlıurfa Yönü
+S;C;41.6197;26.6326;1;1;180.0;0;Trugo;Trugo • Edirne Ramada Otel
+S;C;41.234811;28.888464;1;0;180.0;0;Trugo;Trugo • Bi Mola Odayeri
+S;C;37.36112;42.232179;1;0;180.0;0;Trugo;Trugo • Mecitoğulları Total Energies
+S;C;39.6011;27.525;1;0;180.0;0;Trugo;Trugo • Shell İvrindi
+S;C;40.260764;26.586741;1;0;180.0;0;Trugo;Trugo • Shell Umurbey
+S;C;39.828611;26.325221;1;0;180.0;0;Trugo;Trugo • Shell Ezine
+S;C;41.265302;36.379423;1;0;180.0;0;Trugo;Trugo • Lovelet AVM
+S;C;36.812257;34.63445;1;0;180.0;0;Trugo;Trugo • Shell Eski Otogar
+S;C;39.677827;32.744399;1;0;180.0;0;Trugo;Trugo • ERG-Gökçehöyük (10.Km) | Ankara Yönü
+S;C;39.869858;33.448363;1;0;120.0;0;Trugo;Trugo • Eypark Dinlenme Tesisi
+S;C;41.018736;34.081011;1;0;180.0;0;Trugo;Trugo • Shell Tosya-2
+S;C;39.676847;32.742442;1;0;180.0;0;Trugo;Trugo • ERG-Gökçehöyük (10.Km) | Ankara | Aksaray Yönü
+S;C;36.917692;31.066824;1;0;180.0;0;Trugo;Trugo • Shell Serik Çıkışı
+S;C;37.964534;27.373909;1;0;180.0;0;Trugo;Trugo • Shell İzmir Çıkışı
+S;C;36.987523;35.348688;1;0;180.0;0;Trugo;Trugo • Shell Yüreğir
+S;C;37.527132;34.048648;1;0;180.0;0;Trugo;Trugo • Shell Orhangazi-Ereğli
+S;C;38.482437;27.242814;1;0;180.0;0;Trugo;Trugo • Shell Erzene
+S;C;36.917692;31.066824;1;0;180.0;0;Trugo;Trugo • Shell Serik Çıkışı-2
+S;C;41.10145;29.290371;1;0;180.0;0;Trugo;Trugo • Reşadiye OHT Hendek Yönü (İCA)
+S;C;37.693328;37.861185;0;1;22.0;0;Trugo;Trugo • Besni Belediyesi
+S;C;39.7477;39.4685;1;0;180.0;0;Trugo;Trugo • Ergan AVM
+S;C;39.955684;33.075344;1;0;180.0;0;Trugo;Trugo • Netiz Gross
+S;C;40.845;31.1656;1;0;180.0;0;Trugo;Trugo • Shell Şerefiye
+S;C;40.8492;31.0871;1;0;180.0;0;Trugo;Trugo • Shell Kapıcı
+S;C;39.933363;32.859741;1;0;180.0;0;Trugo;Trugo • Shell Şereflikoçhisar Çıkışı
+S;C;37.96833;32.42625;1;0;180.0;0;Trugo;Trugo • Akyokuş Kasrı
+S;C;41.236014;28.909135;1;0;180.0;0;Trugo;Trugo • Bi Mola Çiftalan-1
+S;C;40.7348;31.6304;1;0;180.0;0;Trugo;Trugo • Shell Kuruçay
+S;C;41.197459;29.147287;1;0;180.0;0;Trugo;Trugo • Bi Mola Poyrazköy Güney-2
+S;C;41.199102;29.14707;1;0;180.0;0;Trugo;Trugo • Bi Mola Poyrazköy Kuzey-2
+S;C;40.86053;39.679;1;0;120.0;0;Trugo;Trugo • Macar Taşı Hotel
+S;C;37.987828;40.371973;1;0;180.0;0;Trugo;Trugo • Kaplaner Akaryakıt İstasyonu
+S;C;39.300987;41.020679;1;0;180.0;0;Trugo;Trugo • Serhad Akaryakıt İstasyonu
+S;C;39.1007;39.5469;1;0;180.0;0;Trugo;Trugo • Shell Tunceli
+S;C;37.807481;29.069591;1;0;180.0;0;Trugo;Trugo • Shell Gümüşler
+S;C;39.975413;32.589134;1;0;180.0;0;Trugo;Trugo • Shell Plevne
+S;C;39.574225;27.040735;1;0;180.0;0;Trugo;Trugo • Edremit Akkaş Plaza
+S;C;38.1682;41.481;1;0;180.0;0;Trugo;Trugo • Shell Batman Kozluk
+S;C;41.055603;29.187502;1;0;180.0;0;Trugo;Trugo • Bi Mola Çekmeköy-2
+S;C;37.07135;37.379581;1;0;180.0;0;Trugo;Trugo • Gaziantep Ticaret Odası
+S;C;37.1631;37.2597;1;0;180.0;0;Trugo;Trugo • Shell Başpınar
+S;C;40.986097;29.284099;1;1;180.0;0;Trugo;Trugo • Sultanbeyli Devlet Hastanesi
+S;C;41.076472;28.505827;1;1;180.0;0;Trugo;Trugo • Gümrük ve Turizm İşletmeleri
+S;C;41.7128;27.2119;1;0;180.0;0;Trugo;Trugo • Shell Kırklareli Girişi
+S;C;41.197214;29.147725;1;0;180.0;0;Trugo;Trugo • Bi Mola Poyrazköy Kuzey-1
+S;C;41.198951;29.148364;1;0;180.0;0;Trugo;Trugo • Bi Mola Poyrazköy Güney-1
+S;C;41.055375;29.188882;1;0;180.0;0;Trugo;Trugo • Bi Mola Çekmeköy-1
+S;C;38.43841;27.251147;1;0;180.0;0;Trugo;Trugo • Shell Pınarbaşı
+S;C;38.228635;27.370824;1;0;180.0;0;Trugo;Trugo • Shell Ortaköy
+S;C;40.753953;32.075646;1;0;180.0;0;Trugo;Trugo • Shell Mepet OHT Bolu İstanbul Yönü
+S;C;41.19746;28.823267;1;0;180.0;0;Trugo;Trugo • Bi Mola Fenertepe-2
+S;C;40.378026;29.076204;1;0;180.0;0;Trugo;Trugo • Shell Kurşunlu
+S;C;37.7957;29.10376;1;0;180.0;0;Trugo;Trugo • Shell Dokuz Kavaklar
 S;C;37.04048;27.41107;0;1;22.0;0;AKSA ŞARJ;AKSA ŞARJ • BODRUM OASIS AVM
 S;C;38.6695;39.187035;0;1;22.0;0;AKSA ŞARJ;AKSA ŞARJ • RAMADA BY WYNDHAM ELAZIĞ
 S;C;40.90846;38.37049;0;1;22.0;0;AKSA ŞARJ;AKSA ŞARJ • GİRESUN SABAH CENTER AVM
@@ -10678,12 +10678,6 @@ S;C;39.973526;32.596279;1;0;120.0;0;B-FORCE;B-FORCE • Ford Başer Ankara
 S;C;39.9733;32.5962;0;1;11.0;0;B-FORCE;B-FORCE • Ayaş Yolu Açık Otopark
 S;C;39.946905;32.736385;1;1;60.0;0;B-FORCE;B-FORCE • Velux AVM Açık Otopark
 S;C;39.9013;32.8134;0;1;22.0;0;B-FORCE;B-FORCE • Hayat Plaza
-S;C;40.114325;36.30013;0;1;22.0;0;i-şarj;i-şarj • GÜNER OTOMOTİV
-S;C;38.0081;32.53734;0;1;20.0;0;i-şarj;i-şarj • KONYA BAK YAPI PRESTİJ PARK SİTESİ
-S;C;40.334236;36.538483;1;0;150.0;0;i-şarj;i-şarj • ARATLAR PETROL TOKAT DC 2
-S;C;40.331994;36.481177;0;1;22.0;0;i-şarj;i-şarj • G.O.P. ÜNİVERSİTESİ REKTÖRLÜK
-S;C;40.32809;36.476726;0;1;22.0;0;i-şarj;i-şarj • G.O.P. ÜNİVERİSTESİ MERKEZİ YEMEKHANE
-S;C;40.330615;36.484701;0;1;22.0;0;i-şarj;i-şarj • G.O.P. ÜNİVERSİTESİ İLAHİYAT FAKÜLTESİ
 S;C;40.3305;36.55254;0;1;22.0;0;i-şarj;i-şarj • TOKAT NOVADA AVM
 S;C;37.02786;27.41572;0;1;22.0;0;i-şarj;i-şarj • BODRUM PRİVE OTEL
 S;C;37.02897;27.40974;0;1;22.0;0;i-şarj;i-şarj • BODRUM ANADOLU HOTELS
@@ -10749,6 +10743,12 @@ S;C;40.682519;36.563921;1;0;320.0;0;i-şarj;i-şarj • ÖZGÜR PETROL ERBAA DC 
 S;C;40.8508;31.18209;1;0;80.0;0;i-şarj;i-şarj • METEK TOKİ DÜZCE DC
 S;C;40.772369;31.165624;0;1;22.0;0;i-şarj;i-şarj • DERDİN TERMAL RESORT & SPA
 S;C;40.33518;36.54094;0;1;22.0;0;i-şarj;i-şarj • İSPİRLİ GENEL MÜDÜRLÜK 3
+S;C;40.114325;36.30013;0;1;22.0;0;i-şarj;i-şarj • GÜNER OTOMOTİV
+S;C;38.0081;32.53734;0;1;20.0;0;i-şarj;i-şarj • KONYA BAK YAPI PRESTİJ PARK SİTESİ
+S;C;40.334236;36.538483;1;0;150.0;0;i-şarj;i-şarj • ARATLAR PETROL TOKAT DC 2
+S;C;40.331994;36.481177;0;1;22.0;0;i-şarj;i-şarj • G.O.P. ÜNİVERSİTESİ REKTÖRLÜK
+S;C;40.32809;36.476726;0;1;22.0;0;i-şarj;i-şarj • G.O.P. ÜNİVERİSTESİ MERKEZİ YEMEKHANE
+S;C;40.330615;36.484701;0;1;22.0;0;i-şarj;i-şarj • G.O.P. ÜNİVERSİTESİ İLAHİYAT FAKÜLTESİ
 S;C;36.913734;30.7164;0;1;22.0;0;evroad;evroad • Yasemin Ayaz TP
 S;C;36.849444;30.835833;0;1;22.0;0;evroad;evroad • Dido Beach Lara
 S;C;36.493611;30.489166;0;1;22.0;0;evroad;evroad • Meydan Restaurant
@@ -11026,6 +11026,117 @@ S;C;37.8977;40.27853;0;1;22.0;0;AUTOVOLT;AUTOVOLT • Dicle Üniv. Veterinerlik 
 S;C;37.89127;40.2726;0;1;22.0;0;AUTOVOLT;AUTOVOLT • Dicle Üniv. Ziraat Fakültesi
 S;C;37.4156;41.3512;1;1;60.0;0;AUTOVOLT;AUTOVOLT • Zerey Yapı
 S;C;36.807163;34.590547;1;0;120.0;0;AUTOVOLT;AUTOVOLT • Ludre Restoran
+S;C;41.385292;27.347546;1;0;120.0;0;VOLTRUN;VOLTRUN • 39 BURDA AVM
+S;C;41.236315;28.908996;1;0;200.0;0;VOLTRUN;VOLTRUN • Bİ MOLA ÇİFTALAN
+S;C;41.329583;36.294237;0;1;22.0;0;VOLTRUN;VOLTRUN • OTO ANALİZ ATAKUM
+S;C;41.173841;29.608899;0;1;22.0;0;VOLTRUN;VOLTRUN • ŞİLE BELEDİYE OTOPARKI
+S;C;40.99033;38.78047;0;1;22.0;0;VOLTRUN;VOLTRUN • YILGIN OTEL
+S;C;40.97615;39.60635;0;1;22.0;0;VOLTRUN;VOLTRUN • SERA SUR RESTAURANT VE CAFE
+S;C;40.988762;37.857291;0;1;22.0;0;VOLTRUN;VOLTRUN • RADISSON BLU ORDU HOTEL
+S;C;40.901214;39.672024;0;1;22.0;0;VOLTRUN;VOLTRUN • ELİFİN YERİ
+S;C;41.043943;29.257027;1;0;200.0;0;VOLTRUN;VOLTRUN • Bİ MOLA REŞADİYE
+S;C;36.8184;31.32244;0;1;22.0;0;VOLTRUN;VOLTRUN • SUNTHALIA HOTELS RESORTS
+S;C;41.120322;36.787839;0;1;22.0;0;VOLTRUN;VOLTRUN • MEVLÜT USTA ALABALIK TESİSİ
+S;C;41.210602;36.989377;1;0;200.0;0;VOLTRUN;VOLTRUN • TELLİOĞLU METAL
+S;C;40.98725;39.80961;0;1;22.0;0;VOLTRUN;VOLTRUN • YILDIZ LİFE OTEL
+S;C;40.97716;39.68325;0;1;22.0;0;VOLTRUN;VOLTRUN • BAYRAMOĞLU HALI SAHA
+S;C;37.90981;32.50433;0;1;22.0;0;VOLTRUN;VOLTRUN • FORUM PLAZA AVM
+S;C;38.394499;27.053374;1;1;120.0;0;VOLTRUN;VOLTRUN • AGORA İZMİR AVM
+S;C;41.07728;29.027114;1;1;120.0;0;VOLTRUN;VOLTRUN • AKMERKEZ AVM
+S;C;40.933567;40.067051;1;0;180.0;0;VOLTRUN;VOLTRUN • ATAKOÇ RESTAURANT VE PETROL (DC)
+S;C;41.0214;28.583966;1;0;120.0;0;VOLTRUN;VOLTRUN • ATİRUS AVM
+S;C;38.521211;42.267369;0;1;11.0;0;VOLTRUN;VOLTRUN • AUTO KİNG TATVAN
+S;C;36.198929;29.653557;0;1;21.0;0;VOLTRUN;VOLTRUN • BAHÇE APART OTEL
+S;C;41.0636;28.6848;1;1;80.0;0;VOLTRUN;VOLTRUN • BAHÇEŞEHİR 3. CADDE AVM
+S;C;40.982554;29.132126;1;1;120.0;0;VOLTRUN;VOLTRUN • BRANDIUM AVM
+S;C;41.025114;29.106442;0;1;22.0;0;VOLTRUN;VOLTRUN • CANPARK AVM
+S;C;40.977817;28.871957;1;1;120.0;0;VOLTRUN;VOLTRUN • CAPACITY AVM
+S;C;41.063149;28.99249;0;1;22.0;0;VOLTRUN;VOLTRUN • CEVAHİR AVM
+S;C;41.003516;29.071444;1;0;120.0;0;VOLTRUN;VOLTRUN • EMAAR SQUARE AVM
+S;C;36.19936;29.638477;0;1;22.0;0;VOLTRUN;VOLTRUN • ERDEM CITY HOTEL
+S;C;36.894873;30.703446;0;1;22.0;0;VOLTRUN;VOLTRUN • ERSOY İKİZ OTEL
+S;C;41.035357;28.622919;0;1;22.0;0;VOLTRUN;VOLTRUN • EUROMASTER - İSTANBUL
+S;C;41.08058;28.92717;0;1;22.0;0;VOLTRUN;VOLTRUN • EYÜPPARK AVM
+S;C;38.0789;30.44105;0;1;22.0;0;VOLTRUN;VOLTRUN • GARDENYA ÖZEL BAKIM MERKEZİ
+S;C;41.174384;29.070588;0;1;22.0;0;VOLTRUN;VOLTRUN • GELİŞLİ RESTAURANT
+S;C;41.078554;29.010969;1;1;90.0;0;VOLTRUN;VOLTRUN • KANYON AVM
+S;C;40.197346;29.05945;1;0;120.0;0;VOLTRUN;VOLTRUN • KENT MEYDANI AVM
+S;C;36.848892;31.070554;0;1;22.0;0;VOLTRUN;VOLTRUN • MAXX ROYAL BELEK GOLF RESORT
+S;C;41.007771;28.670352;0;1;22.0;0;VOLTRUN;VOLTRUN • MEDİAMARKT - BEYLİKDÜZÜ
+S;C;39.978113;32.640129;0;1;7.4;0;VOLTRUN;VOLTRUN • MEYDAN ERYAMAN AVM
+S;C;41.068064;28.98622;0;1;22.0;0;VOLTRUN;VOLTRUN • NUROL TOWER
+S;C;41.04082;28.810167;1;0;80.0;0;VOLTRUN;VOLTRUN • OASIS CADDE AVM
+S;C;38.308275;43.049332;0;1;22.0;0;VOLTRUN;VOLTRUN • ORİENT HOTEL VAN
+S;C;40.799753;31.243254;0;1;22.0;0;VOLTRUN;VOLTRUN • RENAULT ERNAZ DÜZCE
+S;C;40.987293;37.876579;0;1;22.0;0;VOLTRUN;VOLTRUN • THE WYSPY HOTEL ORDU
+S;C;37.919523;29.109406;0;1;22.0;0;VOLTRUN;VOLTRUN • TRİPOLİS HOTEL PAMUKKALE
+S;C;40.972984;28.78633;0;1;11.0;0;VOLTRUN;VOLTRUN • ULUDAĞ FLORYA
+S;C;40.93904;29.32357;0;1;22.0;0;VOLTRUN;VOLTRUN • VIAPORT AVM
+S;C;36.790942;34.624277;0;1;22.0;0;VOLTRUN;VOLTRUN • YEMEN KAHVESİ MERSİN
+S;C;40.993216;28.82911;1;0;180.0;0;VOLTRUN;VOLTRUN • YÜKSELEN OTO YENİBOSNA
+S;C;37.16306;38.794804;1;1;120.0;0;VOLTRUN;VOLTRUN • NOVADA AVM ŞANLIURFA
+S;C;39.8842;32.75834;1;1;180.0;0;VOLTRUN;VOLTRUN • BİLKENT CENTER AVM
+S;C;40.928302;29.31007;1;1;120.0;0;VOLTRUN;VOLTRUN • WORLD ATLANTIS AVM
+S;C;36.242953;30.023609;0;1;22.0;0;VOLTRUN;VOLTRUN • MOS VİLLA'S
+S;C;40.987057;39.809147;1;0;120.0;0;VOLTRUN;VOLTRUN • YILDIZ LİFE OTEL - BYD PLAZA
+S;C;38.44749;27.174235;1;1;80.0;0;VOLTRUN;VOLTRUN • EGE PERLA AVM
+S;C;39.92209;41.19317;0;1;22.0;0;VOLTRUN;VOLTRUN • ARZEN CAFE RESTAURANT
+S;C;40.2736;29.6599;0;1;22.0;0;VOLTRUN;VOLTRUN • YENİŞEHİR MY HOUSE AÇIK OTOPARK
+S;C;38.256287;27.381139;0;1;22.0;0;VOLTRUN;VOLTRUN • ANTMARE OTEL İZMİR
+S;C;41.04082;28.810167;0;1;22.0;0;VOLTRUN;VOLTRUN • OASIS CADDE
+S;C;41.119;28.7655;0;1;22.0;0;VOLTRUN;VOLTRUN • V-METROWAY AVM
+S;C;41.051706;28.987777;1;1;120.0;0;VOLTRUN;VOLTRUN • LOTUS WALK AVM
+S;C;37.93675;32.49961;1;1;80.0;0;VOLTRUN;VOLTRUN • FORUM CENTER AVM OFİS
+S;C;41.19864;28.822411;1;0;200.0;0;VOLTRUN;VOLTRUN • Bİ MOLA FENERTEPE
+S;C;36.8607;31.02939;0;1;22.0;0;VOLTRUN;VOLTRUN • SUENO HOTELS DELUXE BELEK
+S;C;41.19864;28.822411;1;0;200.0;0;VOLTRUN;VOLTRUN • Bİ MOLA IŞIKLAR
+S;C;36.89295;30.70442;1;1;120.0;0;VOLTRUN;VOLTRUN • MARKANTALYA
+S;C;40.948236;38.701724;0;1;11.0;0;VOLTRUN;VOLTRUN • FERHAT ÖNAL PETROL
+S;C;41.016053;39.593008;0;1;22.0;0;VOLTRUN;VOLTRUN • ST MOTORS
+S;C;41.197862;29.147683;1;0;200.0;0;VOLTRUN;VOLTRUN • Bİ MOLA POYRAZKÖY GÜNEY
+S;C;41.198778;29.147813;1;0;200.0;0;VOLTRUN;VOLTRUN • Bİ MOLA POYRAZKÖY KUZEY
+S;C;41.029383;28.809407;0;1;22.0;0;VOLTRUN;VOLTRUN • ELITE WORLD EUROPE
+S;C;38.1065;30.5403;0;1;22.0;0;VOLTRUN;VOLTRUN • SENİRKENT BELEDİYESİ AKARYAKIT İŞLETMESİ
+S;C;37.691158;27.381045;1;0;200.0;0;VOLTRUN;VOLTRUN • SÖKE OUTLET VİMTAŞ
+S;C;38.399383;27.068308;1;1;120.0;0;VOLTRUN;VOLTRUN • İSTİNYEPARK İZMİR AVM
+S;C;36.902447;30.71664;0;1;22.0;0;VOLTRUN;VOLTRUN • MERVE ELEKTRONİK TİCARET
+S;C;36.64891;31.68926;0;1;22.0;0;VOLTRUN;VOLTRUN • GRANADA LUXURY OKURCALAR
+S;C;40.955733;29.116751;0;1;22.0;0;VOLTRUN;VOLTRUN • ELITE WORLD ASIA
+S;C;41.024892;29.042616;0;1;22.0;0;VOLTRUN;VOLTRUN • HOLIDAY INN EXPRESS ALTUNİZADE
+S;C;41.084112;28.270435;1;1;200.0;0;VOLTRUN;VOLTRUN • ATABEK KONUTLARI - DC
+S;C;40.902325;39.676769;0;1;22.0;0;VOLTRUN;VOLTRUN • HARMONY RESTAURANT
+S;C;39.913506;32.64472;1;1;160.0;0;VOLTRUN;VOLTRUN • YAZICI GRUP
+S;C;40.609823;26.88208;1;1;120.0;0;VOLTRUN;VOLTRUN • DR. LAVENDER ÜRETİM TESİSİ
+S;C;41.2768;36.348;1;1;120.0;0;VOLTRUN;VOLTRUN • BORKONUT CENTER
+S;C;37.550972;36.659851;0;1;22.0;0;VOLTRUN;VOLTRUN • ORKİS PALACE THERMAL & SPA
+S;C;41.007554;39.730489;0;1;22.0;0;VOLTRUN;VOLTRUN • GAZİPAŞA OTOPARK
+S;C;36.273202;33.813267;0;1;22.0;0;VOLTRUN;VOLTRUN • INTERMOT BOĞSAK MOTEL
+S;C;38.28228;27.378868;0;1;22.0;0;VOLTRUN;VOLTRUN • CLUB BABA KÖYİÇİ
+S;C;37.378999;27.247235;0;1;22.0;0;VOLTRUN;VOLTRUN • MAVİ RESTAURANT & BİSTRO
+S;C;37.7684;30.55243;0;1;22.0;0;VOLTRUN;VOLTRUN • BASMACIOĞLU HOTEL
+S;C;39.68072;27.93814;1;0;200.0;0;VOLTRUN;VOLTRUN • TELLİOĞLU DEĞİRMEN CAFE & RESTAURANT
+S;C;41.259952;36.320041;0;1;22.0;0;VOLTRUN;VOLTRUN • ANATOLİA PARK SİTESİ
+S;C;41.007062;39.702756;0;1;11.0;0;VOLTRUN;VOLTRUN • ÇINARALTI KÖFTE BALIK RESTAURANT
+S;C;36.849981;31.153949;1;0;120.0;0;VOLTRUN;VOLTRUN • CMN YAPI MARKET
+S;C;40.221331;28.942683;0;1;11.0;0;VOLTRUN;VOLTRUN • BEY - MOTO MOTORSİKLET
+S;C;40.974728;28.85275;0;1;22.0;0;VOLTRUN;VOLTRUN • JW MARRİOTT HOTEL İSTANBUL MARMARA SEA
+S;C;40.292016;29.718681;0;1;22.0;0;VOLTRUN;VOLTRUN • İMREN IZGARA
+S;C;37.75025;38.23876;1;1;120.0;0;VOLTRUN;VOLTRUN • ADIYAMAN PARK AVM
+S;C;39.80156;34.780375;0;1;22.0;0;VOLTRUN;VOLTRUN • ETÇİ MÇ
+S;C;40.972926;27.501924;0;1;22.0;0;VOLTRUN;VOLTRUN • DES OTEL TEKİRDAĞ
+S;C;39.878723;32.688603;0;1;22.0;0;VOLTRUN;VOLTRUN • MESA PLAZA AVM
+S;C;40.977222;37.899788;0;1;22.0;0;VOLTRUN;VOLTRUN • GRAND TESK OTEL
+S;C;38.784109;30.479561;1;1;120.0;0;VOLTRUN;VOLTRUN • AFYON ETÇİ BABA RESTAURANT (ETÇİ)
+S;C;38.673154;34.839575;0;1;11.0;0;VOLTRUN;VOLTRUN • ÇAVUŞİN STONE HOUSE
+S;C;41.236965;28.854451;0;1;22.0;0;VOLTRUN;VOLTRUN • PARK INN BY RADISSON
+S;C;41.247222;36.396341;0;1;22.0;0;VOLTRUN;VOLTRUN • PİLOT GARAGE KİRAZLIK
+S;C;41.25494;32.676985;0;1;22.0;0;VOLTRUN;VOLTRUN • SAFRAN CİTY HOTEL
+S;C;38.714681;34.836734;0;1;22.0;0;VOLTRUN;VOLTRUN • SUHAN CAPPADOCIA HOTEL
+S;C;37.5683;36.8704;1;0;96.0;0;VOLTRUN;VOLTRUN • GİMPA GROSS MARKET
+S;C;37.737465;29.11614;1;1;120.0;0;VOLTRUN;VOLTRUN • ŞİİR BUTİK OTEL
+S;C;37.462687;35.815888;1;0;120.0;0;VOLTRUN;VOLTRUN • ENERJİSA ÜRETİM SENFONİ SOSYAL TESİS
+S;C;41.234669;28.888569;1;0;200.0;0;VOLTRUN;VOLTRUN • Bİ MOLA ODAYERİ
+S;C;41.046141;28.913441;0;1;22.0;0;VOLTRUN;VOLTRUN • LİONEL HOTEL
 S;C;41.128169;37.6817;0;1;22.0;0;VOLTRUN;VOLTRUN • YASON BLUE HOTEL
 S;C;40.23656;29.061595;0;1;22.0;0;VOLTRUN;VOLTRUN • BİÇEN PLAZA
 S;C;40.528306;31.049019;0;1;22.0;0;VOLTRUN;VOLTRUN • V-RESORT ORMAN
@@ -11248,117 +11359,6 @@ S;C;41.115744;29.013054;0;1;22.0;0;VOLTRUN;VOLTRUN • AĞAOĞLU MASLAK 1453 - �
 S;C;39.914195;32.856814;0;1;22.0;0;VOLTRUN;VOLTRUN • TETRA INN HOTEL
 S;C;40.91904;29.199821;0;1;20.0;0;VOLTRUN;VOLTRUN • OTOMERKEZİ MALTEPE
 S;C;40.987912;29.113091;1;0;120.0;0;VOLTRUN;VOLTRUN • EMP CLINICS ATAŞEHİR
-S;C;41.385292;27.347546;1;0;120.0;0;VOLTRUN;VOLTRUN • 39 BURDA AVM
-S;C;41.236315;28.908996;1;0;200.0;0;VOLTRUN;VOLTRUN • Bİ MOLA ÇİFTALAN
-S;C;41.329583;36.294237;0;1;22.0;0;VOLTRUN;VOLTRUN • OTO ANALİZ ATAKUM
-S;C;41.173841;29.608899;0;1;22.0;0;VOLTRUN;VOLTRUN • ŞİLE BELEDİYE OTOPARKI
-S;C;40.99033;38.78047;0;1;22.0;0;VOLTRUN;VOLTRUN • YILGIN OTEL
-S;C;40.97615;39.60635;0;1;22.0;0;VOLTRUN;VOLTRUN • SERA SUR RESTAURANT VE CAFE
-S;C;40.988762;37.857291;0;1;22.0;0;VOLTRUN;VOLTRUN • RADISSON BLU ORDU HOTEL
-S;C;40.901214;39.672024;0;1;22.0;0;VOLTRUN;VOLTRUN • ELİFİN YERİ
-S;C;41.043943;29.257027;1;0;200.0;0;VOLTRUN;VOLTRUN • Bİ MOLA REŞADİYE
-S;C;36.8184;31.32244;0;1;22.0;0;VOLTRUN;VOLTRUN • SUNTHALIA HOTELS RESORTS
-S;C;41.120322;36.787839;0;1;22.0;0;VOLTRUN;VOLTRUN • MEVLÜT USTA ALABALIK TESİSİ
-S;C;41.210602;36.989377;1;0;200.0;0;VOLTRUN;VOLTRUN • TELLİOĞLU METAL
-S;C;40.98725;39.80961;0;1;22.0;0;VOLTRUN;VOLTRUN • YILDIZ LİFE OTEL
-S;C;40.97716;39.68325;0;1;22.0;0;VOLTRUN;VOLTRUN • BAYRAMOĞLU HALI SAHA
-S;C;37.90981;32.50433;0;1;22.0;0;VOLTRUN;VOLTRUN • FORUM PLAZA AVM
-S;C;38.394499;27.053374;1;1;120.0;0;VOLTRUN;VOLTRUN • AGORA İZMİR AVM
-S;C;41.07728;29.027114;1;1;120.0;0;VOLTRUN;VOLTRUN • AKMERKEZ AVM
-S;C;40.933567;40.067051;1;0;180.0;0;VOLTRUN;VOLTRUN • ATAKOÇ RESTAURANT VE PETROL (DC)
-S;C;41.0214;28.583966;1;0;120.0;0;VOLTRUN;VOLTRUN • ATİRUS AVM
-S;C;38.521211;42.267369;0;1;11.0;0;VOLTRUN;VOLTRUN • AUTO KİNG TATVAN
-S;C;36.198929;29.653557;0;1;21.0;0;VOLTRUN;VOLTRUN • BAHÇE APART OTEL
-S;C;41.0636;28.6848;1;1;80.0;0;VOLTRUN;VOLTRUN • BAHÇEŞEHİR 3. CADDE AVM
-S;C;40.982554;29.132126;1;1;120.0;0;VOLTRUN;VOLTRUN • BRANDIUM AVM
-S;C;41.025114;29.106442;0;1;22.0;0;VOLTRUN;VOLTRUN • CANPARK AVM
-S;C;40.977817;28.871957;1;1;120.0;0;VOLTRUN;VOLTRUN • CAPACITY AVM
-S;C;41.063149;28.99249;0;1;22.0;0;VOLTRUN;VOLTRUN • CEVAHİR AVM
-S;C;41.003516;29.071444;1;0;120.0;0;VOLTRUN;VOLTRUN • EMAAR SQUARE AVM
-S;C;36.19936;29.638477;0;1;22.0;0;VOLTRUN;VOLTRUN • ERDEM CITY HOTEL
-S;C;36.894873;30.703446;0;1;22.0;0;VOLTRUN;VOLTRUN • ERSOY İKİZ OTEL
-S;C;41.035357;28.622919;0;1;22.0;0;VOLTRUN;VOLTRUN • EUROMASTER - İSTANBUL
-S;C;41.08058;28.92717;0;1;22.0;0;VOLTRUN;VOLTRUN • EYÜPPARK AVM
-S;C;38.0789;30.44105;0;1;22.0;0;VOLTRUN;VOLTRUN • GARDENYA ÖZEL BAKIM MERKEZİ
-S;C;41.174384;29.070588;0;1;22.0;0;VOLTRUN;VOLTRUN • GELİŞLİ RESTAURANT
-S;C;41.078554;29.010969;1;1;90.0;0;VOLTRUN;VOLTRUN • KANYON AVM
-S;C;40.197346;29.05945;1;0;120.0;0;VOLTRUN;VOLTRUN • KENT MEYDANI AVM
-S;C;36.848892;31.070554;0;1;22.0;0;VOLTRUN;VOLTRUN • MAXX ROYAL BELEK GOLF RESORT
-S;C;41.007771;28.670352;0;1;22.0;0;VOLTRUN;VOLTRUN • MEDİAMARKT - BEYLİKDÜZÜ
-S;C;39.978113;32.640129;0;1;7.4;0;VOLTRUN;VOLTRUN • MEYDAN ERYAMAN AVM
-S;C;41.068064;28.98622;0;1;22.0;0;VOLTRUN;VOLTRUN • NUROL TOWER
-S;C;41.04082;28.810167;1;0;80.0;0;VOLTRUN;VOLTRUN • OASIS CADDE AVM
-S;C;38.308275;43.049332;0;1;22.0;0;VOLTRUN;VOLTRUN • ORİENT HOTEL VAN
-S;C;40.799753;31.243254;0;1;22.0;0;VOLTRUN;VOLTRUN • RENAULT ERNAZ DÜZCE
-S;C;40.987293;37.876579;0;1;22.0;0;VOLTRUN;VOLTRUN • THE WYSPY HOTEL ORDU
-S;C;37.919523;29.109406;0;1;22.0;0;VOLTRUN;VOLTRUN • TRİPOLİS HOTEL PAMUKKALE
-S;C;40.972984;28.78633;0;1;11.0;0;VOLTRUN;VOLTRUN • ULUDAĞ FLORYA
-S;C;40.93904;29.32357;0;1;22.0;0;VOLTRUN;VOLTRUN • VIAPORT AVM
-S;C;36.790942;34.624277;0;1;22.0;0;VOLTRUN;VOLTRUN • YEMEN KAHVESİ MERSİN
-S;C;40.993216;28.82911;1;0;180.0;0;VOLTRUN;VOLTRUN • YÜKSELEN OTO YENİBOSNA
-S;C;37.16306;38.794804;1;1;120.0;0;VOLTRUN;VOLTRUN • NOVADA AVM ŞANLIURFA
-S;C;39.8842;32.75834;1;1;180.0;0;VOLTRUN;VOLTRUN • BİLKENT CENTER AVM
-S;C;40.928302;29.31007;1;1;120.0;0;VOLTRUN;VOLTRUN • WORLD ATLANTIS AVM
-S;C;36.242953;30.023609;0;1;22.0;0;VOLTRUN;VOLTRUN • MOS VİLLA'S
-S;C;40.987057;39.809147;1;0;120.0;0;VOLTRUN;VOLTRUN • YILDIZ LİFE OTEL - BYD PLAZA
-S;C;38.44749;27.174235;1;1;80.0;0;VOLTRUN;VOLTRUN • EGE PERLA AVM
-S;C;39.92209;41.19317;0;1;22.0;0;VOLTRUN;VOLTRUN • ARZEN CAFE RESTAURANT
-S;C;40.2736;29.6599;0;1;22.0;0;VOLTRUN;VOLTRUN • YENİŞEHİR MY HOUSE AÇIK OTOPARK
-S;C;38.256287;27.381139;0;1;22.0;0;VOLTRUN;VOLTRUN • ANTMARE OTEL İZMİR
-S;C;41.04082;28.810167;0;1;22.0;0;VOLTRUN;VOLTRUN • OASIS CADDE
-S;C;41.119;28.7655;0;1;22.0;0;VOLTRUN;VOLTRUN • V-METROWAY AVM
-S;C;41.051706;28.987777;1;1;120.0;0;VOLTRUN;VOLTRUN • LOTUS WALK AVM
-S;C;37.93675;32.49961;1;1;80.0;0;VOLTRUN;VOLTRUN • FORUM CENTER AVM OFİS
-S;C;41.19864;28.822411;1;0;200.0;0;VOLTRUN;VOLTRUN • Bİ MOLA FENERTEPE
-S;C;36.8607;31.02939;0;1;22.0;0;VOLTRUN;VOLTRUN • SUENO HOTELS DELUXE BELEK
-S;C;41.19864;28.822411;1;0;200.0;0;VOLTRUN;VOLTRUN • Bİ MOLA IŞIKLAR
-S;C;36.89295;30.70442;1;1;120.0;0;VOLTRUN;VOLTRUN • MARKANTALYA
-S;C;40.948236;38.701724;0;1;11.0;0;VOLTRUN;VOLTRUN • FERHAT ÖNAL PETROL
-S;C;41.016053;39.593008;0;1;22.0;0;VOLTRUN;VOLTRUN • ST MOTORS
-S;C;41.197862;29.147683;1;0;200.0;0;VOLTRUN;VOLTRUN • Bİ MOLA POYRAZKÖY GÜNEY
-S;C;41.198778;29.147813;1;0;200.0;0;VOLTRUN;VOLTRUN • Bİ MOLA POYRAZKÖY KUZEY
-S;C;41.029383;28.809407;0;1;22.0;0;VOLTRUN;VOLTRUN • ELITE WORLD EUROPE
-S;C;38.1065;30.5403;0;1;22.0;0;VOLTRUN;VOLTRUN • SENİRKENT BELEDİYESİ AKARYAKIT İŞLETMESİ
-S;C;37.691158;27.381045;1;0;200.0;0;VOLTRUN;VOLTRUN • SÖKE OUTLET VİMTAŞ
-S;C;38.399383;27.068308;1;1;120.0;0;VOLTRUN;VOLTRUN • İSTİNYEPARK İZMİR AVM
-S;C;36.902447;30.71664;0;1;22.0;0;VOLTRUN;VOLTRUN • MERVE ELEKTRONİK TİCARET
-S;C;36.64891;31.68926;0;1;22.0;0;VOLTRUN;VOLTRUN • GRANADA LUXURY OKURCALAR
-S;C;40.955733;29.116751;0;1;22.0;0;VOLTRUN;VOLTRUN • ELITE WORLD ASIA
-S;C;41.024892;29.042616;0;1;22.0;0;VOLTRUN;VOLTRUN • HOLIDAY INN EXPRESS ALTUNİZADE
-S;C;41.084112;28.270435;1;1;200.0;0;VOLTRUN;VOLTRUN • ATABEK KONUTLARI - DC
-S;C;40.902325;39.676769;0;1;22.0;0;VOLTRUN;VOLTRUN • HARMONY RESTAURANT
-S;C;39.913506;32.64472;1;1;160.0;0;VOLTRUN;VOLTRUN • YAZICI GRUP
-S;C;40.609823;26.88208;1;1;120.0;0;VOLTRUN;VOLTRUN • DR. LAVENDER ÜRETİM TESİSİ
-S;C;41.2768;36.348;1;1;120.0;0;VOLTRUN;VOLTRUN • BORKONUT CENTER
-S;C;37.550972;36.659851;0;1;22.0;0;VOLTRUN;VOLTRUN • ORKİS PALACE THERMAL & SPA
-S;C;41.007554;39.730489;0;1;22.0;0;VOLTRUN;VOLTRUN • GAZİPAŞA OTOPARK
-S;C;36.273202;33.813267;0;1;22.0;0;VOLTRUN;VOLTRUN • INTERMOT BOĞSAK MOTEL
-S;C;38.28228;27.378868;0;1;22.0;0;VOLTRUN;VOLTRUN • CLUB BABA KÖYİÇİ
-S;C;37.378999;27.247235;0;1;22.0;0;VOLTRUN;VOLTRUN • MAVİ RESTAURANT & BİSTRO
-S;C;37.7684;30.55243;0;1;22.0;0;VOLTRUN;VOLTRUN • BASMACIOĞLU HOTEL
-S;C;39.68072;27.93814;1;0;200.0;0;VOLTRUN;VOLTRUN • TELLİOĞLU DEĞİRMEN CAFE & RESTAURANT
-S;C;41.259952;36.320041;0;1;22.0;0;VOLTRUN;VOLTRUN • ANATOLİA PARK SİTESİ
-S;C;41.007062;39.702756;0;1;11.0;0;VOLTRUN;VOLTRUN • ÇINARALTI KÖFTE BALIK RESTAURANT
-S;C;36.849981;31.153949;1;0;120.0;0;VOLTRUN;VOLTRUN • CMN YAPI MARKET
-S;C;40.221331;28.942683;0;1;11.0;0;VOLTRUN;VOLTRUN • BEY - MOTO MOTORSİKLET
-S;C;40.974728;28.85275;0;1;22.0;0;VOLTRUN;VOLTRUN • JW MARRİOTT HOTEL İSTANBUL MARMARA SEA
-S;C;40.292016;29.718681;0;1;22.0;0;VOLTRUN;VOLTRUN • İMREN IZGARA
-S;C;37.75025;38.23876;1;1;120.0;0;VOLTRUN;VOLTRUN • ADIYAMAN PARK AVM
-S;C;39.80156;34.780375;0;1;22.0;0;VOLTRUN;VOLTRUN • ETÇİ MÇ
-S;C;40.972926;27.501924;0;1;22.0;0;VOLTRUN;VOLTRUN • DES OTEL TEKİRDAĞ
-S;C;39.878723;32.688603;0;1;22.0;0;VOLTRUN;VOLTRUN • MESA PLAZA AVM
-S;C;40.977222;37.899788;0;1;22.0;0;VOLTRUN;VOLTRUN • GRAND TESK OTEL
-S;C;38.784109;30.479561;1;1;120.0;0;VOLTRUN;VOLTRUN • AFYON ETÇİ BABA RESTAURANT (ETÇİ)
-S;C;38.673154;34.839575;0;1;11.0;0;VOLTRUN;VOLTRUN • ÇAVUŞİN STONE HOUSE
-S;C;41.236965;28.854451;0;1;22.0;0;VOLTRUN;VOLTRUN • PARK INN BY RADISSON
-S;C;41.247222;36.396341;0;1;22.0;0;VOLTRUN;VOLTRUN • PİLOT GARAGE KİRAZLIK
-S;C;41.25494;32.676985;0;1;22.0;0;VOLTRUN;VOLTRUN • SAFRAN CİTY HOTEL
-S;C;38.714681;34.836734;0;1;22.0;0;VOLTRUN;VOLTRUN • SUHAN CAPPADOCIA HOTEL
-S;C;37.5683;36.8704;1;0;96.0;0;VOLTRUN;VOLTRUN • GİMPA GROSS MARKET
-S;C;37.737465;29.11614;1;1;120.0;0;VOLTRUN;VOLTRUN • ŞİİR BUTİK OTEL
-S;C;37.462687;35.815888;1;0;120.0;0;VOLTRUN;VOLTRUN • ENERJİSA ÜRETİM SENFONİ SOSYAL TESİS
-S;C;41.234669;28.888569;1;0;200.0;0;VOLTRUN;VOLTRUN • Bİ MOLA ODAYERİ
-S;C;41.046141;28.913441;0;1;22.0;0;VOLTRUN;VOLTRUN • LİONEL HOTEL
 S;C;39.9861;32.7243;0;1;22.0;0;ACROPOL;ACROPOL • Alyapark Sitesi
 S;C;36.848058;30.802992;1;0;120.0;0;ACROPOL;ACROPOL • Ornekkoy Geziyolu Cad.
 S;C;36.55184;32.04215;0;1;22.0;0;ACROPOL;ACROPOL • Another World H Blok
