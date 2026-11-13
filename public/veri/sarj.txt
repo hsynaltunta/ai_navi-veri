@@ -200,6 +200,7 @@ S;C;40.7646;29.957;0;1;11.0;0;TÜRKŞARJ;TÜRKŞARJ • Elta Elektronik Şarj İ
 S;C;40.9998;39.782;0;1;22.0;0;TÜRKŞARJ;TÜRKŞARJ • Trabzonspor Tesisleri Şarj İstasyonu
 S;C;37.055399;27.371592;0;1;11.0;0;TÜRKŞARJ;TÜRKŞARJ • Verdil Mühendislik Şarj İstasyonu
 S;C;39.904564;41.284523;0;1;22.0;0;TÜRKŞARJ;TÜRKŞARJ • Şafak Bilgi Teknolojileri Şarj İstasyonu
+S;C;39.772949;34.800562;0;1;22.0;0;TÜRKŞARJ;TÜRKŞARJ • Bozok Teknopark
 S;C;40.2139;28.9181;1;0;120.0;0;FORTIS ENERJİ;FORTIS ENERJİ • ARKAS OTO -1
 S;C;38.449297;27.185699;0;1;22.0;0;FORTIS ENERJİ;FORTIS ENERJİ • Folkart Time
 S;C;40.722649;31.468826;1;0;180.0;0;FORTIS ENERJİ;FORTIS ENERJİ • Highway
@@ -442,7 +443,6 @@ S;C;41.030867;29.23095;1;0;180.0;0;SHELL;Shell Taşdelen
 S;C;39.857898;32.809804;1;1;45.0;0;SHELL;Shell Keklikpınarı
 S;C;39.909486;32.793197;1;1;45.0;0;SHELL;Shell Söğütözü Merkez
 S;C;40.80937;29.46035;1;1;45.0;0;SHELL;Shell Kirazpınarı
-S;C;38.468231;27.113461;1;1;50.0;0;SHELL;Shell Soğukkuyu
 S;C;39.885452;32.763713;1;1;50.0;0;SHELL;Shell Bilkent
 S;C;40.212683;28.996505;0;1;11.0;0;SHELL;Shell Nilüfer
 S;C;41.044381;28.782061;1;0;180.0;0;SHELL;Shell Halkalı Toki
@@ -560,6 +560,7 @@ S;C;38.740108;32.919779;1;0;180.0;0;SHELL;Shell Cihanbeyli Öznam
 S;C;36.138725;33.1629;1;0;180.0;0;SHELL;Shell Bozyazı Deniz
 S;C;36.923295;34.925919;1;0;180.0;0;SHELL;Shell Fevzi Çakmak
 S;C;40.978219;29.123018;1;0;180.0;0;SHELL;Shell Ataşehir Defne
+S;C;38.468392;27.113461;1;0;150.0;0;SHELL;Shell Soğukkuyu
 S;C;37.89948;34.5579;0;1;22.0;0;ENERGY CHARGING OPERATOR NETWORK ECON;ENERGY CHARGING OPERATOR NETWORK ECON • ECON - BOR BELEDİYESİ
 S;C;41.00307;28.81974;0;1;22.0;0;ENERGY CHARGING OPERATOR NETWORK ECON;ENERGY CHARGING OPERATOR NETWORK ECON • ECON - VİZYON PARK AVM-AC01
 S;C;37.75045;32.10212;1;1;240.0;0;ENERGY CHARGING OPERATOR NETWORK ECON;ENERGY CHARGING OPERATOR NETWORK ECON • ECON - ÇELİKKAYALAR BP
@@ -1528,6 +1529,7 @@ S;C;40.583444;34.964824;1;1;60.0;0;PROMASTER;PROMASTER • HİTİT PARK 2 SİTES
 S;C;40.71756;31.524687;1;0;180.0;0;PROMASTER;PROMASTER • BOLU ABANT İZZET BAYSAL DİŞ HEKİMLİĞİ
 S;C;40.714699;31.516895;0;1;22.0;0;PROMASTER;PROMASTER • Bolu Üniversitesi İdari Bina
 S;C;40.715515;31.513987;0;1;22.0;0;PROMASTER;PROMASTER • Bolu Üniversitesi Kültür Merkezi
+S;C;41.058709;28.714431;1;1;120.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin Bizim Evler 4 Sitesi
 S;C;39.947343;32.76357;0;1;22.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin Ostim
 S;C;39.904204;32.868652;0;1;22.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin Cankaya
 S;C;41.125793;29.05473;0;1;11.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin İstinye
@@ -1579,7 +1581,6 @@ S;C;41.088128;28.98265;1;1;180.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zep
 S;C;36.841349;30.596518;1;0;120.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin Toyota Yazıcı
 S;C;36.666382;29.109889;1;1;60.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin Bezay Otel
 S;C;40.98951;28.63099;1;0;120.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin A Gross Market
-S;C;41.058709;28.714431;1;1;120.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin Bizim Evler 4 Sitesi
 S;C;40.96013;28.82765;0;1;7.0;0;GREEN ŞARJ İSTASYONLARI;GREEN ŞARJ İSTASYONLARI • Pembe Köşk
 S;C;41.005454;28.81595;1;1;60.0;0;GREEN ŞARJ İSTASYONLARI;GREEN ŞARJ İSTASYONLARI • Borsa Kule
 S;C;39.86491;32.85126;0;1;7.0;0;GREEN ŞARJ İSTASYONLARI;GREEN ŞARJ İSTASYONLARI
@@ -2242,31 +2243,6 @@ S;C;40.997388;29.141991;1;0;80.0;0;AOSTECHNOLOGY;AOSTECHNOLOGY • My Plus Hotel
 S;C;40.918511;29.307657;1;0;180.0;0;AOSTECHNOLOGY;AOSTECHNOLOGY • AYDINLAR SİTESİ DC
 S;C;37.063909;37.377366;1;0;80.0;0;AOSTECHNOLOGY;AOSTECHNOLOGY • Çınarlı Otoparkı DC
 S;C;41.961571;33.75161;1;1;220.0;0;AOSTECHNOLOGY;AOSTECHNOLOGY • İNEBOLU
-S;C;40.765103;30.400432;0;1;11.0;0;solarşarj;solarşarj • Erenler Center
-S;C;40.813504;29.556945;0;1;22.0;0;solarşarj;solarşarj • GEBKİM  Cami Otoparkı
-S;C;40.810115;29.565751;1;1;180.0;0;solarşarj;solarşarj • GEBKİM Akaryakıt İstasyonu
-S;C;37.730938;29.15323;0;1;11.0;0;solarşarj;solarşarj • Hayma Restoran
-S;C;36.854795;30.787614;0;1;22.0;0;solarşarj;solarşarj • Platform Antalya
-S;C;41.012999;28.679414;1;0;180.0;0;solarşarj;solarşarj • Self İstanbul
-S;C;41.110427;29.033234;1;1;60.0;0;solarşarj;solarşarj • İstinye Park
-S;C;36.504786;30.533451;0;1;22.0;0;solarşarj;solarşarj • Martı Myra Antalya
-S;C;40.11157;27.652561;0;1;11.0;0;solarşarj;solarşarj • Kadıoğlu Otel
-S;C;38.717769;29.716388;1;1;180.0;0;solarşarj;solarşarj • Semitaş
-S;C;40.127625;26.435769;0;1;22.0;0;solarşarj;solarşarj • Bahçeşehir Koleji Çanakkale
-S;C;39.834265;26.045326;0;1;11.0;0;solarşarj;solarşarj • Aral Tatil Çiftliği
-S;C;40.23201;27.256622;0;1;22.0;0;solarşarj;solarşarj • Köşdere Otel
-S;C;40.918504;29.303467;1;0;30.0;0;solarşarj;solarşarj • Arma Rezidans
-S;C;39.992204;32.699282;1;1;30.0;0;solarşarj;solarşarj • Lilyum Sitesi
-S;C;40.093527;31.670035;0;1;11.0;0;solarşarj;solarşarj • Nallıhan Pazaryeri
-S;C;39.983317;32.663097;1;0;60.0;0;solarşarj;solarşarj • Konar Manzara Evleri
-S;C;40.188355;31.350877;1;0;60.0;0;solarşarj;solarşarj • Nallıhan Otogar
-S;C;40.811049;29.565234;0;1;22.0;0;solarşarj;solarşarj • Gebkim Otel
-S;C;41.04232;29.011973;1;1;80.0;0;solarşarj;solarşarj • Four Seasons Hotel
-S;C;40.505598;30.320671;1;0;80.0;0;solarşarj;solarşarj • Geyve Yöresel Ürünler
-S;C;38.399288;27.0683;1;1;140.0;0;solarşarj;solarşarj • İzmir İstinye Park AVM
-S;C;41.108844;29.019144;1;1;60.0;0;solarşarj;solarşarj • Orjin Plaza
-S;C;38.438427;27.169586;1;0;180.0;0;solarşarj;solarşarj • İzmir İnci Premium
-S;C;41.031321;28.814626;1;1;30.0;0;solarşarj;solarşarj • Nuryıldız Tekstil
 S;C;39.331597;26.652403;0;1;22.0;0;solarşarj;solarşarj • Mola Cunda Otel
 S;C;41.004383;28.683927;1;1;120.0;0;solarşarj;solarşarj • Marmara Otomotiv
 S;C;40.204338;27.726994;0;1;22.0;0;solarşarj;solarşarj • Gönen OSB
@@ -2296,6 +2272,31 @@ S;C;37.081534;29.359567;0;1;11.0;0;solarşarj;solarşarj • Çameli Taş Konakl
 S;C;37.0279;27.392349;1;0;60.0;0;solarşarj;solarşarj • Le Chic Otel
 S;C;40.791785;30.384934;0;1;22.0;0;solarşarj;solarşarj • Adapazarı Outlet Center
 S;C;40.768772;30.380345;0;1;7.0;0;solarşarj;solarşarj • Türkyolu Oto Lasitk
+S;C;40.765103;30.400432;0;1;11.0;0;solarşarj;solarşarj • Erenler Center
+S;C;40.813504;29.556945;0;1;22.0;0;solarşarj;solarşarj • GEBKİM  Cami Otoparkı
+S;C;40.810115;29.565751;1;1;180.0;0;solarşarj;solarşarj • GEBKİM Akaryakıt İstasyonu
+S;C;37.730938;29.15323;0;1;11.0;0;solarşarj;solarşarj • Hayma Restoran
+S;C;36.854795;30.787614;0;1;22.0;0;solarşarj;solarşarj • Platform Antalya
+S;C;41.012999;28.679414;1;0;180.0;0;solarşarj;solarşarj • Self İstanbul
+S;C;41.110427;29.033234;1;1;60.0;0;solarşarj;solarşarj • İstinye Park
+S;C;36.504786;30.533451;0;1;22.0;0;solarşarj;solarşarj • Martı Myra Antalya
+S;C;40.11157;27.652561;0;1;11.0;0;solarşarj;solarşarj • Kadıoğlu Otel
+S;C;38.717769;29.716388;1;1;180.0;0;solarşarj;solarşarj • Semitaş
+S;C;40.127625;26.435769;0;1;22.0;0;solarşarj;solarşarj • Bahçeşehir Koleji Çanakkale
+S;C;39.834265;26.045326;0;1;11.0;0;solarşarj;solarşarj • Aral Tatil Çiftliği
+S;C;40.23201;27.256622;0;1;22.0;0;solarşarj;solarşarj • Köşdere Otel
+S;C;40.918504;29.303467;1;0;30.0;0;solarşarj;solarşarj • Arma Rezidans
+S;C;39.992204;32.699282;1;1;30.0;0;solarşarj;solarşarj • Lilyum Sitesi
+S;C;40.093527;31.670035;0;1;11.0;0;solarşarj;solarşarj • Nallıhan Pazaryeri
+S;C;39.983317;32.663097;1;0;60.0;0;solarşarj;solarşarj • Konar Manzara Evleri
+S;C;40.188355;31.350877;1;0;60.0;0;solarşarj;solarşarj • Nallıhan Otogar
+S;C;40.811049;29.565234;0;1;22.0;0;solarşarj;solarşarj • Gebkim Otel
+S;C;41.04232;29.011973;1;1;80.0;0;solarşarj;solarşarj • Four Seasons Hotel
+S;C;40.505598;30.320671;1;0;80.0;0;solarşarj;solarşarj • Geyve Yöresel Ürünler
+S;C;38.399288;27.0683;1;1;140.0;0;solarşarj;solarşarj • İzmir İstinye Park AVM
+S;C;41.108844;29.019144;1;1;60.0;0;solarşarj;solarşarj • Orjin Plaza
+S;C;38.438427;27.169586;1;0;180.0;0;solarşarj;solarşarj • İzmir İnci Premium
+S;C;41.031321;28.814626;1;1;30.0;0;solarşarj;solarşarj • Nuryıldız Tekstil
 S;C;41.0688;36.0362;0;1;22.0;0;3a;3a • CEYLAN PETROL
 S;C;38.7435;35.5077;1;1;180.0;0;3a;3a • Gross38 Argıncık
 S;C;38.6639;36.1436;1;1;180.0;0;3a;3a • Megaha Ak.Tur.Gıda.Tar.Hay.İnş.San.Tic.Ltd.Şti.
@@ -4673,7 +4674,6 @@ S;C;36.8057;34.6401;1;1;180.0;0;MYCHARGE;MYCHARGE • DC UMAT PLAZA 1-2 /AC UMAT
 S;C;37.751789;29.08613;0;1;22.0;0;MYCHARGE;MYCHARGE • NERGİZ BALIK RESTAURANT
 S;C;40.167313;28.354464;1;1;60.0;0;ŞARJON;ŞARJON KARDOST
 S;C;41.165395;29.053754;0;1;22.0;0;ŞARJON;ŞARJON SIX SENSES KOCATAS MANSION
-S;C;37.053108;27.382133;0;1;22.0;0;ŞARJON;ŞARJON BODRUM TİCARET ODASI
 S;C;40.196028;29.055071;0;1;22.0;0;ŞARJON;ŞARJON BURULAŞ OSMANGAZİ METRO İSTASYONU BATI ÇIKIŞI OTOPARKI
 S;C;40.838585;29.297119;0;1;22.0;0;ŞARJON;ŞARJON MERT MARİNE TUZLA
 S;C;38.33485;27.12436;0;1;22.0;0;ŞARJON;ŞARJON ESBAŞ EGE SERBEST BÖLGE
@@ -6133,7 +6133,6 @@ S;C;36.753206;34.53655;1;0;120.0;0;Trugo;Trugo • ÖZSAVRANLAR MOBİLYA - BELLO
 S;C;41.122413;28.769686;1;0;120.0;0;Trugo;Trugo • EVVEL İSTANBUL SİTESİ-3
 S;C;40.975584;37.931946;0;1;22.0;0;Trugo;Trugo • DERYA MOBİLYA
 S;C;39.823875;34.822052;1;0;120.0;0;Trugo;Trugo • NOVADA _AVM
-S;C;41.099706;40.736361;1;0;120.0;0;Trugo;Trugo • HÜSREV LOKANTASI
 S;C;41.718301;27.21451;1;0;180.0;0;Trugo;Trugo • AFACAN MOBİLYA
 S;C;39.88538;41.237512;1;1;120.0;0;Trugo;Trugo • Ramada By Wyndham Erzurum
 S;C;41.101158;28.772053;0;1;22.0;0;Trugo;Trugo • CADDE DÜKKANLARI D BLOK
@@ -7404,12 +7403,12 @@ S;C;39.813997;32.713369;0;1;22.0;0;ERC SİSTEM;ERC SİSTEM • Çağdaş Market 
 S;C;39.890694;32.640802;0;1;22.0;0;ERC SİSTEM;ERC SİSTEM • Çağdaş Market Bağlıca-3 Şubesi
 S;C;39.897243;32.652734;0;1;22.0;0;ERC SİSTEM;ERC SİSTEM • Çağdaş Market Bağlıca-1 Şubesi
 S;C;39.886194;32.88636;0;1;22.0;0;ERC SİSTEM;ERC SİSTEM • Çağdaş Market Kırkkonaklar Şubesi
-S;C;37.262304;35.845384;1;1;60.0;0;ACROBAT;ACROBAT • Öz Nergizler
+S;C;36.966894;35.625956;0;1;11.0;0;ACROBAT;ACROBAT • Berrak Makina
+S;C;36.978477;35.390226;0;1;11.0;0;ACROBAT;ACROBAT • Utku Ahşap Dünyası
 S;C;37.02572;37.299767;0;1;22.0;0;ACROBAT;ACROBAT • Brent Lojistik
 S;C;37.208031;36.401244;0;1;11.0;0;ACROBAT;ACROBAT • Bpet Düziçi
 S;C;37.032175;36.079144;0;1;11.0;0;ACROBAT;ACROBAT • Gani Oğulları
-S;C;36.966894;35.625956;0;1;11.0;0;ACROBAT;ACROBAT • Berrak Makina
-S;C;36.978477;35.390226;0;1;11.0;0;ACROBAT;ACROBAT • Utku Ahşap Dünyası
+S;C;37.262304;35.845384;1;1;60.0;0;ACROBAT;ACROBAT • Öz Nergizler
 S;C;41.012491;28.94786;0;1;22.0;0;ECOCONNECT;ECOCONNECT • Empark İskenderpaşa Şarj İstasyonu
 S;C;41.085842;29.00528;0;1;22.0;0;ECOCONNECT;ECOCONNECT • Empark 4.Levent Şarj İstasyonu
 S;C;40.66639;30.583699;1;0;60.0;0;ECOCONNECT;ECOCONNECT • Asaş İdari Bina Otopark Şarj İstasyonu
@@ -7696,6 +7695,7 @@ S;C;41.2945;36.33305;1;0;120.0;0;varr TM;varr TM • Samulaş Büyük Cami Otopa
 S;C;38.247603;26.379461;0;1;11.0;0;varr TM;varr TM • Mar Monte Alaçatı
 S;C;40.96934;35.668231;0;1;11.0;0;varr TM;varr TM • Havza Mekanik Otopark
 S;C;38.3096;27.1716;1;0;180.0;0;varr TM;varr TM • İzCar Wash
+S;C;41.285321;36.345482;1;1;120.0;0;varr TM;varr TM • Sevgi Cafe
 S;C;41.07976;29.00562;0;1;22.0;0;ŞARJEN;ŞARJEN • ELEXİA
 S;C;41.032656;28.814558;0;1;3.4;0;ŞARJEN;ŞARJEN • TORA OFİS
 S;C;40.897859;29.265906;0;1;22.0;0;ŞARJEN;ŞARJEN • HERA
@@ -8268,6 +8268,7 @@ S;C;38.557603;34.608883;1;1;200.0;0;MKS-ŞARJ;MKS-ŞARJ • DOĞANLAR KURUYEMİ�
 S;C;39.000237;38.496386;1;0;200.0;0;MKS-ŞARJ;MKS-ŞARJ • BAYKARA PETROL
 S;C;38.560415;38.239386;1;0;240.0;0;MKS-ŞARJ;MKS-ŞARJ • GEZSAN PETROL YAZIHAN
 S;C;41.0367;28.7833;0;1;11.0;0;MKS-ŞARJ;MKS-ŞARJ • ADRES ATAKENT EVLERİ
+S;C;41.037404;28.783959;1;0;120.0;0;MKS-ŞARJ;MKS-ŞARJ • ADRES ATAKENT EVLERİ  SİTESİ DC
 S;C;38.781348;30.486692;0;1;22.0;0;biogreen;BioGreen: Söztürk Hotel - 22 kW AC
 S;C;41.652796;26.600113;0;1;22.0;0;biogreen;BioGreen: Adresin Hotel - 22 kW AC
 S;C;36.898893;30.699867;0;1;22.0;0;biogreen;BioGreen: Grand Kayalar Otel - 22 kW AC
@@ -10894,10 +10895,10 @@ S;C;41.018725;29.079446;0;1;22.0;0;Qopuz Energy proton neutron;Qopuz Energy prot
 S;C;40.98945;29.06609;0;1;22.0;0;Qopuz Energy proton neutron;Qopuz Energy proton neutron • Brooklyn Park
 S;C;41.01928;29.05168;1;0;180.0;0;Qopuz Energy proton neutron;Qopuz Energy proton neutron • Marmara Cağ Kebap
 S;C;40.989775;29.06694;0;1;11.0;0;Qopuz Energy proton neutron;Qopuz Energy proton neutron • Brooklyn Park 2
-S;C;36.978924;35.389489;0;1;11.0;0;ACROBAT;ACROBAT • Gündüz Kardeşler
-S;C;37.050884;36.116229;1;1;60.0;0;ACROBAT;ACROBAT • Veli Fidan Tarım
 S;C;37.23928;36.452127;1;1;60.0;0;ACROBAT;ACROBAT • GO Düziçi
 S;C;37.010614;35.264846;0;1;10.9;0;ACROBAT;ACROBAT • Eonus Şarj İstasyonu
+S;C;37.050884;36.116229;1;1;60.0;0;ACROBAT;ACROBAT • Veli Fidan Tarım
+S;C;36.978924;35.389489;0;1;11.0;0;ACROBAT;ACROBAT • Gündüz Kardeşler
 S;C;36.747351;29.955085;1;0;180.0;0;CHARGING VEHICLES CV;CHARGING VEHICLES CV • ÖZKUR KURUYEMİŞ
 S;C;36.70652;29.91787;1;0;180.0;0;CHARGING VEHICLES CV;CHARGING VEHICLES CV • Ünal Soğuk Hava Deposu
 S;C;41.007593;28.623216;0;1;22.0;0;CHARGING VEHICLES CV;CHARGING VEHICLES CV • CV Charging-Vista Residenza 4
@@ -11691,6 +11692,7 @@ S;C;41.134109;28.623336;1;1;120.0;0;ŞARJSTART;ŞARJSTART • KOÇASLANLAR OTOMO
 S;C;39.811154;26.33231;1;0;160.0;0;ŞARJSTART;ŞARJSTART • AKTÜRK GIDA
 S;C;40.309557;29.063827;1;1;160.0;0;ŞARJSTART;ŞARJSTART • KOÇASLANLAR HOLDİNG
 S;C;40.209231;29.22336;1;1;160.0;0;ŞARJSTART;ŞARJSTART • KOÇASLANLAR MOTORLU ARAÇLAR KESTEL
+S;C;36.38334;34.03763;1;1;160.0;0;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş.;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş. • MİS EKMEK ŞARJ İSTASYONU
 S;C;38.4474;27.2583;1;0;90.0;0;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş.;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş. • ORBİT ENERJİ
 S;C;39.3502;31.4692;1;0;160.0;0;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş.;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş. • Jetpet Akaryakıt Şarj İstasyonu
 S;C;38.4597;27.3673;1;0;240.0;0;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş.;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş. • Arda Ambalaj Şarj İstasyonu
@@ -11701,7 +11703,6 @@ S;C;38.652227;29.44176;1;0;240.0;0;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş.;
 S;C;38.4767;28.0951;1;0;180.0;0;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş.;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş. • GİRGİNLER RESTAURANT BEST ŞARJ İSTASYONU
 S;C;36.713246;33.876317;1;0;240.0;0;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş.;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş. • Durmuş Ali Sindel Şarj İstasyonu
 S;C;36.8212;34.6525;1;1;240.0;0;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş.;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş. • Anıl Akü Şarj İstasyonu
-S;C;36.38334;34.03763;1;1;160.0;0;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş.;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş. • MİS EKMEK ŞARJ İSTASYONU
 S;C;41.232464;36.421183;1;1;120.0;0;Wattarya;Wattarya • TUNALAR KİA SAMSUN BAYİ
 S;C;41.056738;28.759452;0;1;11.0;0;Wattarya;Wattarya • Dumankaya Miks Sitesi Ticari Kapalı Otopark
 S;C;41.056738;28.759452;1;0;120.0;0;Wattarya;Wattarya • Dumankaya Miks Sitesi Ticari Açık Otopark
@@ -11776,6 +11777,7 @@ S;C;39.741003;37.027527;1;1;60.0;0;ÇELİKLER ENERJİ;ÇELİKLER ENERJİ • Tur
 S;C;38.646411;39.200274;0;1;22.0;0;ÇELİKLER ENERJİ;ÇELİKLER ENERJİ • Haci Tayyar Camii İstasyonu
 S;C;39.965747;28.85237;0;1;22.0;0;ÇELİKLER ENERJİ;ÇELİKLER ENERJİ • Orhaneli TES Misafirhane
 S;C;40.0484;32.8912;0;1;22.0;0;ÇELİKLER ENERJİ;ÇELİKLER ENERJİ • Park Panorama Sitesi
+S;C;39.891226;32.702632;0;1;7.5;0;oğultürk PANO;oğultürk PANO • ziraat kafe
 S;C;40.01782;32.725521;0;1;22.0;0;oğultürk PANO;oğultürk PANO • ODEN SOLO
 S;C;39.883157;32.937771;0;1;22.0;0;oğultürk PANO;oğultürk PANO • VADİ MANZARA EVLERİ
 S;C;39.898072;32.843328;1;1;70.0;0;oğultürk PANO;oğultürk PANO • OTP OGULTURK DIKMEN
@@ -11785,7 +11787,6 @@ S;C;39.902455;32.811136;1;1;120.0;0;oğultürk PANO;oğultürk PANO • OTP OGUL
 S;C;40.45384;32.606129;1;0;90.0;0;oğultürk PANO;oğultürk PANO • KIZILCIHAMAM VE HOTELS
 S;C;40.05877;32.9126;1;1;90.0;0;oğultürk PANO;oğultürk PANO • OTP OGULTURK PURSAKLAR SARAY
 S;C;40.047943;32.892416;1;1;75.0;0;oğultürk PANO;oğultürk PANO • OTP OGULTURK MEYDAN PLAZA
-S;C;39.891226;32.702632;0;1;7.5;0;oğultürk PANO;oğultürk PANO • ziraat kafe
 S;C;40.93274;32.04611;0;1;11.0;0;TR CHARGE;TR CHARGE • KORU AURA OTEL
 S;C;40.071058;32.625622;0;1;22.0;0;TR CHARGE;TR CHARGE • OTP OGULTURK PANO MISAFIR
 S;C;39.936913;32.642902;0;1;15.0;0;TR CHARGE;TR CHARGE • PALMİYE EVLERİ
@@ -12033,6 +12034,7 @@ S;C;40.384645;28.866532;1;0;159.0;0;MERCURY;MERCURY • Yıldıztepe Cafe
 S;C;40.094052;29.518428;1;1;160.0;0;MERCURY;MERCURY • Novapark AVM
 S;C;40.238293;29.1221;1;0;160.0;0;MERCURY;MERCURY • Metsan Group
 S;C;40.192916;28.964385;1;0;159.0;0;MERCURY;MERCURY • İkon Yaşam Merkezi
+S;C;40.2274;33.04;0;1;10.0;0;MERCURY;MERCURY • My City
 S;C;40.934907;29.125891;0;1;22.0;0;wat mobilite;wat mobilite • Ada Modern Arçelik
 S;C;40.211212;28.980933;0;1;22.0;0;wat mobilite;wat mobilite • Bilecikli Arçelik Bayi
 S;C;39.183006;27.626059;1;1;120.0;0;wat mobilite;wat mobilite • Opet Endülüs Petrol
@@ -12711,7 +12713,6 @@ S;C;37.84814;27.261601;1;1;60.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zepl
 S;C;37.745337;30.312794;1;0;120.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin Seymen Oto
 S;C;41.101818;28.767747;1;0;160.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin Vadi Konutları
 S;C;40.912177;29.17678;1;0;120.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin Nursanlar 1
-S;C;41.080971;28.694651;1;0;160.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin Vaditepe
 S;C;37.019094;35.82364;1;0;120.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin Ceyhan Çınar Hastanesi
 S;C;40.9931;29.2681;1;0;120.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin A Gross Sultanbeyli
 S;C;41.24237;36.54074;1;0;120.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin Samsun Ceyhun Turizm
@@ -12737,6 +12738,7 @@ S;C;40.932712;29.274002;1;0;180.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Ze
 S;C;40.644326;34.25686;1;0;60.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin Çorum Bayat Belediyesi
 S;C;41.023763;29.039193;1;0;50.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin Altunizade servis
 S;C;41.1021;28.7937;1;0;160.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin İkitelli OSB 2
+S;C;41.080971;28.694651;1;1;160.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin Vaditepe
 S;C;41.093813;28.775181;1;1;120.0;0;carbonage;carbonage • Medikule
 S;C;39.984475;32.698459;0;1;19.0;0;solinved;solinved • Park Mira A Blok
 S;C;39.984611;32.698158;0;1;16.0;0;solinved;solinved • Park Mira B Blok
