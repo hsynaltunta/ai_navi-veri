@@ -2558,7 +2558,6 @@ S;F;40.9776;29.2206066;0;0;;1;Opet;Opet Sancaktepe
 S;F;39.0856993;33.0695244;0;0;;1;Opet Petrolcülük A.Ş.;Opet Kulu
 S;F;37.774368;30.549892;0;0;;1;Opet;Opet Isparta Merkez
 S;F;38.344657;33.9721664;0;0;;1;Opet;Opet Aksaray Merkez
-S;F;41.558382;35.899849;0;0;;1;Opet Petrolcülük A.Ş.;Opet Bafra
 S;F;40.990082;29.263793;0;0;;1;Opet;Opet Sultanbeyli
 S;F;36.9032452;30.6844775;0;0;;1;Opet;Opet Muratpaşa
 S;F;36.9163896;30.6752669;0;0;;1;Opet;Opet Kepez
@@ -3334,7 +3333,7 @@ S;F;38.3378897;38.2437243;0;0;;0;;Akaryakıt istasyonu
 S;F;38.3343871;38.2259722;0;0;;0;;Akaryakıt istasyonu
 S;F;41.0574119;27.5084092;0;0;;0;Aytemiz;Aytemiz - Yarapsanlı Akaryakıt
 S;F;41.1083108;27.492024;0;0;;0;Aytemiz;Aytemiz
-S;F;41.169551;27.4938625;0;0;;0;BP;BP
+S;F;41.169551;27.4938625;0;0;;0;Shell;Shell
 S;F;39.4597837;38.562403;0;0;;0;;Akaryakıt istasyonu
 S;F;37.3364605;40.6941057;0;0;;0;Shell;shell
 S;F;38.3647377;34.1963236;0;0;;0;Opet;sunpet
@@ -3403,8 +3402,8 @@ S;F;36.5568847;31.9838153;0;0;;0;Petrol Ofisi;Petrol Ofisi
 S;F;41.5481756;27.8175732;0;0;;0;BP;Petrol Ofisi
 S;F;37.7877093;38.625714;0;0;;0;;Akaryakıt istasyonu
 S;F;37.7859302;38.6213733;0;0;;0;Shell;Shell
-S;F;37.7878872;38.6166347;0;0;;0;;Sanoil
-S;F;37.7876696;38.6149633;0;0;;0;;Türkiye Petrolleri
+S;F;37.7877511;38.6167362;0;0;;0;;Sanoil
+S;F;37.7876696;38.6149633;0;0;;0;Türkiye Petrolleri;Türkiye Petrolleri
 S;F;37.7892228;38.6118323;0;0;;0;;Akaryakıt istasyonu
 S;F;37.7888175;38.6057546;0;0;;0;;Akaryakıt istasyonu
 S;F;37.7889398;38.6031858;0;0;;0;;Akaryakıt istasyonu
@@ -3978,7 +3977,7 @@ S;F;40.7371462;30.3974453;0;0;;0;Aytemiz;Aytemiz
 S;F;40.7385537;30.4105783;0;0;;0;BP;BP
 S;F;40.7446111;30.4142987;0;0;;0;Petrol Ofisi;Petrol Ofisi
 S;F;40.7480354;30.4145348;0;0;;0;TotalEnergies;Total
-S;F;40.7623734;30.4127185;0;0;;0;Shell;Shell
+S;F;40.7623734;30.4127185;0;0;;0;Petrol Ofisi;Petrol Ofisi
 S;F;40.7829205;30.4124562;0;0;;0;;Akaryakıt istasyonu
 S;F;40.7840351;30.4340485;0;0;;0;Shell;Shell
 S;F;40.8405591;30.4873302;0;0;;0;Aytemiz;Aytemiz
@@ -4897,7 +4896,7 @@ S;F;39.5861053;37.0322435;0;0;;0;Kadoil;Kadoil
 S;F;39.5964286;37.0339672;0;0;;0;;Akaryakıt istasyonu
 S;F;39.6701897;37.0072491;0;0;;0;Shell;Shell
 S;F;39.7334199;37.0202782;0;0;;0;;Akaryakıt istasyonu
-S;F;37.8742159;40.2357738;0;0;;0;;Akaryakıt istasyonu
+S;F;37.8742159;40.2357738;0;0;;0;;memoil
 S;F;37.8726369;40.2311171;0;0;;0;;Akaryakıt istasyonu
 S;F;40.7738783;30.3826054;0;0;;0;Opet;Opet
 S;F;38.4494001;28.9140711;0;0;;0;;Akaryakıt istasyonu
@@ -5702,7 +5701,7 @@ S;F;41.0390413;39.2803027;0;0;;0;;Akaryakıt istasyonu
 S;F;41.0534733;39.2302885;0;0;;0;BP;BP
 S;F;41.4289922;31.871269;0;0;;0;Shell;Shell
 S;F;41.38517;31.9402829;0;0;;0;;Akaryakıt istasyonu
-S;F;41.5566627;35.9053081;0;0;;0;;Akaryakıt istasyonu
+S;F;41.5566627;35.9053081;0;0;;0;Shell;shell
 S;F;41.5568349;35.9071591;0;0;;0;;Akaryakıt istasyonu
 S;F;41.5497578;35.926092;0;0;;0;;Akaryakıt istasyonu
 S;F;36.5894896;29.1548822;0;0;;0;Shell;Shell
@@ -7159,7 +7158,7 @@ S;F;41.0118785;34.0621606;0;0;;0;;Akaryakıt istasyonu
 S;F;36.1397797;36.0488135;0;0;;0;;Akaryakıt istasyonu
 S;F;36.1591294;36.02081;0;0;;0;;Akaryakıt istasyonu
 S;F;40.7523941;31.7669818;0;0;;0;;Maspet
-S;F;39.8934013;32.8125538;0;0;;0;Shell;Shell
+S;F;39.8934013;32.8125538;0;0;;0;Petrol Ofisi;Petrol Ofisi
 S;F;39.8938505;32.8126392;0;0;;0;;Aygaz
 S;F;39.8947332;32.8127245;0;0;;1;Opet;Opet Çankaya
 S;F;39.895198;32.8128668;0;0;;0;Petrol Ofisi;Petrol Ofisi
@@ -10291,7 +10290,7 @@ S;F;36.7106033;37.1180101;0;0;;0;;Akaryakıt istasyonu
 S;F;40.9796133;40.3427264;0;0;;0;Aytemiz;Aytemiz
 S;F;41.0010716;40.3443953;0;0;;0;Petrol Ofisi;Petrol Ofisi
 S;F;40.9148459;40.1860604;0;0;;0;Petrol Ofisi;Petrol Ofisi
-S;F;36.7141304;37.1252628;0;0;;0;;Akaryakıt istasyonu
+S;F;36.7141304;37.1252628;0;0;;0;Alpet;Alpet
 S;F;40.9663001;40.3023427;0;0;;0;Aytemiz;Aytemiz
 S;F;41.2360817;36.5565066;0;0;;0;;Giritli Petrol Çarşamba
 S;F;36.724885;37.1158286;0;0;;0;;Akaryakıt istasyonu
@@ -10896,7 +10895,7 @@ S;F;38.3234326;29.5420916;0;0;;0;;Teco
 S;F;39.9882228;35.7867322;0;0;;1;Türkiye Petrolleri;TP
 S;F;39.9922454;35.7887193;0;0;;0;Best;Best
 S;F;39.0489629;30.2381432;0;0;;0;;Akaryakıt istasyonu
-S;F;41.0847966;29.3322251;0;0;;0;;Akaryakıt istasyonu
+S;F;41.0847966;29.3322251;0;0;;0;Opet;Opet
 S;F;40.4703009;29.1042685;0;0;;0;Petrol Ofisi;Petrol Ofisi
 S;F;40.1910423;32.6911748;0;0;;0;BP;BP
 S;F;40.1997939;29.0413131;0;0;;0;Petrol Ofisi;Petrol Ofisi
@@ -11134,12 +11133,12 @@ S;F;41.6872751;26.4695557;0;0;;0;Opet;Sunpet Opet
 S;F;41.6875342;26.4682874;0;0;;0;Kadoil;Kadoil
 S;F;41.6909629;26.4542889;0;0;;0;Pacific;Pacific
 S;F;41.6907585;26.452048;0;0;;0;Kadoil;Kadoil
-S;F;41.6951847;26.4392564;0;0;;0;Termo;Termo
+S;F;41.6951847;26.4392564;0;0;;0;termo;Termo
 S;F;41.7040281;26.3998122;0;0;;0;Aytemiz;Aytemiz
 S;F;41.7072227;26.3910845;0;0;;0;Lukoil;Lukoil
 S;F;41.7070745;26.3920609;0;0;;0;Shell;Shell
 S;F;41.7065483;26.390303;0;0;;0;Hazar;Hazar
-S;F;41.7111073;26.3745323;0;0;;0;Total;Total Energies
+S;F;41.7111073;26.3745323;0;0;;0;TotalEnergies;Total Energies
 S;F;41.7117062;26.3753878;0;0;;0;Petrol Ofisi;Petrol Ofisi
 S;F;41.7124038;26.37009;0;0;;0;Shell;Shell
 S;F;41.24065;41.7793064;0;0;;1;Petrol Ofisi;Petrol Ofisi
@@ -11742,6 +11741,10 @@ S;F;40.7899702;31.2437736;0;0;;0;Petrol Ofisi;Petrol Ofisi
 S;F;38.7276656;28.8619129;0;0;;0;Opet;Opet
 S;F;38.727878;28.8621614;0;0;;0;Sunpet;Sunpet
 S;F;41.2356085;28.5972863;0;0;;0;Petrol Ofisi;Petrol Ofisi
+S;F;37.0199147;37.3722887;0;0;;0;;Akaryakıt istasyonu
+S;F;37.8820536;40.2367863;0;0;;0;;Akaryakıt istasyonu
+S;F;41.4688962;32.3389594;0;0;;0;Petrol Ofisi;Petrol Ofisi
+S;F;41.4930251;32.3474835;0;0;;0;Petrol Ofisi;Petrol Ofisi
 S;F;41.0352907;28.9936989;0;0;;0;Türkiye Petrolleri;Türkiye Petrolleri
 S;F;37.2222656;33.3062685;0;0;;0;termo;Termo
 S;F;37.5859454;32.764776;0;0;;0;Best;Best
@@ -11806,7 +11809,6 @@ S;F;40.9261964;29.3510894;0;0;;0;Shell;Shell
 S;F;41.0232314;28.6187222;0;0;;0;;Akaryakıt istasyonu
 S;F;39.7769926;26.3485223;0;0;;0;Petrol Ofisi;Petrol Ofisi
 S;F;36.9760003;27.3000425;0;0;;1;Aytemiz;Aytemiz
-S;F;41.4688962;32.3389594;0;0;;0;Petrol Ofisi;Petrol Ofisi
 S;F;37.8912871;33.8228964;0;0;;0;Lukoil;Lukoil
 S;F;41.0080741;28.7949459;0;0;;0;TotalEnergies;Total Energies
 S;F;37.8088836;32.4309593;0;0;;0;Aytemiz;Aytemiz
@@ -11837,7 +11839,7 @@ S;F;37.0627573;36.2233967;0;0;;0;TotalEnergies;TotalEnergies
 S;F;37.9569143;34.6999964;0;0;;0;Türkiye Petrolleri;Türkiye Petrolleri
 S;F;38.3849444;34.7557729;0;0;;0;;Petline
 S;F;38.3311063;34.747438;0;0;;0;;Sahh Oil
-S;F;40.3520867;27.9429531;0;0;;0;Teco;Banban Petrol TECO
+S;F;40.3520867;27.9429531;0;0;;0;Sunpet;Sunpet
 S;F;36.9678914;35.5911434;0;0;;0;;Akaryakıt istasyonu
 S;F;41.3842324;27.3925023;0;0;;0;Opet;Opet İstanbul Asfaltı
 S;F;41.0983924;28.7910556;0;0;;0;Shell;Shell
@@ -11977,6 +11979,7 @@ S;F;37.716994;33.4887045;0;0;;1;Opet;Opet Karapınar
 S;F;38.5419119;34.4723632;0;0;;0;;Parkoil
 S;F;37.1077837;33.110248;0;0;;0;termo;Termo
 S;F;37.7287807;33.5520521;0;0;;0;Sunpet;Sunpet
+S;F;41.0106348;29.0202249;0;0;;0;;Parkoil
 S;F;36.8599761;30.792046;0;0;;0;Türkiye Petrolleri;Türkiye Petrolleri
 S;F;41.0686413;28.6606433;0;0;;1;Petrol Ofisi;Petrol Ofisi
 S;F;40.2104612;29.0192123;0;0;;0;TotalEnergies;TotalEnergies
@@ -12040,7 +12043,6 @@ S;F;40.9697082;29.2660386;0;0;;0;;Akaryakıt istasyonu
 S;F;39.8917779;32.9274298;0;0;;0;Opet;opet
 S;F;39.9297813;33.3404116;0;0;;0;;Akaryakıt istasyonu
 S;F;41.4830425;32.3389093;0;0;;0;Petrol Ofisi;Petrol Ofisi
-S;F;41.493099;32.3474445;0;0;;0;Petrol Ofisi;Petrol Ofisi
 S;F;40.3296273;36.5574706;0;0;;0;Opet;Opet
 S;F;40.3295657;36.5579793;0;0;;0;Shell;Shell
 S;F;40.3350138;36.5478571;0;0;;0;Opet;Opet
@@ -12093,6 +12095,9 @@ S;F;37.4811924;35.8300364;0;0;;0;Shell;SHELL PETROL OFİSİ
 S;F;37.4915768;35.831475;0;0;;0;Petrol Ofisi;Petrol Ofisi
 S;F;41.107379;29.0152616;0;0;;0;TotalEnergies;Total
 S;F;41.1085018;29.0236631;0;0;;0;Petrol Ofisi;Petrol Ofisi
+S;F;36.7141949;37.1251478;0;0;;0;Alpet;Alpet
+S;F;40.2421336;27.2275263;0;0;;0;;Akaryakıt istasyonu
+S;F;41.5582609;35.8998224;0;0;;0;Opet;Opet
 S;F;38.8685937;32.7980918;0;0;;0;;Akaryakıt istasyonu
 S;F;39.2216237;29.8718977;0;0;;0;;Özaslanapa Petrol
 S;F;39.9682217;32.6086613;0;0;;0;Aytemiz;Aytemiz

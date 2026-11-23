@@ -242,7 +242,6 @@ M;n12797465801;38.397783;28.968415;dinlenme;0;0;2;Hanefi çay bahçesi;
 M;n12985815018;38.457029;27.183772;tesis;3;3;3;YMÇ MOTOR;Restoran, kafe, hızlı yemek, akaryakıt var
 M;n13063799194;40.074066;26.358683;dinlenme;0;0;2;ÇOMÜ Dardanos Yerleşkesi;
 M;n13121546920;40.815003;35.49464;dinlenme;0;0;2;Dinlenme alanı;
-M;n13121546921;40.877871;35.604696;dinlenme;0;0;2;Dinlenme alanı;
 M;n13233245405;37.279644;34.997756;dinlenme;0;0;2;Yerköprü Dinlenme ve Piknik Alanı;
 M;n13239182201;37.785497;35.355261;dinlenme;0;0;3;Dinlenme alanı;Tuvalet var
 M;n13320161608;37.640316;34.362587;tesis;3;3;3;bertuğ yol yardım;Restoran, akaryakıt var, 24 saat açık
@@ -297,6 +296,7 @@ M;n14172927302;36.817723;31.289375;dinlenme;3;3;3;Остановка транс�
 M;n14175347701;40.995541;28.846257;dinlenme;3;3;2;بيت;Restoran, kafe var
 M;n14206702401;41.67066;26.562221;dinlenme;0;3;2;Arabe;Kafe var
 M;n14330095101;37.99054;29.927814;dinlenme;0;1;3;Kaptan Konakoğlu Dinlenme Tesisleri;Akaryakıt, tuvalet var
+M;n14391899501;41.778861;26.47962;dinlenme;0;3;2;Dinlenme alanı;Kafe var
 M;w113424205;37.136071;34.859943;tesis;3;2;3;Damlama Servis Alanı;Restoran, akaryakıt var
 M;w113435436;37.137206;34.855034;tesis;3;2;3;Damlama Servis Alanı;Restoran, akaryakıt var
 M;w120407866;40.466976;42.788191;tesis;1;1;3;Dinlenme tesisi;Tuvalet var
@@ -900,8 +900,8 @@ M;n1556068273;36.269159;32.314697;kafe;3;3;2;The Green Oasis;Restoran, kafe, hı
 M;n1586627847;40.983331;28.731302;restoran;3;2;1;Azcı;Restoran var (yöresel)
 M;n1591022665;36.268452;32.317377;kafe;3;3;2;Cafe Otantik;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var (burger)
 M;n1591022667;36.267985;32.318014;restoran;3;3;2;Konyalı Özbekler Pide Salonu;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var (Etli Ekmek)
-M;n1630187953;36.269296;32.317645;restoran;3;3;2;Ali Yilmaz aus dem Zillertal;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var
-M;n1630187955;36.268584;32.317507;restoran;3;3;2;Bizim Restaurant;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var (kebap)
+M;n1630187953;36.269296;32.317645;restoran;3;3;2;Yilmaz Restaurant;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var
+M;n1630187955;36.268559;32.317682;restoran;3;3;2;Bizim Restaurant;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var (kebap)
 M;n1636478111;36.269412;32.318121;restoran;3;3;2;Lezzet;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var (Türk mutfağı)
 M;n1695088666;40.998783;28.698307;restoran;3;3;1;Koska;Restoran, kafe var
 M;n1727642178;41.030283;29.258845;kafe;3;3;1;Harvest Cafe;Restoran, kafe, hızlı yemek var
@@ -1103,6 +1103,7 @@ M;n2893647109;40.722164;31.466549;hizli;3;3;2;Burger King;Restoran, kafe, hızl�
 M;n2902932726;41.025294;29.125588;hizli;2;3;2;IKEA Restaurant;Kafe, hızlı yemek, tuvalet var
 M;n2906105697;41.028709;37.499547;kafe;3;3;1;Gloria Jean's Coffee;Restoran, kafe var (kahve)
 M;n2912888761;39.94568;32.728481;restoran;3;2;1;Batı Park Balo, Nikah Salonu;Restoran, akaryakıt var
+M;n2915520202;40.87516;31.139253;kafe;0;3;1;Gençler Odası;Kafe var
 M;n2919176479;40.91891;38.386691;kafe;3;3;1;Hayaz Cafe;Restoran, kafe, hızlı yemek var
 M;n2919233776;40.920147;38.386294;restoran;3;3;1;Park Veranda;Restoran, kafe var
 M;n2962757754;38.79139;30.417803;restoran;3;2;1;Çamlıtepe Dinlenme Tesisleri;Restoran, akaryakıt var
@@ -1266,7 +1267,6 @@ M;n3889784002;39.933892;32.822925;kafe;0;3;1;Lizbon Cafe;Kafe var
 M;n3893116167;37.190375;33.228876;restoran;3;3;1;Gülcan Pide;Restoran, kafe, akaryakıt var
 M;n3907657417;37.905153;41.133311;restoran;3;3;2;Beyzade;Restoran, kafe, tuvalet var
 M;n3941276496;41.627324;27.570167;kafe;0;3;1;Köy Kahvesi;Kafe var
-M;n3968159943;38.61309;27.390551;kafe;3;3;1;Mia Kafe;Restoran, kafe, hızlı yemek, akaryakıt var (burger)
 M;n3983975036;37.923648;41.135257;restoran;3;2;1;Huzur Fırınlı Et Lokantası;Restoran, akaryakıt var
 M;n3987843126;39.270239;32.969012;restoran;3;2;1;TŞOF (Türkiye Şöförler ve Otomobilciler Federasyonu);Restoran, akaryakıt var
 M;n3996294057;40.282763;36.549126;restoran;3;2;1;Şehrazat Restorant;Restoran var
@@ -1482,7 +1482,7 @@ M;n4465903089;40.965607;39.836698;kafe;3;3;1;Fındık Ocağı Cafe & Bistro;Rest
 M;n4468753299;36.26976;32.313697;restoran;3;3;2;Otogar;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var (Türk mutfağı)
 M;n4472394795;39.772103;30.555963;restoran;3;2;1;Kırım Çibörek;Restoran var (Türk mutfağı)
 M;n4477228490;37.187557;40.595868;restoran;3;2;1;Yörem Restaurant;Restoran, akaryakıt var
-M;n4485703857;36.268921;32.316062;hizli;3;3;2;Burger King;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var (burger)
+M;n4485703857;36.268891;32.316077;hizli;3;3;2;Burger King;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var (burger)
 M;n4490300389;39.779368;30.482261;restoran;3;2;1;Raykent Özlem Pide Kebap Salonu;Restoran var
 M;n4491811490;39.824718;34.817973;hizli;3;3;1;Burger King;Restoran, kafe, hızlı yemek, akaryakıt var (burger)
 M;n4491811493;39.824428;34.818333;kafe;3;3;1;Kahve Durağı;Restoran, kafe, hızlı yemek, akaryakıt var
@@ -1577,7 +1577,6 @@ M;n4583816369;41.09513;29.098462;hizli;3;3;2;Marmaris Büfe;Restoran, kafe, hız
 M;n4583816408;41.094876;29.098837;hizli;3;3;2;Döner Stop;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var (et)
 M;n4583816409;41.094856;29.098905;hizli;3;3;2;carlos jr;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var (burger)
 M;n4585635913;38.621168;27.06031;restoran;3;2;1;Çolakoğlu et dünyası;Restoran, akaryakıt var (kebap)
-M;n4585934898;38.611854;27.371265;restoran;3;2;1;Taylan Restaurant;Restoran var (mediterranean)
 M;n4596000093;40.921287;29.129075;kafe;3;3;1;Her dem;Restoran, kafe, hızlı yemek var
 M;n4600860641;40.924324;40.212909;restoran;3;2;2;Hancıoğlu Çamburnu Dinlenme Tesisleri;Restoran, tuvalet var
 M;n4613842396;40.915131;38.338444;kafe;0;3;1;CANCAN MİDYE;Kafe var
@@ -2082,7 +2081,7 @@ M;n5257657227;37.778064;27.323597;restoran;3;2;1;Yaylaköy Köyevi Kahvaltı;Res
 M;n5262246767;41.015206;29.189821;hizli;3;3;2;Domino's;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var (pizza)
 M;n5262246771;41.015649;29.190207;restoran;3;3;2;Eroğlu Aile İşkembe Salonu;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var
 M;n5263579121;41.191884;40.989257;restoran;3;3;1;timyalokantacılık;Restoran, kafe, hızlı yemek var (Türk mutfağı)
-M;n5265431371;38.367543;26.837045;hizli;2;3;1;Pide;Kafe, hızlı yemek var
+M;n5265431371;38.367543;26.837045;hizli;3;3;1;Pide;Restoran, kafe, hızlı yemek var (yöresel)
 M;n5265440093;38.368025;26.837889;hizli;3;3;1;Çiğ köfte;Restoran, kafe, hızlı yemek var (yöresel)
 M;n5265803721;37.949229;27.368282;hizli;3;3;2;Sar Masik;Restoran, kafe, hızlı yemek, tuvalet var
 M;n5272471219;40.954039;29.095738;kafe;3;3;2;İstasyon Çay Bahçesi;Restoran, kafe, hızlı yemek, tuvalet var
@@ -2617,7 +2616,7 @@ M;n6161057980;39.640726;27.880741;hizli;2;3;1;Pilav Sarayı;Kafe, hızlı yemek 
 M;n6161057982;39.640769;27.88075;hizli;2;3;1;Un Tost;Kafe, hızlı yemek var
 M;n6161334813;38.493805;42.286613;restoran;3;3;1;et döner;Restoran, kafe, hızlı yemek var
 M;n6161689893;36.449235;30.430938;restoran;3;3;2;Caglayan Restaurant;Restoran, kafe, tuvalet var (Türk mutfağı)
-M;n6164468866;40.934777;29.122714;kafe;3;3;1;Ekmekçi Fırın;Restoran, kafe var
+M;n6164468866;40.93478;29.122713;kafe;3;3;1;Ekmekçi Cafe;Restoran, kafe var
 M;n6164468886;40.935245;29.123874;restoran;3;3;1;Arsemia Çiğ Köfte;Restoran, kafe var (Türk mutfağı)
 M;n6164468908;40.937107;29.122166;kafe;3;3;1;Maltepe Rizeliler Derneği;Restoran, kafe, hızlı yemek var
 M;n6164468909;40.937059;29.122111;restoran;3;3;1;SORYE;Restoran, kafe, hızlı yemek var (Türk mutfağı)
@@ -2712,7 +2711,6 @@ M;n6434110785;41.003309;28.97985;restoran;3;3;2;Ahır Kapı Fish House;Restoran,
 M;n6435244497;41.040317;28.90257;kafe;2;3;1;Gri Cafe;Kafe, hızlı yemek var
 M;n6436358787;41.039714;28.811149;kafe;3;3;2;Starbucks;Restoran, kafe, hızlı yemek, tuvalet var (kahve)
 M;n6436749314;40.962919;38.652628;kafe;2;3;1;Yalçın Usta nın Yeri;Kafe, hızlı yemek var
-M;n6442357074;36.27221;32.308827;kafe;3;3;1;Haclalioğlu;Restoran, kafe, hızlı yemek var
 M;n6444997686;40.992869;28.794865;kafe;3;3;1;Gloria Jean's;Restoran, kafe, hızlı yemek, akaryakıt var (kahve)
 M;n6445569385;36.665352;30.554745;restoran;3;2;1;Dürümcü Ahmet Usta;Restoran var (Türk mutfağı)
 M;n6449136888;41.001744;28.960891;restoran;3;2;2;Havuzbaşı Restoran Yenikapı;Restoran, tuvalet var
@@ -2852,6 +2850,7 @@ M;n6766376337;41.062649;28.807354;hizli;3;3;2;McDonald's;Restoran, kafe, hızlı
 M;n6767395320;40.844331;29.306656;restoran;3;3;1;Gurbet Ciğer;Restoran, kafe, hızlı yemek, akaryakıt var
 M;n6767395328;40.844215;29.306929;hizli;3;2;1;BP Pide;Restoran, hızlı yemek, akaryakıt var
 M;n6767608073;40.84733;29.302;hizli;2;3;1;Çınar Kebap;Kafe, hızlı yemek var
+M;n6767651303;40.846276;29.301269;kafe;2;3;1;Meşhur Sarıyer Börekçisi Savcı Usta;Kafe, hızlı yemek var
 M;n6769288685;36.288112;30.151249;restoran;3;3;2;Mavi Ay Balıkevi;Restoran, kafe, tuvalet var
 M;n6774644057;41.046029;28.805513;hizli;3;2;2;Saray Pastanesi;Restoran, hızlı yemek, tuvalet var
 M;n6774644060;41.046141;28.805411;restoran;3;2;2;Balıkçınız Şafak;Restoran, hızlı yemek, tuvalet var (deniz ürünleri)
@@ -3606,8 +3605,8 @@ M;n9180111531;40.927123;29.123212;kafe;3;3;1;Chocolabs;Restoran, kafe, hızlı y
 M;n9180113430;40.927381;29.122959;kafe;3;3;1;Ottimo;Restoran, kafe, hızlı yemek var
 M;n9181763151;40.926522;29.123874;hizli;3;3;1;Burger King;Restoran, kafe, hızlı yemek var (burger)
 M;n9181763152;40.926694;29.123681;hizli;3;3;1;McDonald's;Restoran, kafe, hızlı yemek var (burger)
-M;n9190535786;40.950605;29.116736;restoran;3;3;1;Kaplan Kebap;Restoran, kafe var (Türk mutfağı)
-M;n9190535792;40.950795;29.116831;restoran;3;3;1;HSB Sarıyer Börekçisi;Restoran, kafe var
+M;n9190535786;40.950605;29.116736;restoran;3;3;2;Kaplan Kebap;Restoran, kafe, tuvalet var (Türk mutfağı)
+M;n9190535792;40.950795;29.116831;restoran;3;3;2;HSB Sarıyer Börekçisi;Restoran, kafe, tuvalet var
 M;n9193366217;36.240148;29.98826;restoran;3;3;1;XL Burger Demre;Restoran, kafe, hızlı yemek var (sandviç)
 M;n9197143272;37.912794;41.136213;kafe;3;3;1;Akgül Börek;Restoran, kafe, hızlı yemek, akaryakıt var
 M;n9212425397;36.903337;30.646433;kafe;0;3;1;Anadolu Mutfagi;Kafe var
@@ -3710,7 +3709,6 @@ M;n9515022318;40.771656;29.969948;hizli;3;3;1;Kaptan Et Burger;Restoran, kafe, h
 M;n9515079425;40.77054;29.969284;restoran;3;3;1;Gazibey Baklava & Börek;Restoran, kafe, hızlı yemek var (Türk mutfağı)
 M;n9515488948;36.700865;34.452292;restoran;3;3;1;Sancak Chicken;Restoran, kafe, hızlı yemek, akaryakıt var (tavuk)
 M;n9521324043;38.376565;27.134533;kafe;0;3;1;İmren Ekmek Ve Unlu Mamüller;Kafe var
-M;n9534134571;40.946504;29.108742;restoran;3;3;1;No.10;Restoran, kafe, hızlı yemek, akaryakıt var (Türk mutfağı)
 M;n9534507063;40.987393;28.789274;kafe;2;3;1;Gloria Jean's;Kafe, hızlı yemek, akaryakıt var
 M;n9534536406;40.991885;28.832847;hizli;3;3;2;Pilav Dehası;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var
 M;n9534537114;40.991953;28.833634;kafe;3;3;2;Mikel;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var
@@ -3779,13 +3777,6 @@ M;n9621672396;36.199338;29.654657;kafe;0;3;1;gayuk;Kafe var
 M;n9621681929;36.204248;29.637157;kafe;3;3;2;decatria;Restoran, kafe, akaryakıt, tuvalet var
 M;n9625617109;38.726493;35.502438;restoran;3;2;1;Emirgan Köftecisi | Kaytur;Restoran, hızlı yemek var (yöresel)
 M;n9631069142;41.067105;28.99688;kafe;3;3;2;Kurukahveci Fuat bey;Restoran, kafe, tuvalet var (kahve)
-M;n9631903764;38.613526;27.389343;restoran;3;3;1;Dönerci Ekrem;Restoran, kafe, hızlı yemek, akaryakıt var (kebap)
-M;n9631903766;38.611981;27.389078;kafe;3;3;1;Boston Drink & Dessert;Restoran, kafe, hızlı yemek, akaryakıt var (tatlı)
-M;n9631903767;38.612083;27.38908;hizli;3;3;1;Ohannes Burger;Restoran, kafe, hızlı yemek, akaryakıt var (burger)
-M;n9631903768;38.611725;27.388632;kafe;3;3;1;Naz Makamı;Restoran, kafe, hızlı yemek, akaryakıt var
-M;n9631903769;38.611814;27.388668;kafe;3;3;1;Picnic Cafe;Restoran, kafe, hızlı yemek, akaryakıt var
-M;n9631903772;38.612172;27.388839;restoran;3;3;1;Ege Çiftliği Kahvatlı;Restoran, kafe, hızlı yemek, akaryakıt var (Türk mutfağı)
-M;n9631903773;38.612273;27.389176;restoran;3;3;1;Maydonoz Döner;Restoran, kafe, hızlı yemek, akaryakıt var (kebap)
 M;n9643007719;40.756376;29.810841;restoran;3;2;1;MutluEt;Restoran, hızlı yemek var (Türk mutfağı)
 M;n9643035630;40.766894;29.967925;hizli;3;3;1;Farukgüllüoğlu;Restoran, kafe, hızlı yemek, akaryakıt var
 M;n9648347990;40.757197;29.979785;kafe;3;3;1;Hayal Kahvesi Kocaeli;Restoran, kafe, hızlı yemek var
@@ -3907,7 +3898,7 @@ M;n9824642454;37.058246;27.357415;kafe;2;3;1;donutime.bodrum;Kafe, hızlı yemek
 M;n9825274298;38.490606;27.068182;kafe;3;3;1;Kent Fırın & Cafe;Restoran, kafe, hızlı yemek, akaryakıt var
 M;n9825493317;37.713117;28.732113;restoran;3;2;2;Afrodisias Restaurant;Restoran, tuvalet var
 M;n9828896017;41.401893;36.19418;kafe;0;3;1;Yakamoz Cafe;Kafe var
-M;n9830994889;40.764949;29.948618;restoran;3;2;1;Konyalı Etli Ekmek & Fırın Kebap;Restoran, hızlı yemek, akaryakıt var
+M;n9830994889;40.764949;29.948618;restoran;3;3;1;Konyalı Etli Ekmek & Fırın Kebap;Restoran, kafe, hızlı yemek, akaryakıt var
 M;n9833780518;41.004637;28.971102;restoran;3;3;2;Hesap Dokumu;Restoran, kafe, hızlı yemek, tuvalet var
 M;n9834449026;41.208463;26.680238;restoran;3;2;1;Aytan Köfte Evi;Restoran var (Türk mutfağı)
 M;n9835725337;40.762434;29.933612;kafe;3;3;2;Benzin;Restoran, kafe, hızlı yemek, tuvalet var
@@ -4032,6 +4023,7 @@ M;n9957782664;40.800831;29.95251;restoran;3;3;1;Pizzaland Cafe & Restaurant;Rest
 M;n9957782665;40.800818;29.952592;hizli;3;3;1;Dönerking;Restoran, kafe, hızlı yemek var (kebap)
 M;n9957782667;40.800814;29.952909;hizli;3;3;1;Cadde Katık;Restoran, kafe, hızlı yemek var (kebap)
 M;n9957782668;40.80109;29.952018;kafe;3;3;1;Cafe Laflafa;Restoran, kafe, hızlı yemek var
+M;n9958398917;40.875458;31.139011;kafe;0;3;1;Çay Ocağı;Kafe var
 M;n9961089030;36.377329;33.905757;restoran;3;2;1;Keklik  RESTAURENT;Restoran, akaryakıt var
 M;n9963525586;37.035465;35.250398;restoran;3;2;1;Babaoğlu Döner ve Pide Fırını;Restoran var (Türk mutfağı)
 M;n9965172489;39.888692;32.81058;restoran;3;3;1;Pizzeria al Forno;Restoran, kafe var (italian)
@@ -4049,6 +4041,7 @@ M;n9967451829;41.358132;28.226502;restoran;3;2;1;Köyüm At Çiftligi Cafe ve Re
 M;n9968719000;40.763067;29.931673;kafe;3;3;2;Afife;Restoran, kafe, hızlı yemek, tuvalet var
 M;n9968719002;40.763125;29.931646;kafe;3;3;2;Kanca Cafe;Restoran, kafe, hızlı yemek, tuvalet var
 M;n9968835073;41.151923;27.833131;hizli;3;3;1;Miis Köfte & Sucuk Izgara;Restoran, kafe, hızlı yemek var
+M;n9971189617;40.736644;31.611188;restoran;3;2;1;Konyalı Etli Ekmek;Restoran var
 M;n9973385851;40.935556;29.328087;restoran;3;3;1;Cookshop;Restoran, kafe, hızlı yemek, akaryakıt var
 M;n9976117996;37.015572;28.461918;hizli;2;3;1;Işık Büfe;Kafe, hızlı yemek var
 M;n9981890817;40.918027;38.385786;restoran;3;3;1;Serender;Restoran, kafe var
@@ -4956,7 +4949,6 @@ M;n11378917063;38.471878;27.108993;kafe;3;3;1;Brew Mood Coffee & Tea;Restoran, k
 M;n11379010408;38.476349;27.101959;kafe;2;3;1;Taşkent Fırın Cafe;Kafe, hızlı yemek var
 M;n11379010880;38.476165;27.102331;hizli;2;3;1;Has Kokoreç;Kafe, hızlı yemek var
 M;n11381144161;36.811413;34.638823;hizli;2;2;1;Ciğerci Doğan;Hızlı yemek, akaryakıt var
-M;n11381911855;36.244827;36.154626;hizli;3;2;1;Komagene;Restoran, hızlı yemek, akaryakıt var (kebap)
 M;n11381936748;36.214026;36.123971;restoran;3;2;1;Özlem Restaurant Cafe;Restoran var (Türk mutfağı)
 M;n11381963222;36.245507;36.153796;restoran;3;2;1;Lavaş Döner;Restoran, hızlı yemek, akaryakıt var (Türk mutfağı)
 M;n11381980357;36.245263;36.153867;restoran;3;2;1;Yonca Sokak Lezzetleri;Restoran, hızlı yemek, akaryakıt var (Türk mutfağı)
@@ -5007,7 +4999,6 @@ M;n11459302369;40.927077;29.312368;hizli;3;3;1;Krispy Kreme;Restoran, kafe, hız
 M;n11472387879;36.811952;28.81179;hizli;3;2;1;Atakent Lezzet Durağı;Restoran, hızlı yemek var
 M;n11472387880;36.811061;28.812371;restoran;3;2;1;Dumanı Üstünde;Restoran, hızlı yemek var (kebap)
 M;n11486504872;40.999677;28.797431;kafe;3;3;1;Celavie Coffe;Restoran, kafe, hızlı yemek, akaryakıt var, 24 saat açık
-M;n11500190325;38.610984;27.382095;kafe;3;3;1;Bolulu Hasan Usta Manisa Meydan;Restoran, kafe, hızlı yemek, akaryakıt var (Türk mutfağı)
 M;n11510743569;36.666713;30.549543;kafe;3;3;2;İdilizm 2d cafe;Restoran, kafe, hızlı yemek, tuvalet var
 M;n11513813151;36.305905;36.199733;hizli;2;2;1;CAFE's;Hızlı yemek var
 M;n11528657992;40.965901;29.271887;restoran;3;3;2;İBB Sultanbeyli Kent Lokantası;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var (Türk mutfağı)
@@ -5100,7 +5091,6 @@ M;n11866700077;36.367491;30.28494;hizli;3;3;2;Arif Abi Köfte & Kokoreç;Restora
 M;n11867436341;41.02046;29.122796;restoran;3;3;1;Has Titiz Kebap;Restoran, kafe, hızlı yemek var (kebap)
 M;n11875781717;41.075746;28.244253;kafe;3;3;1;Kahve Diyarı;Restoran, kafe, hızlı yemek, akaryakıt var
 M;n11875782077;41.076903;28.243923;restoran;3;3;1;Başak Köfte Salonu;Restoran, kafe, hızlı yemek, akaryakıt var
-M;n11881317943;38.6168;27.409315;restoran;3;2;1;Akasya Döner Pide Lehmacun;Restoran var
 M;n11883337109;36.301213;30.145935;hizli;3;3;1;Sokak Büfe;Restoran, kafe, hızlı yemek var
 M;n11886314269;38.426514;27.148953;restoran;3;3;2;Kar Çiçeği ev yemekleri;Restoran, kafe, tuvalet var
 M;n11891484164;40.760287;29.786097;hizli;3;3;1;Mixsos Körfez;Hızlı yemek var, 24 saat açık
@@ -5119,7 +5109,7 @@ M;n11904167320;37.597534;30.115857;restoran;3;2;1;Restaurant;Restoran var
 M;n11904185813;37.565906;30.083288;hizli;2;2;1;Fast Food;Hızlı yemek, akaryakıt var
 M;n11907401770;36.265188;29.414857;restoran;3;3;2;Zircus;Restoran, kafe, hızlı yemek, tuvalet var
 M;n11909724569;37.517378;29.302941;restoran;3;3;2;Suitpark Dinlenme Tesisleri;Restoran, kafe, akaryakıt, tuvalet var
-M;n11929142150;36.268595;32.315402;restoran;3;3;2;Tavada Tavuk;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var
+M;n11929142150;36.268595;32.315402;restoran;3;3;2;Selinty Restaurant;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var
 M;n11933506869;40.993279;29.039625;restoran;3;3;1;Maison 39;Restoran, kafe, hızlı yemek var
 M;n11940462641;40.925594;29.313338;restoran;3;3;1;Gardaş Cağ Kebap;Restoran, kafe, hızlı yemek, akaryakıt var
 M;n11947921662;40.987056;29.111283;restoran;3;2;1;Mojo;Restoran, hızlı yemek, akaryakıt var
@@ -5319,15 +5309,7 @@ M;n12163120239;40.877477;29.237652;restoran;3;3;1;Ruby Plus;Restoran, kafe, hız
 M;n12163120240;40.877455;29.237862;restoran;3;3;1;Elit Ciğer Kaburga;Restoran, kafe, hızlı yemek var
 M;n12163120241;40.877343;29.238399;restoran;3;3;1;Karina Balık;Restoran, kafe, hızlı yemek var (balık)
 M;n12163300910;41.080201;28.196899;restoran;3;2;1;Villa Restaurant Silivri;Restoran var (Türk mutfağı)
-M;n12163367298;38.611969;27.390393;kafe;3;3;1;Çatlak Kazan;Restoran, kafe, hızlı yemek, akaryakıt var (kahve)
-M;n12163519916;38.610283;27.377768;hizli;2;2;1;Kantin;Hızlı yemek var
 M;n12165998495;36.940521;28.279901;restoran;3;2;1;Tashan Park;Restoran, akaryakıt var
-M;n12169992730;38.611134;27.382097;kafe;3;3;1;BlendBlack Coffee Factory;Restoran, kafe, hızlı yemek, akaryakıt var (kahve)
-M;n12169992732;38.611025;27.383281;kafe;3;3;1;Cafe Sera;Restoran, kafe, hızlı yemek var (kahve)
-M;n12169992734;38.611006;27.383454;hizli;3;3;1;Terra Pizza;Restoran, kafe, hızlı yemek var (pizza)
-M;n12169992735;38.610986;27.383619;hizli;3;3;1;Sandviç Kralı;Restoran, kafe, hızlı yemek var (sandviç)
-M;n12169992737;38.610918;27.384285;hizli;3;3;1;Popeyes;Restoran, kafe, hızlı yemek var (tavuk)
-M;n12169992739;38.610897;27.38444;hizli;3;3;1;Burger King;Restoran, kafe, hızlı yemek var (burger)
 M;n12172044161;40.81152;29.362;kafe;3;3;1;Kelebek Cafe;Restoran, kafe var
 M;n12172598697;40.784423;29.617541;restoran;3;3;1;Meşhur Köfteci;Restoran, kafe, akaryakıt var (Türk mutfağı)
 M;n12172598698;40.784768;29.617906;restoran;3;3;1;Nuh Lokantası;Restoran, kafe, akaryakıt var (Türk mutfağı)
@@ -5338,7 +5320,7 @@ M;n12193127466;36.422983;30.422882;kafe;0;3;2;Lucas;Kafe, tuvalet var
 M;n12194357901;38.628151;34.719692;restoran;3;3;1;Kasa Osmanlı çorbacısı;Restoran, kafe, hızlı yemek var (local)
 M;n12196942649;40.189937;29.110138;restoran;3;2;1;Günzüz Lokantası;Restoran, akaryakıt var (çorba)
 M;n12198775732;38.312304;26.345155;kafe;3;3;1;Caffe Vagon;Restoran, kafe, akaryakıt var (coffee)
-M;n12199234284;40.764872;29.942434;kafe;3;3;1;Taze Kafe;Restoran, kafe, hızlı yemek var
+M;n12199234284;40.764974;29.942686;kafe;3;3;1;Taze Kafe;Restoran, kafe, hızlı yemek var
 M;n12201058959;39.648152;27.887638;kafe;3;3;1;On On Kafe;Restoran, kafe, hızlı yemek var (kahve)
 M;n12203249894;41.2986;28.008657;hizli;2;3;1;Oses Çiğ Köfte;Kafe, hızlı yemek var
 M;n12203289848;41.298168;28.007466;hizli;2;3;1;Arsamiea Çiğ Köfte;Kafe, hızlı yemek var
@@ -5417,7 +5399,7 @@ M;n12337251132;40.994828;29.052596;kafe;3;3;1;Rana;Restoran, kafe, hızlı yemek
 M;n12338023217;41.639817;32.350819;restoran;3;2;1;Partheneus Restorant;Restoran var
 M;n12340803904;37.031713;35.313284;hizli;3;3;1;KFC;Restoran, kafe, hızlı yemek var (tavuk)
 M;n12340820901;37.031979;35.313004;restoran;3;3;1;Katmerci Dayı;Restoran, kafe, hızlı yemek var (Türk mutfağı)
-M;n12344348439;41.085657;31.177216;restoran;3;3;1;Köfteci Yusuf;Restoran, kafe, akaryakıt var (Türk mutfağı)
+M;n12344348439;41.085848;31.177949;restoran;3;3;1;Köfteci Yusuf;Restoran, kafe, akaryakıt var (Türk mutfağı)
 M;n12347093401;38.743089;35.545889;hizli;2;3;1;İstanbul çiğ köfte salonu;Kafe, hızlı yemek, akaryakıt var
 M;n12349703892;38.668175;29.401682;kafe;3;3;2;Brew Mood Coffee&Tea;Restoran, kafe, hızlı yemek, tuvalet var (kahve)
 M;n12352750363;38.361878;28.521243;restoran;3;3;1;Yüksek Rakım Alaşehir;Restoran, kafe var (Türk mutfağı)
@@ -5804,7 +5786,7 @@ M;n12918950346;37.004195;27.257494;restoran;3;3;2;Hadi Balik;Restoran, kafe, hı
 M;n12918950348;37.004049;27.257679;kafe;3;3;2;Caffè Nero;Restoran, kafe, hızlı yemek, tuvalet var (kahve)
 M;n12919218483;38.155716;27.361167;restoran;3;2;1;Öz Mersin Tantumi;Restoran var (Türk mutfağı)
 M;n12923007072;40.693734;30.284001;restoran;3;2;2;Voila Sapanca;Restoran, tuvalet var (Türk mutfağı)
-M;n12923078557;40.764933;29.942651;kafe;3;3;1;The Co.;Restoran, kafe, hızlı yemek var (kahve)
+M;n12923078557;40.764894;29.942353;kafe;3;3;1;Espressivo;Restoran, kafe, hızlı yemek var (kahve)
 M;n12941972301;39.878751;37.70237;restoran;3;2;2;Köfteci Yusuf/Zara Şubesi;Restoran, akaryakıt, tuvalet var
 M;n12951178029;39.483327;26.928152;restoran;3;3;1;Roz Balıkçılık;Restoran, kafe, hızlı yemek var (balık)
 M;n12951178031;39.483574;26.928416;restoran;3;3;1;Eniştenin Yeri;Restoran, kafe, hızlı yemek var
@@ -5845,14 +5827,8 @@ M;n12996082034;40.227142;29.062965;restoran;3;2;1;Köfteci Yusuf;Restoran, akary
 M;n13006670386;40.342433;27.970013;kafe;3;3;2;Stand'Art Hobby&Cafe;Restoran, kafe, hızlı yemek, tuvalet var
 M;n13008654334;37.609064;28.059756;kafe;0;3;1;Akasya Patanesi;Kafe var
 M;n13011866401;36.646788;34.365655;restoran;3;2;1;Öz Lezzet Durağı;Restoran var
-M;n13017262179;38.616608;27.400468;hizli;3;3;2;Pasaport Pizza;Restoran, kafe, hızlı yemek, tuvalet var (pizza)
-M;n13017290361;38.61663;27.4006;hizli;3;3;2;Popeyes;Restoran, kafe, hızlı yemek, tuvalet var (tavuk)
-M;n13017293920;38.616584;27.400368;hizli;3;3;2;Burger King;Restoran, kafe, hızlı yemek, tuvalet var (burger)
 M;n13017651801;37.212314;38.797556;hizli;3;2;1;Osmanlı Döner;Restoran, hızlı yemek, akaryakıt var
 M;n13018817702;38.600298;30.270433;restoran;3;2;1;Uğurlu Dinlenme Tesisleri;Restoran var (Türk mutfağı)
-M;n13018949800;38.616606;27.400759;hizli;3;3;2;Baydöner;Restoran, kafe, hızlı yemek, tuvalet var (kebap)
-M;n13018984941;38.616531;27.400782;restoran;3;3;2;Köfteci Ramiz;Restoran, kafe, hızlı yemek, tuvalet var (Türk mutfağı)
-M;n13018987133;38.616309;27.400322;restoran;3;3;2;Mr. Kumpir;Restoran, kafe, hızlı yemek, tuvalet var (Türk mutfağı)
 M;n13019819236;37.228817;40.624437;kafe;0;3;2;Nimora Coffee & Bakery;Kafe, tuvalet var
 M;n13021015841;36.269153;29.412234;hizli;3;3;2;Omar's Kokobüs - Mobil Köfteci;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var (Türk mutfağı), 24 saat açık
 M;n13022336650;39.567097;26.744902;restoran;3;3;1;Köşk Lokantası;Restoran, kafe, hızlı yemek var
@@ -6211,19 +6187,6 @@ M;n13434396536;40.341506;27.968547;restoran;3;3;2;No 23 Kitchen Club;Restoran, k
 M;n13434396545;40.341534;27.967925;kafe;3;3;2;Asya Coffee;Restoran, kafe, hızlı yemek, tuvalet var
 M;n13434440603;38.498819;27.05633;restoran;3;2;1;Akrep Restaurant;Restoran var
 M;n13435746816;38.372364;26.851142;kafe;0;3;1;Yelken Cafe;Kafe, akaryakıt var
-M;n13444231115;38.616565;27.400264;hizli;3;3;2;Usta Dönerci;Restoran, kafe, hızlı yemek, tuvalet var (Türk mutfağı)
-M;n13444231116;38.616465;27.400797;hizli;3;3;2;Tavuk Dünyası;Restoran, kafe, hızlı yemek, tuvalet var (tavuk)
-M;n13444231117;38.616546;27.400152;hizli;3;3;2;Pizza Wings;Restoran, kafe, hızlı yemek, tuvalet var (pizza)
-M;n13444231118;38.616529;27.400033;hizli;3;3;2;Macaroni Express;Restoran, kafe, hızlı yemek, tuvalet var (pasta)
-M;n13444231120;38.616647;27.400703;hizli;3;3;2;Pidem;Restoran, kafe, hızlı yemek, tuvalet var (Türk mutfağı)
-M;n13444231122;38.616221;27.40048;kafe;3;3;2;Starbucks;Restoran, kafe, hızlı yemek, tuvalet var (kahve)
-M;n13444231123;38.616201;27.400338;kafe;3;3;2;Kahve Dünyası;Restoran, kafe, hızlı yemek, tuvalet var (kahve)
-M;n13444409565;38.615782;27.3984;restoran;3;3;2;BigChefs;Restoran, kafe, hızlı yemek, tuvalet var
-M;n13444409566;38.616074;27.397735;kafe;3;3;2;Cacao Factory Co.;Restoran, kafe, hızlı yemek, tuvalet var (kahve)
-M;n13444409571;38.615754;27.397503;kafe;3;3;2;Mado;Restoran, kafe, hızlı yemek, tuvalet var (kahve)
-M;n13444409573;38.616212;27.398159;kafe;3;3;2;Odin Book Store & Coffee;Restoran, kafe, hızlı yemek, tuvalet var (kahve)
-M;n13444409576;38.61574;27.397717;restoran;3;3;2;The Hunger;Restoran, kafe, hızlı yemek, tuvalet var (burger)
-M;n13444409577;38.61576;27.397826;restoran;3;3;2;Sushi Co;Restoran, kafe, hızlı yemek, tuvalet var (sushi)
 M;n13444940461;40.931934;29.139566;restoran;3;3;1;Nehir Ev Yemekleri;Restoran, kafe, hızlı yemek var (Türk mutfağı)
 M;n13444970374;41.066086;28.987073;kafe;3;3;1;Coffy;Restoran, kafe, hızlı yemek, akaryakıt var (kahve)
 M;n13444970376;41.066212;28.986974;restoran;3;3;1;Şişli Pilavcısı;Restoran, kafe, hızlı yemek, akaryakıt var
@@ -6377,7 +6340,6 @@ M;n13703088277;40.890155;29.187321;hizli;3;3;2;Kahta Çiğköfte;Restoran, kafe,
 M;n13703095746;40.889175;29.184986;hizli;3;3;2;Doğa Pilav;Restoran, kafe, hızlı yemek, tuvalet var
 M;n13703095747;40.889181;29.185038;hizli;3;3;2;Ömer Aybak Çiğköfte;Restoran, kafe, hızlı yemek, tuvalet var
 M;n13703095748;40.889191;29.185073;hizli;3;3;2;Durak 69;Restoran, kafe, hızlı yemek, tuvalet var
-M;n13703655384;38.61098;27.383702;restoran;3;3;1;Bi Tencere;Restoran, kafe, hızlı yemek var (Türk mutfağı)
 M;n13703763342;40.888944;29.191316;hizli;3;3;1;Öz Pilavistan;Restoran, kafe, hızlı yemek, akaryakıt var
 M;n13706141725;40.888756;29.183781;hizli;3;3;1;Cengowich Sandwich Shop;Restoran, kafe, hızlı yemek, akaryakıt var (sandviç)
 M;n13706141734;40.888789;29.183964;restoran;3;3;1;Şirine Ev Yemekleri;Restoran, kafe, hızlı yemek, akaryakıt var (Türk mutfağı)
@@ -6622,11 +6584,6 @@ M;n14087903801;40.692746;29.612432;kafe;3;3;1;Sweet Bucket;Restoran, kafe, akary
 M;n14089928301;37.464584;31.866795;restoran;3;2;1;Şahin Baba Restorant;Restoran var
 M;n14090994745;39.983725;32.564917;restoran;3;3;1;Fırıncı Orhan;Restoran, kafe, hızlı yemek var, 24 saat açık
 M;n14094137301;37.132042;37.304316;restoran;3;2;1;Küşleme Kebaphan;Restoran, akaryakıt var
-M;n14097545156;38.613483;27.389341;kafe;3;3;1;Kıraathane;Restoran, kafe, hızlı yemek, akaryakıt var (tea)
-M;n14097545157;38.613304;27.389302;kafe;3;3;1;Duygu Kavaslı;Restoran, kafe, hızlı yemek, akaryakıt var (kahve)
-M;n14097545159;38.613678;27.390703;restoran;3;3;1;Yosun Balık Evi;Restoran, kafe, hızlı yemek, akaryakıt var (balık)
-M;n14097545160;38.613534;27.390597;hizli;3;3;1;Zeliş Abla Çiğ Köfte;Restoran, kafe, hızlı yemek, akaryakıt var (Türk mutfağı)
-M;n14097545161;38.613682;27.390949;hizli;3;3;1;Komagene;Restoran, kafe, hızlı yemek, akaryakıt var (kebap)
 M;n14099810002;36.845994;30.604281;restoran;3;2;1;The Hunger Antalya Fenix Center;Restoran var
 M;n14102487572;41.068487;29.010074;restoran;3;3;1;Esentepe Pilavcısı;Restoran, kafe var
 M;n14111316237;41.000225;28.695442;restoran;3;3;2;Paçacı Yaşar;Restoran, kafe, akaryakıt, tuvalet var (Türk mutfağı)
@@ -6955,7 +6912,7 @@ M;n14366931098;40.921936;29.314492;restoran;3;3;1;Mantı Mantı;Restoran, kafe v
 M;n14366931099;40.921895;29.314407;kafe;3;3;1;Toryum Coffee;Restoran, kafe var (kahve)
 M;n14366942804;40.920803;29.314041;restoran;3;3;1;BCC Toplu Yemek;Restoran, kafe var (Türk mutfağı)
 M;n14367238235;40.343741;27.94249;hizli;3;3;1;Çiğköfteci Ömer Usta;Restoran, kafe, hızlı yemek var
-M;n14370163601;36.268874;32.316566;hizli;3;3;2;Bizim Tostçu;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var
+M;n14370163601;36.268713;32.316584;hizli;3;3;2;Bizim Tostçu & Restaurant;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var
 M;n14376431802;41.443392;27.924823;restoran;3;3;1;Alpide;Restoran, kafe, hızlı yemek var
 M;n14377299903;36.268998;32.314488;hizli;3;3;2;Sicak Çorba;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var
 M;n14377299904;36.269085;32.314597;kafe;3;3;2;Deniz Çay Evi;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var
@@ -6974,6 +6931,27 @@ M;n14380536401;36.29864;30.14636;kafe;3;3;2;Mackbear coffee co.;Restoran, kafe, 
 M;n14380688012;38.518684;27.039635;restoran;3;2;1;Çorbacı Doktor;Restoran var
 M;n14380689473;38.547395;27.036407;restoran;3;2;1;Baba's;Restoran, akaryakıt var
 M;n14380878508;38.538511;27.033759;restoran;3;2;1;Çorbacı Ali;Restoran var
+M;n14382901562;38.369743;26.83824;restoran;3;3;1;Koza Pide;Restoran, kafe, hızlı yemek var
+M;n14383159876;40.850069;31.048299;restoran;3;3;2;Çoban Pide Lahmacun;Restoran, kafe, akaryakıt, tuvalet var (Türk mutfağı)
+M;n14383503502;36.268286;32.315668;hizli;3;3;2;Sarıyer Birekçisi;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var
+M;n14383503503;36.268278;32.315926;hizli;3;3;2;Gazi Döner;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var
+M;n14383503701;36.268272;32.316084;kafe;3;3;2;Nizamoğlu;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var
+M;n14383512201;36.268526;32.316592;kafe;3;3;2;Pocitel;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var
+M;n14383520201;36.268833;32.316569;hizli;3;3;2;Sönmez Restaurant;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var
+M;n14383552603;36.269364;32.317219;kafe;3;3;2;Keh Cafe;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var
+M;n14383555901;36.269397;32.317148;kafe;3;3;2;Mikado;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var
+M;n14384694960;38.351526;38.318818;restoran;3;2;1;Çobanoğlu Kebap;Restoran, hızlı yemek var (Türk mutfağı)
+M;n14391486079;40.745322;30.4141;kafe;2;3;1;Starbucks;Kafe, hızlı yemek, akaryakıt var
+M;n14391486082;40.745433;30.41408;hizli;2;3;1;Burger King;Kafe, hızlı yemek, akaryakıt var
+M;n14391486083;40.745338;30.413937;hizli;2;3;1;Popeyes;Kafe, hızlı yemek, akaryakıt var
+M;n14391486085;40.745267;30.413942;kafe;2;3;1;Kahve Dünyası;Kafe, hızlı yemek, akaryakıt var
+M;n14395460901;38.076711;36.466641;restoran;3;2;1;akdo;Restoran, akaryakıt var
+M;n14396885890;38.668322;29.401666;kafe;3;3;2;Pablo;Restoran, kafe, hızlı yemek, tuvalet var
+M;n14401317361;41.102007;28.977233;kafe;2;3;1;Espressolab;Kafe, hızlı yemek, akaryakıt var
+M;n14404866801;36.216008;29.678355;restoran;3;3;2;Sofra Restaurant;Restoran, kafe, akaryakıt, tuvalet var
+M;n14404869501;36.216711;29.680679;kafe;3;3;2;Asmali Bahce;Restoran, kafe, akaryakıt, tuvalet var
+M;n14404870902;36.216908;29.680883;restoran;3;3;2;Talaylar restaurant;Restoran, kafe, akaryakıt, tuvalet var
+M;n14406452470;36.882624;34.820159;hizli;2;2;1;Şişko Döner;Hızlı yemek, akaryakıt var
 M;w26324266;39.770306;32.77296;restoran;3;2;1;Büyülü Bahçe;Restoran var
 M;w28668262;38.704417;34.840935;restoran;3;2;1;Hanedan;Restoran, akaryakıt var
 M;w28668263;38.704307;34.841787;restoran;3;2;1;Zerdali;Restoran, akaryakıt var
@@ -7278,9 +7256,6 @@ M;w1040535712;36.202218;29.641251;kafe;3;3;2;Likya Park Cafe;Restoran, kafe, hı
 M;w1040933267;40.763284;29.959447;restoran;3;3;1;Köseoğlu Pide;Restoran, kafe, hızlı yemek, akaryakıt var (Türk mutfağı)
 M;w1041198853;40.762957;29.927707;kafe;3;3;2;Escape Cafe - Restoran;Restoran, kafe, hızlı yemek, akaryakıt, tuvalet var
 M;w1041509580;40.722101;29.937992;kafe;0;3;1;Naila Cafe;Kafe var
-M;w1046261625;38.611697;27.377605;hizli;3;3;1;Kantin ve Yemekhane;Hızlı yemek, akaryakıt var, 24 saat açık
-M;w1046312983;38.611351;27.385179;kafe;3;3;1;Space Burger;Restoran, kafe, hızlı yemek var
-M;w1046312984;38.61144;27.385368;kafe;3;3;1;Çamlıca Cafe;Restoran, kafe, hızlı yemek var
 M;w1047086104;37.090643;37.347606;restoran;3;2;1;Anadolu Kır Lokantası;Restoran var
 M;w1049897870;40.760434;29.972094;restoran;3;2;1;Özler Lezzet Pazarı;Restoran, akaryakıt var (et)
 M;w1050116427;40.760887;29.917378;restoran;3;3;2;İzmit Yelken Kulübü;Restoran, kafe, akaryakıt, tuvalet var
@@ -7447,7 +7422,7 @@ M;w1433324847;36.820829;28.794812;restoran;3;2;2;Meşhur Aspava;Restoran, akarya
 M;w1433423400;41.095681;28.810294;kafe;0;3;2;Vadi Çay Bahçesi;Kafe, tuvalet var
 M;w1434967231;36.265219;36.183378;restoran;3;3;1;Yeral Restaurant;Restoran var (Türk mutfağı), 24 saat açık
 M;w1435158974;41.005095;39.733139;kafe;3;3;2;Greenwich Kafe;Restoran, kafe, hızlı yemek, tuvalet var
-M;w1436680529;36.68659;29.10432;hizli;2;2;1;McDonald's;Hızlı yemek var
+M;w1436680529;36.68659;29.10432;hizli;3;3;1;McDonald's;Hızlı yemek var, 24 saat açık
 M;w1442910682;40.277073;26.625875;hizli;2;3;2;Burger King;Kafe, hızlı yemek, akaryakıt, tuvalet var
 M;w1442910683;40.277218;26.625818;kafe;2;3;2;Kahve Dünyası;Kafe, hızlı yemek, akaryakıt, tuvalet var
 M;w1443400030;37.762444;32.272293;kafe;0;3;1;Ardicli Cafe & Market;Kafe, akaryakıt var
@@ -7531,4 +7506,6 @@ M;w1562267005;40.209251;28.982754;kafe;0;3;1;Nilbel Cafe;Kafe var
 M;w1563884686;40.296365;41.548227;kafe;0;3;1;Cevüz Kafe;Kafe, akaryakıt var
 M;w1565083891;40.650361;30.345219;restoran;3;2;1;AhmET ET Köfte;Restoran, akaryakıt var (et)
 M;w1568016140;40.913835;38.421682;kafe;0;3;1;Pink House Cafee;Kafe var
+M;w1576809909;39.564419;26.719962;hizli;2;2;1;Edremit Köftecisi;Hızlı yemek var
+M;w1579287100;40.850252;31.049662;restoran;3;3;2;Ağalar Pide Salonu;Restoran, kafe, akaryakıt, tuvalet var (Türk mutfağı)
 M;r15649244;40.768144;29.814476;kafe;0;3;1;Red Hill Coffee;Kafe var
