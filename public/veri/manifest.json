@@ -2,14 +2,14 @@
  "surum": 1,
  "dosyalar": {
   "sarj.txt": {
-   "zaman": 1795432029089,
-   "sayi": 13292,
-   "boyut": 1087624
+   "zaman": 1795524710131,
+   "sayi": 13296,
+   "boyut": 1087916
   },
   "opet.json": {
-   "zaman": 1795432129503,
+   "zaman": 1795524794073,
    "sayi": 82,
-   "boyut": 26482
+   "boyut": 26488
   },
   "akaryakit.txt": {
    "zaman": 1795422174400,
@@ -22,5 +22,5 @@
    "boyut": 739478
   }
  },
- "guncelleme": 1795432129503
+ "guncelleme": 1795524794073
 }
