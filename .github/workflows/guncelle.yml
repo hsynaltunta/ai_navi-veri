@@ -2,12 +2,12 @@ name: ai_navi verilerini güncelle
 
 on:
   schedule:
-    - cron: '30 2 * * *'    # her gün 05:30 (İstanbul): şarj istasyonları (EPDK) ve akaryakıt fiyatları (Opet)
+    - cron: '30 2 * * *'    # her gün 05:30 (İstanbul): şarj istasyonları (EPDK), şarj fiyatları (işletmeci siteleri) ve akaryakıt fiyatları (Opet)
     - cron: '0 1 * * 1'     # her pazartesi 04:00 (İstanbul): akaryakıt istasyonları ve mola yerleri (OpenStreetMap)
   workflow_dispatch:
     inputs:
       adim:
-        description: 'sarj, opet, akaryakit, mola ya da hepsi (boşlukla birden çok)'
+        description: 'sarj, fiyat, opet, akaryakit, mola ya da hepsi (boşlukla birden çok)'
         default: hepsi
 
 permissions:
@@ -35,7 +35,7 @@ jobs:
 
       - name: Verileri hazırla
         env:
-          ADIM: ${{ github.event.schedule == '30 2 * * *' && 'sarj opet' || github.event.schedule == '0 1 * * 1' && 'akaryakit mola' || inputs.adim || 'hepsi' }}
+          ADIM: ${{ github.event.schedule == '30 2 * * *' && 'sarj fiyat opet' || github.event.schedule == '0 1 * * 1' && 'akaryakit mola' || inputs.adim || 'hepsi' }}
         run: |
           echo "Adımlar: $ADIM"
           python scripts/hazirla.py $ADIM

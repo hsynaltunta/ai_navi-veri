@@ -1,0 +1,33 @@
+ZES;10.99;12.99;28.11.2026;;16.49;https://zes.net/tr/fiyatlandirma
+Trugo;9.95;12.00;28.11.2026;;14.98;https://trugo.com.tr/price
+WAT Mobilite;9.99;11.99;28.11.2026;10.99;14.49;https://www.watmobilite.com/cozumler/kamusal-alanlar
+Otopriz;7.92;9.73;28.11.2026;9.90;13.90;https://otopriz.com.tr/uyelik-ve-tarifeler
+En Yakıt;;14.90;28.11.2026;;;https://www.enyakit.com.tr/ucretlendirme
+Ovolt;9.99;10.49;28.11.2026;;14.49;https://ovolt.com.tr/tarifeler
+OnCharge;9.99;13.50;28.11.2026;;;https://oncharge.com.tr/fiyatlar
+Beefull;9.90;13.99;28.11.2026;;;https://beefull.com/tarifeler/elektrikli-arac-tarifesi/
+Aksa Şarj;9.90;11.99;28.11.2026;10.90;13.99;https://aksasarj.com.tr/ucretler
+D-Charge;10.90;14.90;28.11.2026;;;https://dcharge.com.tr/tarifeler
+MKS Şarj;9.49;13.99;28.11.2026;;;https://mkssarj.com/tarife
+Charging Vehicles CV;9.99;13.49;28.11.2026;;;https://cv-charging.com/tr/arac-sarj-tarifeleri
+PowerŞarj;11.19;13.99;28.11.2026;;;https://powersarj.com/fiyatlandirma/
+Neva Şarj;9.90;13.90;28.11.2026;;;https://nevasarj.com/sayfalar/istasyonlarimiz/arac-sarj-ac-dc-kwh-fiyat-tarifeleri.html
+Asplus;9.49;13.90;28.11.2026;;;https://asplussarj.com/fiyatlar
+Varr;9.90;13.90;28.11.2026;;;https://varr.com.tr
+i-Şarj;9.98;13.49;28.11.2026;;;https://www.isarj.com/tarifeler/
+Şarjon;10.99;11.99;28.11.2026;;13.99;https://sarjon.com.tr/fiyatlar/
+ADZE;9.40;13.40;28.11.2026;;;https://www.adze.com/tr/fiyat-tarifesi
+Lumicle;9.99;13.49;28.11.2026;;;https://lumicle.com.tr/
+Efish;10.99;15.99;28.11.2026;;;https://www.efish.com.tr/tr/fiyatlandirma/
+MyCharge;9.81;13.00;28.11.2026;;;https://mycharge.com.tr/tarifeler/
+Obişarj;10.99;15.95;28.11.2026;;;https://obisarj.com/tarifeler/
+ENH Şarj;9.49;12.99;28.11.2026;;;https://enhsarj.com
+Sepaş;9.90;12.90;28.11.2026;;;https://sepascharge.com/sarj-ucretleri
+Otojet;10.99;15.49;28.11.2026;;;https://www.oto-jet.com.tr/fiyatlarimiz.html
+Tunçmatik;10.99;15.49;28.11.2026;;;https://tuncmatikcharge.com/fiyatlar/
+Toger;9.90;13.39;28.11.2026;;;https://toger.co/
+Elaris;9.49;10.00;28.11.2026;;;https://elaris.com.tr/elaris-tarife/
+EV-Bee;9.95;14.98;28.11.2026;;;https://www.ev-bee.com/sabit-sarj-istasyonlari-fiyat-listesi
+GIO EV;9.99;11.99;28.11.2026;;13.73;https://gioev.com/fiyatlandirma
+Rst ChargePoint;5.90;13.99;28.11.2026;;;https://rstchargepoint.com/
+Tora Şarj;9.99;13.49;28.11.2026;;;https://torasarj.com/fiyatlar/

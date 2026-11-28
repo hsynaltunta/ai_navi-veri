@@ -4,7 +4,7 @@ Telefon bu dosyaları indirir; ağır işler (EPDK'nın 16 MB'lık listesi, Open
 mola yerlerinin puanlanması) telefonda yapılmaz.
 Ücretli servis kullanılmaz: puanlar yalnızca OpenStreetMap bilgisinden çıkarılır.
 
-Kullanım: python scripts/hazirla.py [sarj] [opet] [akaryakit] [mola] [hepsi]
+Kullanım: python scripts/hazirla.py [sarj] [fiyat] [opet] [akaryakit] [mola] [hepsi]
 Her adım bağımsızdır; bir adım başarısız olursa önceki dosya korunur.
 """
 from __future__ import annotations
@@ -143,6 +143,24 @@ def sarj(manifest: dict):
     if len(satirlar) < 5000:
         raise RuntimeError(f"beklenenden az istasyon ({len(satirlar)})")
     yaz("sarj.txt", "\n".join(satirlar) + "\n", len(satirlar), manifest)
+
+
+# --- 1b) Şarj fiyatları: işletmecilerin kendi sitelerindeki tarifeler (sarj_fiyat.py) ---
+
+def fiyat(manifest: dict):
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import sarj_fiyat
+    log("Şarj fiyatları (işletmeci siteleri)...")
+    yol = CIKTI / "sarj_fiyat.txt"
+    onceki = yol.read_text(encoding="utf-8") if yol.exists() else ""
+    satirlar = sarj_fiyat.topla(lambda u: http_get(u, timeout=40).decode("utf-8", "replace"), onceki, log=log)
+    if len(satirlar) < 10:
+        raise RuntimeError(f"beklenenden az işletmeci ({len(satirlar)})")
+    yeni = "\n".join(satirlar) + "\n"
+    if yeni == onceki:
+        log("  değişiklik yok")
+        return
+    yaz("sarj_fiyat.txt", yeni, len(satirlar), manifest)
 
 
 # --- 2) Akaryakıt fiyatları: Opet, tüm iller (İstanbul 34 Anadolu, 934 Avrupa) ---
@@ -330,7 +348,7 @@ def mola(manifest: dict):
 
 # --- Ana ---
 
-ADIMLAR = {"sarj": sarj, "opet": opet, "akaryakit": akaryakit, "mola": mola}
+ADIMLAR = {"sarj": sarj, "fiyat": fiyat, "opet": opet, "akaryakit": akaryakit, "mola": mola}
 
 
 def main():
