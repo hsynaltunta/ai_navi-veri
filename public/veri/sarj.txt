@@ -970,7 +970,6 @@ S;C;41.061529;28.968075;1;1;120.0;0;önizşarj;önizşarj • ÖNİZŞARJ PERPA 
 S;C;39.829419;32.728743;0;1;22.0;0;önizşarj;önizşarj • ÖNİZŞARJ MEDİCAL PARK İNCEK HASTANESİ
 S;C;36.652565;31.665815;0;1;22.0;0;önizşarj;önizşarj • ÖNİZŞARJ JUSTİNİANO CLUB PARK CONTİ HOTEL
 S;C;36.649174;31.675222;0;1;22.0;0;önizşarj;önizşarj • ÖNİZŞARJ JUSTİNİANO DELUXE RESORT HOTEL
-S;C;39.97013;32.79804;0;1;22.0;0;önizşarj;önizşarj • ÖNİZŞARJ YENİ VİZYON TIP MERKEZİ
 S;C;40.007673;32.651589;0;1;16.72;0;önizşarj;önizşarj • ÖNİZŞARJ ÖNİZ GÖKSU KONUTLARI
 S;C;39.984554;32.698274;0;1;19.0;0;önizşarj;önizşarj • ÖNİZŞARJ PARK MİRA EVLERİ A BLOK
 S;C;39.929725;32.636617;0;1;22.0;0;önizşarj;önizşarj • ÖNİZŞARJ BALLI TOWER SİTESİ
@@ -1185,7 +1184,6 @@ S;C;38.328303;33.980237;1;1;120.0;0;Monokon elektrik;Monokon elektrik • Aksara
 S;C;38.330734;33.988315;0;1;22.0;0;Monokon elektrik;Monokon elektrik • Aksaray Üniversitesi Yemekhane Binası
 S;C;37.8832;32.4308;1;1;120.0;0;Monokon elektrik;Monokon elektrik • PARK DEDEMAN KONYA
 S;C;38.329432;33.984442;1;1;60.0;0;Monokon elektrik;Monokon elektrik • Aksaray Üniversitesi Rektörlük Binası
-S;C;39.974134;32.763298;0;1;7.0;0;vilampo;vilampo • Vitalen Enerji
 S;C;41.039555;28.814444;0;1;7.0;0;vilampo;vilampo • Tora Petrol Merkez Ofis
 S;C;39.97653;32.75014;0;1;22.0;0;vilampo;vilampo • Aydın Lastik
 S;C;39.949365;32.708755;0;1;22.0;0;vilampo;vilampo • Prolas Otomotiv Şaşmaz
@@ -1194,6 +1192,7 @@ S;C;39.93433;32.83859;1;1;180.0;0;vilampo;vilampo • Altınel Ankara Otel
 S;C;37.93976;32.55973;1;1;60.0;0;vilampo;vilampo • Enelsis Endüstriyel Elektronik Sistemler
 S;C;39.9913;32.74415;0;1;22.0;0;vilampo;vilampo • İvedik OSB
 S;C;39.988154;32.73736;1;1;180.0;0;vilampo;vilampo • İvedik O.S.B. Otokent Karşısı
+S;C;39.974134;32.763298;0;1;7.0;0;vilampo;vilampo • Vitalen Enerji
 S;C;41.003652;29.071629;0;1;22.0;0;e-POwer;e-POwer • Petrol Ofisi - EMAAR AVM
 S;C;39.973412;32.76221;0;1;7.0;0;vilampo;vilampo • Vitalen Otomotiv
 S;C;40.791355;31.238592;1;0;50.0;0;e-POwer;e-POwer • Petrol Ofisi - Tem Otoyolu Üzeri Üçköprü Mevkii Kuzey
@@ -1512,6 +1511,7 @@ S;C;40.583444;34.964824;1;1;60.0;0;PROMASTER;PROMASTER • HİTİT PARK 2 SİTES
 S;C;40.71756;31.524687;1;0;180.0;0;PROMASTER;PROMASTER • BOLU ABANT İZZET BAYSAL DİŞ HEKİMLİĞİ
 S;C;40.714699;31.516895;0;1;22.0;0;PROMASTER;PROMASTER • Bolu Üniversitesi İdari Bina
 S;C;40.715515;31.513987;0;1;22.0;0;PROMASTER;PROMASTER • Bolu Üniversitesi Kültür Merkezi
+S;C;41.058709;28.714431;1;1;120.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin Bizim Evler 4 Sitesi
 S;C;39.947343;32.76357;0;1;22.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin Ostim
 S;C;39.904204;32.868652;0;1;22.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin Cankaya
 S;C;41.125793;29.05473;0;1;11.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin İstinye
@@ -1563,7 +1563,6 @@ S;C;41.088128;28.98265;1;1;180.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zep
 S;C;36.841349;30.596518;1;0;120.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin Toyota Yazıcı
 S;C;36.666382;29.109889;1;1;60.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin Bezay Otel
 S;C;40.98951;28.63099;1;0;120.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin A Gross Market
-S;C;41.058709;28.714431;1;1;120.0;0;ZEPLİN CAR rental;ZEPLİN CAR rental • Zeplin Bizim Evler 4 Sitesi
 S;C;40.96013;28.82765;0;1;7.0;0;GREEN ŞARJ İSTASYONLARI;GREEN ŞARJ İSTASYONLARI • Pembe Köşk
 S;C;41.005454;28.81595;1;1;60.0;0;GREEN ŞARJ İSTASYONLARI;GREEN ŞARJ İSTASYONLARI • Borsa Kule
 S;C;39.86491;32.85126;0;1;7.0;0;GREEN ŞARJ İSTASYONLARI;GREEN ŞARJ İSTASYONLARI
@@ -4140,6 +4139,7 @@ S;C;36.937954;30.640613;0;1;22.0;0;Otopriz;Otopriz • SUR YAPI B PARSEL SİTES�
 S;C;36.936591;30.645594;0;1;22.0;0;Otopriz;Otopriz • SUR YAPI F PARSEL SİTESİ
 S;C;36.935056;30.640609;0;1;22.0;0;Otopriz;Otopriz • SUR YAPI E PARSEL SİTESİ
 S;C;36.935252;30.637725;1;0;120.0;0;Otopriz;Otopriz • SUR YAPI D TİCARİ
+S;C;40.222124;28.913762;1;0;180.0;0;Otopriz;Otopriz • Bulvar Özlüce AVM, Nilüfer - DC
 S;C;41.076061;28.706354;0;1;15.0;0;TOGER;TOGER - YENİ HAYAT SİTESİ
 S;C;41.091996;28.654028;0;1;22.0;0;TOGER;TOGER-BAHÇEKENT TUAL 3-4
 S;C;41.130976;28.774328;0;1;15.0;0;TOGER;TOGER - ASMALI BAHÇE 2 KISIM
@@ -4365,6 +4365,7 @@ S;C;37.796144;29.027817;0;1;22.0;0;otoWATT;otoWATT • Golden Life
 S;C;36.985732;35.124904;1;0;160.0;0;otoWATT;otoWATT • Aksu Piliç DC
 S;C;37.842782;27.858814;0;1;22.0;0;otoWATT;otoWATT • Meşhur Altındağ Aspava
 S;C;37.800357;29.024536;0;1;22.0;0;otoWATT;otoWATT • Güzelbahçe Sitesi
+S;C;38.173143;27.355872;1;1;120.0;0;otoWATT;otoWATT • Gold City 1
 S;C;40.972721;28.785634;0;1;22.0;0;beefull;beefull • ULUDAĞ ET LOKANTASI
 S;C;36.55174;32.007032;0;1;22.0;0;beefull;beefull • AKDENİZ ALANYA
 S;C;36.901677;30.764125;0;1;22.0;0;beefull;beefull • AKDENİZ 1, AKDENİZ 2
@@ -7406,10 +7407,10 @@ S;C;39.813997;32.713369;0;1;22.0;0;ERC SİSTEM;ERC SİSTEM • Çağdaş Market 
 S;C;39.890694;32.640802;0;1;22.0;0;ERC SİSTEM;ERC SİSTEM • Çağdaş Market Bağlıca-3 Şubesi
 S;C;39.897243;32.652734;0;1;22.0;0;ERC SİSTEM;ERC SİSTEM • Çağdaş Market Bağlıca-1 Şubesi
 S;C;39.886194;32.88636;0;1;22.0;0;ERC SİSTEM;ERC SİSTEM • Çağdaş Market Kırkkonaklar Şubesi
-S;C;37.262304;35.845384;1;1;60.0;0;ACROBAT;ACROBAT • Öz Nergizler
 S;C;37.02572;37.299767;0;1;22.0;0;ACROBAT;ACROBAT • Brent Lojistik
 S;C;37.208031;36.401244;0;1;11.0;0;ACROBAT;ACROBAT • Bpet Düziçi
 S;C;37.032175;36.079144;0;1;11.0;0;ACROBAT;ACROBAT • Gani Oğulları
+S;C;37.262304;35.845384;1;1;60.0;0;ACROBAT;ACROBAT • Öz Nergizler
 S;C;36.966894;35.625956;0;1;11.0;0;ACROBAT;ACROBAT • Berrak Makina
 S;C;36.978477;35.390226;0;1;11.0;0;ACROBAT;ACROBAT • Utku Ahşap Dünyası
 S;C;41.012491;28.94786;0;1;22.0;0;ECOCONNECT;ECOCONNECT • Empark İskenderpaşa Şarj İstasyonu
@@ -10897,9 +10898,9 @@ S;C;40.98945;29.06609;0;1;22.0;0;Qopuz Energy proton neutron;Qopuz Energy proton
 S;C;41.01928;29.05168;1;0;180.0;0;Qopuz Energy proton neutron;Qopuz Energy proton neutron • Marmara Cağ Kebap
 S;C;40.989775;29.06694;0;1;11.0;0;Qopuz Energy proton neutron;Qopuz Energy proton neutron • Brooklyn Park 2
 S;C;36.978924;35.389489;0;1;11.0;0;ACROBAT;ACROBAT • Gündüz Kardeşler
-S;C;37.050884;36.116229;1;1;60.0;0;ACROBAT;ACROBAT • Veli Fidan Tarım
 S;C;37.23928;36.452127;1;1;60.0;0;ACROBAT;ACROBAT • GO Düziçi
 S;C;37.010614;35.264846;0;1;10.9;0;ACROBAT;ACROBAT • Eonus Şarj İstasyonu
+S;C;37.050884;36.116229;1;1;60.0;0;ACROBAT;ACROBAT • Veli Fidan Tarım
 S;C;36.747351;29.955085;1;0;180.0;0;CHARGING VEHICLES CV;CHARGING VEHICLES CV • ÖZKUR KURUYEMİŞ
 S;C;36.70652;29.91787;1;0;180.0;0;CHARGING VEHICLES CV;CHARGING VEHICLES CV • Ünal Soğuk Hava Deposu
 S;C;41.007593;28.623216;0;1;22.0;0;CHARGING VEHICLES CV;CHARGING VEHICLES CV • CV Charging-Vista Residenza 4
@@ -11004,12 +11005,6 @@ S;C;38.654537;39.149164;1;0;120.0;0;CHARGING VEHICLES CV;CHARGING VEHICLES CV �
 S;C;36.978407;30.606863;0;1;22.0;0;CHARGING VEHICLES CV;CHARGING VEHICLES CV • CV Charging-Barınak Balıkevi Döşemealtı
 S;C;37.853808;32.549411;1;0;90.0;0;CHARGING VEHICLES CV;CHARGING VEHICLES CV • CW PLUS KONYA
 S;C;41.020855;28.644305;0;1;22.0;0;CHARGING VEHICLES CV;CHARGING VEHICLES CV • İsthanbul Evleri Han5
-S;C;37.88302;32.449;0;1;22.0;0;biogreen;biogreen • Korukent Siteleri
-S;C;37.854;32.472;0;1;18.0;0;biogreen;biogreen • Çarşı Meram İş Merkezleri
-S;C;37.8851;32.4559;0;1;22.0;0;biogreen;biogreen • İnci Köşk Siteleri
-S;C;37.8857;32.4644;0;1;22.0;0;biogreen;biogreen • Üçkon Nisan Konutları
-S;C;37.959615;32.490189;0;1;22.0;0;biogreen;biogreen • Panorama Konutları
-S;C;37.8475;32.4748;1;0;60.0;0;biogreen;biogreen • Konevi Konutları
 S;C;37.8814;32.4664;0;1;22.0;0;biogreen;biogreen • AVRUPA KONUTLARI
 S;C;38.0583;32.4987;0;1;11.0;0;biogreen;biogreen • Meridyen Sitesi
 S;C;37.8552;32.4762;0;1;22.0;0;biogreen;biogreen • PARK MAHAL E BLOK
@@ -11021,6 +11016,12 @@ S;C;36.7745;31.446607;0;1;22.0;0;biogreen;biogreen • Mfc Sport Academy
 S;C;37.852;32.4743;1;1;90.0;0;biogreen;biogreen • Altınşehir Sitesi
 S;C;41.02823;28.811985;0;1;22.0;0;biogreen;biogreen • Demirkol Plaza
 S;C;36.8485;30.7628;0;1;22.0;0;biogreen;BioGreen: Günaydın Steakhouse - 22 kW AC
+S;C;37.88302;32.449;0;1;22.0;0;biogreen;biogreen • Korukent Siteleri
+S;C;37.854;32.472;0;1;18.0;0;biogreen;biogreen • Çarşı Meram İş Merkezleri
+S;C;37.8851;32.4559;0;1;22.0;0;biogreen;biogreen • İnci Köşk Siteleri
+S;C;37.8857;32.4644;0;1;22.0;0;biogreen;biogreen • Üçkon Nisan Konutları
+S;C;37.959615;32.490189;0;1;22.0;0;biogreen;biogreen • Panorama Konutları
+S;C;37.8475;32.4748;1;0;60.0;0;biogreen;biogreen • Konevi Konutları
 S;C;37.0981;41.1514;1;1;180.0;0;AUTOVOLT;AUTOVOLT • Duhok Saray Restoran
 S;C;37.2422;40.6445;0;1;22.0;0;AUTOVOLT;AUTOVOLT • Piran Orman Ürünleri
 S;C;37.2647;41.425;0;1;11.0;0;AUTOVOLT;AUTOVOLT • İzla Pizzeria
@@ -11712,6 +11713,7 @@ S;C;41.134109;28.623336;1;1;120.0;0;ŞARJSTART;ŞARJSTART • KOÇASLANLAR OTOMO
 S;C;39.811154;26.33231;1;0;160.0;0;ŞARJSTART;ŞARJSTART • AKTÜRK GIDA
 S;C;40.309557;29.063827;1;1;160.0;0;ŞARJSTART;ŞARJSTART • KOÇASLANLAR HOLDİNG
 S;C;40.209231;29.22336;1;1;160.0;0;ŞARJSTART;ŞARJSTART • KOÇASLANLAR MOTORLU ARAÇLAR KESTEL
+S;C;36.38334;34.03763;1;1;160.0;0;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş.;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş. • MİS EKMEK ŞARJ İSTASYONU
 S;C;38.4474;27.2583;1;0;90.0;0;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş.;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş. • ORBİT ENERJİ
 S;C;39.3502;31.4692;1;0;160.0;0;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş.;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş. • Jetpet Akaryakıt Şarj İstasyonu
 S;C;38.4597;27.3673;1;0;240.0;0;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş.;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş. • Arda Ambalaj Şarj İstasyonu
@@ -11722,7 +11724,6 @@ S;C;38.652227;29.44176;1;0;240.0;0;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş.;
 S;C;38.4767;28.0951;1;0;180.0;0;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş.;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş. • GİRGİNLER RESTAURANT BEST ŞARJ İSTASYONU
 S;C;36.713246;33.876317;1;0;240.0;0;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş.;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş. • Durmuş Ali Sindel Şarj İstasyonu
 S;C;36.8212;34.6525;1;1;240.0;0;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş.;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş. • Anıl Akü Şarj İstasyonu
-S;C;36.38334;34.03763;1;1;160.0;0;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş.;ORBİT ENERJİ HAB. TEK. SAN. VE TİC. A.Ş. • MİS EKMEK ŞARJ İSTASYONU
 S;C;41.232464;36.421183;1;1;120.0;0;Wattarya;Wattarya • TUNALAR KİA SAMSUN BAYİ
 S;C;41.056738;28.759452;0;1;11.0;0;Wattarya;Wattarya • Dumankaya Miks Sitesi Ticari Kapalı Otopark
 S;C;41.056738;28.759452;1;0;120.0;0;Wattarya;Wattarya • Dumankaya Miks Sitesi Ticari Açık Otopark
@@ -11797,6 +11798,7 @@ S;C;39.741003;37.027527;1;1;60.0;0;ÇELİKLER ENERJİ;ÇELİKLER ENERJİ • Tur
 S;C;38.646411;39.200274;0;1;22.0;0;ÇELİKLER ENERJİ;ÇELİKLER ENERJİ • Haci Tayyar Camii İstasyonu
 S;C;39.965747;28.85237;0;1;22.0;0;ÇELİKLER ENERJİ;ÇELİKLER ENERJİ • Orhaneli TES Misafirhane
 S;C;40.0484;32.8912;0;1;22.0;0;ÇELİKLER ENERJİ;ÇELİKLER ENERJİ • Park Panorama Sitesi
+S;C;39.891226;32.702632;0;1;7.5;0;oğultürk PANO;oğultürk PANO • ziraat kafe
 S;C;40.01782;32.725521;0;1;22.0;0;oğultürk PANO;oğultürk PANO • ODEN SOLO
 S;C;39.883157;32.937771;0;1;22.0;0;oğultürk PANO;oğultürk PANO • VADİ MANZARA EVLERİ
 S;C;39.898072;32.843328;1;1;70.0;0;oğultürk PANO;oğultürk PANO • OTP OGULTURK DIKMEN
@@ -11806,7 +11808,6 @@ S;C;39.902455;32.811136;1;1;120.0;0;oğultürk PANO;oğultürk PANO • OTP OGUL
 S;C;40.45384;32.606129;1;0;90.0;0;oğultürk PANO;oğultürk PANO • KIZILCIHAMAM VE HOTELS
 S;C;40.05877;32.9126;1;1;90.0;0;oğultürk PANO;oğultürk PANO • OTP OGULTURK PURSAKLAR SARAY
 S;C;40.047943;32.892416;1;1;75.0;0;oğultürk PANO;oğultürk PANO • OTP OGULTURK MEYDAN PLAZA
-S;C;39.891226;32.702632;0;1;7.5;0;oğultürk PANO;oğultürk PANO • ziraat kafe
 S;C;40.93274;32.04611;0;1;11.0;0;TR CHARGE;TR CHARGE • KORU AURA OTEL
 S;C;40.071058;32.625622;0;1;22.0;0;TR CHARGE;TR CHARGE • OTP OGULTURK PANO MISAFIR
 S;C;39.936913;32.642902;0;1;15.0;0;TR CHARGE;TR CHARGE • PALMİYE EVLERİ
